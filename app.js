@@ -135,6 +135,71 @@
     });
   }
 
+  /* --------------------------------------------------------- language switch */
+  var LANG_KEY = "kff-lang";
+  var root = doc.documentElement;
+
+  function placeholders(lang) {
+    doc.querySelectorAll("input[data-ph-en]").forEach(function (el) {
+      var v = el.getAttribute("data-ph-" + lang);
+      if (v) el.setAttribute("placeholder", v);
+    });
+  }
+
+  function setLang(lang, remember) {
+    lang = lang === "ko" ? "ko" : "en";
+    root.setAttribute("data-lang", lang);
+    root.setAttribute("lang", lang);
+    placeholders(lang);
+    var btn = doc.querySelector("[data-lang-toggle]");
+    if (btn) {
+      btn.setAttribute("aria-pressed", lang === "ko" ? "true" : "false");
+      btn.setAttribute("aria-label", lang === "ko" ? "Switch to English" : "Switch to Korean");
+    }
+    if (remember) {
+      try { localStorage.setItem(LANG_KEY, lang); } catch (e) { /* private mode */ }
+    }
+  }
+
+  var stored = null;
+  try { stored = localStorage.getItem(LANG_KEY); } catch (e) { /* ignore */ }
+  if (!stored && (navigator.language || "").toLowerCase().indexOf("ko") === 0) stored = "ko";
+  setLang(stored || "en", false);
+
+  var langBtn = doc.querySelector("[data-lang-toggle]");
+  if (langBtn) {
+    langBtn.addEventListener("click", function () {
+      setLang(root.getAttribute("data-lang") === "ko" ? "en" : "ko", true);
+    });
+  }
+
+  /* -------------------------------------------------- filter the roster table */
+  var rSearch = doc.querySelector(".roster__search");
+  if (rSearch) {
+    var rows = Array.prototype.slice.call(doc.querySelectorAll(".roster__table tbody tr"));
+    var shown = doc.querySelector(".roster__shown");
+    var none = doc.querySelector(".roster__empty");
+    var timer = null;
+
+    var apply = function () {
+      var q = rSearch.value.trim().toLowerCase();
+      var n = 0;
+      for (var i = 0; i < rows.length; i++) {
+        var hit = !q || rows[i].textContent.toLowerCase().indexOf(q) !== -1;
+        if (rows[i].hidden === hit) rows[i].hidden = !hit;
+        if (hit) n++;
+      }
+      if (shown) shown.textContent = q ? n + " / " + rows.length : "";
+      if (none) none.hidden = n !== 0;
+    };
+
+    /* debounced: these tables run to several thousand rows */
+    rSearch.addEventListener("input", function () {
+      clearTimeout(timer);
+      timer = setTimeout(apply, 120);
+    });
+  }
+
   /* ------------------------------------------- filter the on-page name index */
   var search = doc.querySelector(".pageindex__search");
   if (search) {

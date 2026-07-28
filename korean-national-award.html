@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,42 +15,48 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body data-menu="closed">
-<a class="skip" href="#main">Skip to content</a>
+<a class="skip" href="#main"><span class="i18n" lang="en" data-en>Skip to content</span><span class="i18n" lang="ko" data-ko>본문으로 건너뛰기</span></a>
 
 <header class="masthead">
   <div class="shell masthead__inner">
     <a class="wordmark" href="index.html">KoreanFreedomFighters</a>
     <nav class="nav" id="sitenav" aria-label="Main">
       <ul class="nav__list">
-        <li><a class="nav__link" href="index.html">Home</a></li>
+        <li><a class="nav__link" href="index.html"><span class="i18n" lang="en" data-en>Home</span><span class="i18n" lang="ko" data-ko>홈</span></a></li>
         <li class="nav__item" data-open="false">
-        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-korean">KoreanActivists<span class="nav__caret" aria-hidden="true"></span></button>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-korean"><span class="i18n" lang="en" data-en>KoreanActivists</span><span class="i18n" lang="ko" data-ko>한국인 독립운동가</span><span class="nav__caret" aria-hidden="true"></span></button>
         <ul class="nav__menu" id="menu-korean">
-          <li><a href="korean-1st-class.html">1st Class</a></li>
-          <li><a href="korean-2nd-class.html">2nd Class</a></li>
-          <li><a href="korean-3rd-class.html">3rd Class</a></li>
-          <li><a href="korean-4th-class.html">4th Class</a></li>
-          <li><a href="korean-5th-class.html">5th Class</a></li>
-          <li><a href="korean-national-award.html" aria-current="page">National Award</a></li>
+          <li><a href="korean-1st-class.html"><span class="i18n" lang="en" data-en>1st Class</span><span class="i18n" lang="ko" data-ko>대한민국장 (1등급)</span></a></li>
+          <li><a href="korean-2nd-class.html"><span class="i18n" lang="en" data-en>2nd Class</span><span class="i18n" lang="ko" data-ko>대통령장 (2등급)</span></a></li>
+          <li><a href="korean-3rd-class.html"><span class="i18n" lang="en" data-en>3rd Class</span><span class="i18n" lang="ko" data-ko>독립장 (3등급)</span></a></li>
+          <li><a href="korean-4th-class.html"><span class="i18n" lang="en" data-en>4th Class</span><span class="i18n" lang="ko" data-ko>애국장 (4등급)</span></a></li>
+          <li><a href="korean-5th-class.html"><span class="i18n" lang="en" data-en>5th Class</span><span class="i18n" lang="ko" data-ko>애족장 (5등급)</span></a></li>
+          <li><a href="korean-national-award.html" aria-current="page"><span class="i18n" lang="en" data-en>National Award</span><span class="i18n" lang="ko" data-ko>National Award</span></a></li>
         </ul>
       </li>
         <li class="nav__item" data-open="false">
-        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-foreign">ForeignActivists<span class="nav__caret" aria-hidden="true"></span></button>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-foreign"><span class="i18n" lang="en" data-en>ForeignActivists</span><span class="i18n" lang="ko" data-ko>외국인 독립운동가</span><span class="nav__caret" aria-hidden="true"></span></button>
         <ul class="nav__menu" id="menu-foreign">
-          <li><a href="foreign-1st-class.html">1st Class</a></li>
-          <li><a href="foreign-2nd-class.html">2nd Class</a></li>
-          <li><a href="foreign-3rd-class.html">3rd Class</a></li>
-          <li><a href="foreign-4th-class.html">4th Class</a></li>
-          <li><a href="foreign-5th-class.html">5th Class</a></li>
-          <li><a href="foreign-national-award.html">National Award</a></li>
+          <li><a href="foreign-1st-class.html"><span class="i18n" lang="en" data-en>1st Class</span><span class="i18n" lang="ko" data-ko>대한민국장 (1등급)</span></a></li>
+          <li><a href="foreign-2nd-class.html"><span class="i18n" lang="en" data-en>2nd Class</span><span class="i18n" lang="ko" data-ko>대통령장 (2등급)</span></a></li>
+          <li><a href="foreign-3rd-class.html"><span class="i18n" lang="en" data-en>3rd Class</span><span class="i18n" lang="ko" data-ko>독립장 (3등급)</span></a></li>
+          <li><a href="foreign-4th-class.html"><span class="i18n" lang="en" data-en>4th Class</span><span class="i18n" lang="ko" data-ko>애국장 (4등급)</span></a></li>
+          <li><a href="foreign-5th-class.html"><span class="i18n" lang="en" data-en>5th Class</span><span class="i18n" lang="ko" data-ko>애족장 (5등급)</span></a></li>
+          <li><a href="foreign-national-award.html"><span class="i18n" lang="en" data-en>National Award</span><span class="i18n" lang="ko" data-ko>National Award</span></a></li>
         </ul>
       </li>
-        <li><a class="nav__link" href="about.html">About</a></li>
+        <li><a class="nav__link" href="about.html"><span class="i18n" lang="en" data-en>About</span><span class="i18n" lang="ko" data-ko>소개</span></a></li>
       </ul>
     </nav>
-    <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sitenav">
-      <span></span><span></span><span></span>
-    </button>
+    <div class="masthead__actions">
+      <button class="langtoggle" type="button" data-lang-toggle
+              aria-label="Switch to Korean" title="Switch to Korean">
+        <span class="langtoggle__on">EN</span><span class="langtoggle__sep">/</span><span class="langtoggle__off" lang="ko">한국어</span>
+      </button>
+      <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sitenav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
 </header>
 
@@ -61,16 +67,16 @@
   </div>
   <div class="hero__slab reveal">
     <div class="hero__rule" aria-hidden="true"><i></i><i></i><i></i></div>
-    <h1 class="h-hero">National</h1>
-    <p class="h-hero-sub" role="doc-subtitle">Foundation Honor</p>
+    <h1 class="h-hero"><span class="i18n" lang="en" data-en>National</span><span class="i18n" lang="ko" data-ko>건국포장</span></h1>
+    <p class="h-hero-sub" role="doc-subtitle"><span class="i18n only-en" lang="en" data-en>Foundation Honor</span></p>
   </div>
 </section>
 
 <section class="section reveal">
   <div class="shell split">
     <div class="split__body">
-      <h2 class="h-section">What is National Foundation Honor:</h2>
-      <div class="prose"><h4 class="h-label"><strong>Honor awarded to A person who has distinguished himself or herself by his or her dedication and efforts in establishing the foundation of the Republic of Korea and the nation.</strong></h4></div>
+      <h2 class="h-section"><span class="i18n" lang="en" data-en>What is National Foundation Honor:</span><span class="i18n" lang="ko" data-ko>건국포장이란?</span></h2>
+      <div class="prose"><h4 class="h-label"><span class="i18n" lang="en" data-en><strong>Honor awarded to A person who has distinguished himself or herself by his or her dedication and efforts in establishing the foundation of the Republic of Korea and the nation.</strong></span><span class="i18n" lang="ko" data-ko>대한민국과 국가의 기틀을 세우는 데 헌신하고 노력하여 뚜렷한 공적을 세운 사람에게 수여하는 포장입니다.</span></h4></div>
     </div>
     <figure class="split__media">
       <img src="assets/2024-12-04-10.10.27.png" alt="" loading="lazy" decoding="async">
@@ -82,21 +88,21 @@
 <footer class="footer">
   <div class="shell">
     <div class="footer__top">
-      <h2 class="h-section"><strong>Get in Touch</strong></h2>
+      <h2 class="h-section"><span class="i18n" lang="en" data-en><strong>Get in Touch</strong></span><span class="i18n" lang="ko" data-ko>연락처</span></h2>
       <div class="footer__contact">
-        <a href="mailto:jbhyunwoobang@gmail.com"><a href="mailto:jbhyunwoobang@gmail.com?">Email</a> <span>jbhyunwoobang@gmail.com</span></a>
-        <a href="https://www.instagram.com/heritage_of_koreans/" target="_blank" rel="noopener"><a href="https://www.instagram.com/heritage_of_koreans/">INSTAGRAM</a> <span>@heritage_of_koreans</span></a>
+        <a href="mailto:jbhyunwoobang@gmail.com"><span class="i18n" lang="en" data-en><a href="mailto:jbhyunwoobang@gmail.com?">Email</a></span><span class="i18n" lang="ko" data-ko>이메일</span> <span>jbhyunwoobang@gmail.com</span></a>
+        <a href="https://www.instagram.com/heritage_of_koreans/" target="_blank" rel="noopener"><span class="i18n" lang="en" data-en><a href="https://www.instagram.com/heritage_of_koreans/">INSTAGRAM</a></span><span class="i18n" lang="ko" data-ko>인스타그램</span> <span>@heritage_of_koreans</span></a>
       </div>
     </div>
   </div>
   <div class="footer__mark" aria-hidden="true">
-    <span class="mark-lg">Korean</span>
-    <span class="mark-sm">Independent ACtivist</span>
+    <span class="mark-lg"><span class="i18n" lang="en" data-en>Korean</span><span class="i18n" lang="ko" data-ko>한국의</span></span>
+    <span class="mark-sm"><span class="i18n" lang="en" data-en>Independent ACtivist</span><span class="i18n" lang="ko" data-ko>독립운동가</span></span>
   </div>
   <div class="shell">
     <div class="footer__legal">
       <p>&copy; KoreanFreedomFighters</p>
-      <p>Commemorating every activist of the Korean independence movement.</p>
+      <p><span class="i18n" lang="en" data-en>Commemorating every activist of the Korean independence movement.</span><span class="i18n" lang="ko" data-ko>한국 독립운동에 참여한 모든 독립운동가를 기억하였습니다.</span></p>
     </div>
   </div>
 </footer>

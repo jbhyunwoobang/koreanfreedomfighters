@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,42 +15,48 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body data-menu="closed">
-<a class="skip" href="#main">Skip to content</a>
+<a class="skip" href="#main"><span class="i18n" lang="en" data-en>Skip to content</span><span class="i18n" lang="ko" data-ko>본문으로 건너뛰기</span></a>
 
 <header class="masthead">
   <div class="shell masthead__inner">
     <a class="wordmark" href="index.html">KoreanFreedomFighters</a>
     <nav class="nav" id="sitenav" aria-label="Main">
       <ul class="nav__list">
-        <li><a class="nav__link" href="index.html">Home</a></li>
+        <li><a class="nav__link" href="index.html"><span class="i18n" lang="en" data-en>Home</span><span class="i18n" lang="ko" data-ko>홈</span></a></li>
         <li class="nav__item" data-open="false">
-        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-korean">KoreanActivists<span class="nav__caret" aria-hidden="true"></span></button>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-korean"><span class="i18n" lang="en" data-en>KoreanActivists</span><span class="i18n" lang="ko" data-ko>한국인 독립운동가</span><span class="nav__caret" aria-hidden="true"></span></button>
         <ul class="nav__menu" id="menu-korean">
-          <li><a href="korean-1st-class.html">1st Class</a></li>
-          <li><a href="korean-2nd-class.html">2nd Class</a></li>
-          <li><a href="korean-3rd-class.html">3rd Class</a></li>
-          <li><a href="korean-4th-class.html">4th Class</a></li>
-          <li><a href="korean-5th-class.html">5th Class</a></li>
-          <li><a href="korean-national-award.html">National Award</a></li>
+          <li><a href="korean-1st-class.html"><span class="i18n" lang="en" data-en>1st Class</span><span class="i18n" lang="ko" data-ko>대한민국장 (1등급)</span></a></li>
+          <li><a href="korean-2nd-class.html"><span class="i18n" lang="en" data-en>2nd Class</span><span class="i18n" lang="ko" data-ko>대통령장 (2등급)</span></a></li>
+          <li><a href="korean-3rd-class.html"><span class="i18n" lang="en" data-en>3rd Class</span><span class="i18n" lang="ko" data-ko>독립장 (3등급)</span></a></li>
+          <li><a href="korean-4th-class.html"><span class="i18n" lang="en" data-en>4th Class</span><span class="i18n" lang="ko" data-ko>애국장 (4등급)</span></a></li>
+          <li><a href="korean-5th-class.html"><span class="i18n" lang="en" data-en>5th Class</span><span class="i18n" lang="ko" data-ko>애족장 (5등급)</span></a></li>
+          <li><a href="korean-national-award.html"><span class="i18n" lang="en" data-en>National Award</span><span class="i18n" lang="ko" data-ko>National Award</span></a></li>
         </ul>
       </li>
         <li class="nav__item" data-open="false">
-        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-foreign">ForeignActivists<span class="nav__caret" aria-hidden="true"></span></button>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-foreign"><span class="i18n" lang="en" data-en>ForeignActivists</span><span class="i18n" lang="ko" data-ko>외국인 독립운동가</span><span class="nav__caret" aria-hidden="true"></span></button>
         <ul class="nav__menu" id="menu-foreign">
-          <li><a href="foreign-1st-class.html">1st Class</a></li>
-          <li><a href="foreign-2nd-class.html">2nd Class</a></li>
-          <li><a href="foreign-3rd-class.html">3rd Class</a></li>
-          <li><a href="foreign-4th-class.html">4th Class</a></li>
-          <li><a href="foreign-5th-class.html" aria-current="page">5th Class</a></li>
-          <li><a href="foreign-national-award.html">National Award</a></li>
+          <li><a href="foreign-1st-class.html"><span class="i18n" lang="en" data-en>1st Class</span><span class="i18n" lang="ko" data-ko>대한민국장 (1등급)</span></a></li>
+          <li><a href="foreign-2nd-class.html"><span class="i18n" lang="en" data-en>2nd Class</span><span class="i18n" lang="ko" data-ko>대통령장 (2등급)</span></a></li>
+          <li><a href="foreign-3rd-class.html"><span class="i18n" lang="en" data-en>3rd Class</span><span class="i18n" lang="ko" data-ko>독립장 (3등급)</span></a></li>
+          <li><a href="foreign-4th-class.html"><span class="i18n" lang="en" data-en>4th Class</span><span class="i18n" lang="ko" data-ko>애국장 (4등급)</span></a></li>
+          <li><a href="foreign-5th-class.html" aria-current="page"><span class="i18n" lang="en" data-en>5th Class</span><span class="i18n" lang="ko" data-ko>애족장 (5등급)</span></a></li>
+          <li><a href="foreign-national-award.html"><span class="i18n" lang="en" data-en>National Award</span><span class="i18n" lang="ko" data-ko>National Award</span></a></li>
         </ul>
       </li>
-        <li><a class="nav__link" href="about.html">About</a></li>
+        <li><a class="nav__link" href="about.html"><span class="i18n" lang="en" data-en>About</span><span class="i18n" lang="ko" data-ko>소개</span></a></li>
       </ul>
     </nav>
-    <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sitenav">
-      <span></span><span></span><span></span>
-    </button>
+    <div class="masthead__actions">
+      <button class="langtoggle" type="button" data-lang-toggle
+              aria-label="Switch to Korean" title="Switch to Korean">
+        <span class="langtoggle__on">EN</span><span class="langtoggle__sep">/</span><span class="langtoggle__off" lang="ko">한국어</span>
+      </button>
+      <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sitenav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
 </header>
 
@@ -61,17 +67,17 @@
   </div>
   <div class="hero__slab reveal">
     <div class="hero__rule" aria-hidden="true"><i></i><i></i><i></i></div>
-    <h1 class="h-hero">Order of Merit for National Foundation</h1>
-    <p class="h-hero-sub" role="doc-subtitle">nation award</p>
+    <h1 class="h-hero"><span class="i18n" lang="en" data-en>Order of Merit for National Foundation</span><span class="i18n" lang="ko" data-ko>건국훈장</span></h1>
+    <p class="h-hero-sub" role="doc-subtitle"><span class="i18n" lang="en" data-en>nation award</span><span class="i18n" lang="ko" data-ko>애족장</span></p>
   </div>
 </section>
 
 <section class="section reveal">
   <div class="shell split">
     <div class="split__body">
-      <h2 class="h-section">What is Merit for National Foundation:</h2>
-      <div class="prose"><h4 class="h-label"><strong>A medal awarded to those who have made distinguished contributions to the establishment of the Republic of Korea or those who have made distinguished contributions to the foundation of the nation.</strong></h4>
-        <h3 class="h-label">5th class:</h3></div>
+      <h2 class="h-section"><span class="i18n" lang="en" data-en>What is Merit for National Foundation:</span><span class="i18n" lang="ko" data-ko>건국훈장이란?</span></h2>
+      <div class="prose"><h4 class="h-label"><span class="i18n" lang="en" data-en><strong>A medal awarded to those who have made distinguished contributions to the establishment of the Republic of Korea or those who have made distinguished contributions to the foundation of the nation.</strong></span><span class="i18n" lang="ko" data-ko>대한민국의 수립에 뚜렷한 공로가 있는 사람, 또는 국가의 기초를 세우는 데 뚜렷한 공로가 있는 사람에게 수여하는 훈장입니다.</span></h4>
+        <h3 class="h-label"><span class="i18n" lang="en" data-en>5th class:</span><span class="i18n" lang="ko" data-ko>5등급</span></h3></div>
     </div>
     <figure class="split__media">
       <img src="assets/2024-12-04-10.05.21-2.png" alt="" loading="lazy" decoding="async">
@@ -87,57 +93,111 @@
     <div class="profile__body">
       <h2 class="h-name profile__name">William Alderman Linton(🇺🇸 ):</h2>
       <p class="profile__dates"><strong>[1883. 1. 23 ~ 1979. 1.20]</strong></p>
-      <div class="prose"><h3 class="h-label">Achievements</h3>
-        <p><strong>Educational Missionary in Korea:</strong></p>
+      <div class="prose"><h3 class="h-label"><span class="i18n" lang="en" data-en>Achievements</span><span class="i18n" lang="ko" data-ko>공적</span></h3>
+        <p><span class="i18n" lang="en" data-en><strong>Educational Missionary in Korea:</strong></span><span class="i18n" lang="ko" data-ko>한국에서 활동한 교육 선교사:</span></p>
         <ul>
-        <li>Moved to Korea in 1912 and engaged in various charitable activities, focusing on education.</li>
-        <li>Conducted extensive self-directed research, including Korean language training, and earned additional degrees from Columbia Teacher's College and Columbia Theological Seminary to better serve his mission.</li>
+        <li><span class="i18n" lang="en" data-en>Moved to Korea in 1912 and engaged in various charitable activities, focusing on education.</span><span class="i18n" lang="ko" data-ko>1912년 한국으로 건너와 교육을 중심으로 여러 자선 활동에 힘썼습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Conducted extensive self-directed research, including Korean language training, and earned additional degrees from Columbia Teacher's College and Columbia Theological Seminary to better serve his mission.</span><span class="i18n" lang="ko" data-ko>한국어 학습을 비롯하여 폭넓은 독자적 연구를 수행하였으며, 선교 사역을 더 잘 수행하기 위하여 컬럼비아 사범대학과 컬럼비아 신학교에서 학위를 추가로 취득하였습니다.</span></li>
         </ul>
-        <p><strong>Fought for Korean Students' Rights:</strong></p>
+        <p><span class="i18n" lang="en" data-en><strong>Fought for Korean Students' Rights:</strong></span><span class="i18n" lang="ko" data-ko>한국 학생들의 권리를 위한 노력:</span></p>
         <ul>
-        <li>As the principal of Jeonju Shinheung High School, Linton fought for the rights of Korean students under Japanese rule.</li>
-        <li>Resisted Japanese colonial policies by refusing to participate in Shinto shrine worship, leading to the school's forced closure in 1937.</li>
-        <li>Continued to advocate for Korean students' education by seeking recognition from the Japanese Government-General of Korea's Bureau of Education to ensure their access to higher education.</li>
+        <li><span class="i18n" lang="en" data-en>As the principal of Jeonju Shinheung High School, Linton fought for the rights of Korean students under Japanese rule.</span><span class="i18n" lang="ko" data-ko>전주 신흥고등학교 교장으로서 린턴은 일제 지배하에 놓인 한국 학생들의 권리를 지키기 위하여 싸웠습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Resisted Japanese colonial policies by refusing to participate in Shinto shrine worship, leading to the school's forced closure in 1937.</span><span class="i18n" lang="ko" data-ko>신사 참배를 거부하여 일제의 식민 정책에 저항하였고, 이로 인하여 1937년 학교가 강제로 폐교되었습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Continued to advocate for Korean students' education by seeking recognition from the Japanese Government-General of Korea's Bureau of Education to ensure their access to higher education.</span><span class="i18n" lang="ko" data-ko>한국 학생들이 고등교육을 받을 수 있도록 조선총독부 학무국의 인정을 얻어내고자 노력하며 이들의 교육을 계속 옹호하였습니다.</span></li>
         </ul>
-        <p><strong>Founded Daejeon College:</strong></p>
+        <p><span class="i18n" lang="en" data-en><strong>Founded Daejeon College:</strong></span><span class="i18n" lang="ko" data-ko>대전대학 설립:</span></p>
         <ul>
-        <li>After Japanese colonial rule and the Korean War, Linton founded Daejeon College in 1956, serving as its first president.</li>
-        <li>Daejeon College eventually evolved into Hannam University in 1982, continuing his legacy in Korean education.</li>
+        <li><span class="i18n" lang="en" data-en>After Japanese colonial rule and the Korean War, Linton founded Daejeon College in 1956, serving as its first president.</span><span class="i18n" lang="ko" data-ko>일제 강점기와 한국전쟁을 겪은 뒤 린턴은 1956년 대전대학을 설립하고 초대 학장을 맡았습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Daejeon College eventually evolved into Hannam University in 1982, continuing his legacy in Korean education.</span><span class="i18n" lang="ko" data-ko>대전대학은 1982년 한남대학교로 발전하여 한국 교육에 남긴 그의 유산을 이어가고 있습니다.</span></li>
         </ul>
-        <p><strong>Family Legacy of Service in Korea:</strong></p>
+        <p><span class="i18n" lang="en" data-en><strong>Family Legacy of Service in Korea:</strong></span><span class="i18n" lang="ko" data-ko>한국에서 이어진 가문의 봉사 유산:</span></p>
         <ul>
-        <li>His sons, Hugh Linton and Thomas Dwight Linton, continued his mission in Korea by planting churches, establishing tuberculosis clinics, and contributing to Christian missions.</li>
-        <li>Hugh Linton planted over 600 churches and established several tuberculosis clinics during the 1960s.</li>
-        <li>John Alderman Linton, his grandson, became the director of Severance Hospital's International Care Center and invented a new type of ambulance for Korea in 1993. He was granted Korean citizenship in 2012 for his contributions to Korean society.</li>
-        <li>Stephen Winn Linton, another grandson, founded the Eugene Bell Foundation, which has provided medical aid to over 200,000 North Korean tuberculosis patients.</li>
+        <li><span class="i18n" lang="en" data-en>His sons, Hugh Linton and Thomas Dwight Linton, continued his mission in Korea by planting churches, establishing tuberculosis clinics, and contributing to Christian missions.</span><span class="i18n" lang="ko" data-ko>아들 휴 린턴과 토머스 드와이트 린턴은 교회를 개척하고 결핵 진료소를 세우며 기독교 선교에 기여하여 한국에서 아버지의 사역을 이어갔습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Hugh Linton planted over 600 churches and established several tuberculosis clinics during the 1960s.</span><span class="i18n" lang="ko" data-ko>휴 린턴은 1960년대에 600개가 넘는 교회를 개척하고 여러 결핵 진료소를 설립하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>John Alderman Linton, his grandson, became the director of Severance Hospital's International Care Center and invented a new type of ambulance for Korea in 1993. He was granted Korean citizenship in 2012 for his contributions to Korean society.</span><span class="i18n" lang="ko" data-ko>손자 존 알더만 린턴은 세브란스병원 국제진료센터 소장이 되었고, 1993년 한국을 위한 새로운 형태의 구급차를 고안하였습니다. 한국 사회에 기여한 공로로 2012년 대한민국 국적을 취득하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Stephen Winn Linton, another grandson, founded the Eugene Bell Foundation, which has provided medical aid to over 200,000 North Korean tuberculosis patients.</span><span class="i18n" lang="ko" data-ko>또 다른 손자 스티븐 윈 린턴은 유진벨재단을 설립하여 20만 명이 넘는 북한 결핵 환자에게 의료 지원을 제공하였습니다.</span></li>
         </ul>
         <ul>
-        <li>Despite the closure of his school and the challenges under Japanese rule, Linton remained dedicated to his mission of educating and supporting Korean students.</li>
-        <li>His efforts and those of his descendants have left a lasting impact on Korean society, particularly in the fields of education, healthcare, and Christian missions.</li>
+        <li><span class="i18n" lang="en" data-en>Despite the closure of his school and the challenges under Japanese rule, Linton remained dedicated to his mission of educating and supporting Korean students.</span><span class="i18n" lang="ko" data-ko>학교가 폐교되고 일제 지배하에서 여러 어려움을 겪었으나, 린턴은 한국 학생들을 가르치고 돕는 사명에 끝까지 헌신하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>His efforts and those of his descendants have left a lasting impact on Korean society, particularly in the fields of education, healthcare, and Christian missions.</span><span class="i18n" lang="ko" data-ko>그와 후손들의 노력은 특히 교육과 의료, 기독교 선교 분야에서 한국 사회에 오래도록 남는 영향을 끼쳤습니다.</span></li>
         </ul></div>
     </div>
   </div>
 </article>
+
+<section class="section roster" id="roster" aria-labelledby="roster-h">
+  <div class="shell">
+    <div class="roster__head">
+      <h2 class="h-section" id="roster-h"><span class="i18n" lang="en" data-en>Full roster</span><span class="i18n" lang="ko" data-ko>전체 명단</span></h2>
+      <p class="roster__count"><strong>27</strong> <span class="i18n" lang="en" data-en>entries</span><span class="i18n" lang="ko" data-ko>명</span></p>
+    </div>
+    <p class="roster__note"><span class="i18n" lang="en" data-en>Every recipient of this grade. Fields are reproduced exactly as recorded.</span><span class="i18n" lang="ko" data-ko>이 훈격의 전체 포상자입니다. 각 항목은 기록된 내용을 그대로 옮겼습니다.</span></p>
+  <div class="roster__criteria">
+    <h3 class="h-label"><span class="i18n" lang="en" data-en>Criteria for this grade</span><span class="i18n" lang="ko" data-ko>이 훈격의 서훈 기준</span></h3>
+    <p><strong lang="ko">건국훈장 애족장</strong> <span lang="ko">(5등급)</span></p>
+    <p><span class="i18n" lang="en" data-en>Those who laboured for the nation&#x27;s independence at home and abroad.</span><span class="i18n" lang="ko" data-ko>국내외에서 민족의 독립을 위하여 힘쓴 자</span></p>
+  </div>
+    <div class="roster__tools">
+      <input class="roster__search" type="search" placeholder="Filter by name…" aria-label="Filter names on this page" data-ph-en="Filter by name…" data-ph-ko="이름으로 찾기…">
+      <p class="roster__shown" aria-live="polite"></p>
+    </div>
+    <div class="roster__scroll">
+      <table class="roster__table">
+        <thead><tr><th><span class="i18n" lang="en" data-en>Name</span><span class="i18n" lang="ko" data-ko>성명</span></th><th><span class="i18n" lang="en" data-en>Hanja</span><span class="i18n" lang="ko" data-ko>한자명</span></th><th><span class="i18n" lang="en" data-en>Years</span><span class="i18n" lang="ko" data-ko>생몰년</span></th><th><span class="i18n" lang="en" data-en>Movement</span><span class="i18n" lang="ko" data-ko>운동계열</span></th><th><span class="i18n" lang="en" data-en>Awarded</span><span class="i18n" lang="ko" data-ko>포상년도</span></th><th><span class="i18n" lang="en" data-en>Place of origin</span><span class="i18n" lang="ko" data-ko>본적</span></th></tr></thead>
+        <tbody>
+          <tr><th scope="row" lang="ko">곽원국</th><td lang="ko" class="roster__hanja">郭元國</td><td>미상 ~ 1921</td><td class="roster__move"><span class="i18n" lang="en" data-en>Manchuria Theatre</span><span class="i18n" lang="ko" data-ko>만주방면</span></td><td>2011</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">김미하일 미하일로비치</th><td lang="ko" class="roster__hanja">金미하일 미하일로비치</td><td>1896 ~ 1938</td><td class="roster__move"><span class="i18n" lang="en" data-en>Russian Maritime Theatre</span><span class="i18n" lang="ko" data-ko>노령방면</span></td><td>2010</td><td lang="ko" class="roster__origin">외국 러시아</td></tr>
+          <tr><th scope="row" lang="ko">김봉환</th><td lang="ko" class="roster__hanja">金鳳煥</td><td>미상 ~ 1921</td><td class="roster__move"><span class="i18n" lang="en" data-en>Manchuria Theatre</span><span class="i18n" lang="ko" data-ko>만주방면</span></td><td>2011</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">김완욱</th><td lang="ko" class="roster__hanja">金完郁</td><td>1896 ~ 1923</td><td class="roster__move"><span class="i18n" lang="en" data-en>Russian Maritime Theatre</span><span class="i18n" lang="ko" data-ko>노령방면</span></td><td>2002</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">김표돌</th><td lang="ko" class="roster__hanja">金표돌</td><td>1896 ~ 1923</td><td class="roster__move"><span class="i18n" lang="en" data-en>Russian Maritime Theatre</span><span class="i18n" lang="ko" data-ko>노령방면</span></td><td>2002</td><td lang="ko" class="roster__origin">외국 러시아</td></tr>
+          <tr><th scope="row" lang="ko">더글라스 스토리</th><td lang="ko" class="roster__hanja">Douglas Story</td><td>1872 ~ 1921</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>2015</td><td lang="ko" class="roster__origin">외국 영국</td></tr>
+          <tr><th scope="row" lang="ko">두쥔훼이</th><td lang="ko" class="roster__hanja">杜君慧</td><td>1904 ~ 1981</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>2016</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">롤랜드 클린턴 베이컨</th><td lang="ko" class="roster__hanja">Roland. C. Bacon</td><td>1904 ~ 1945</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>2020</td><td lang="ko" class="roster__origin">외국 캐나다</td></tr>
+          <tr><th scope="row" lang="ko">마가렛 센더먼 데이비스</th><td lang="ko" class="roster__hanja">Margaret Sandeman Davies</td><td>1887 ~ 1963</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>2022</td><td lang="ko" class="roster__origin">외국 호주</td></tr>
+          <tr><th scope="row" lang="ko">박병길</th><td lang="ko" class="roster__hanja">朴秉吉</td><td>미상 ~ 1921</td><td class="roster__move"><span class="i18n" lang="en" data-en>Russian Maritime Theatre</span><span class="i18n" lang="ko" data-ko>노령방면</span></td><td>2006</td><td lang="ko" class="roster__origin">외국 러시아</td></tr>
+          <tr><th scope="row" lang="ko">셀던 파머 스펜서</th><td lang="ko" class="roster__hanja">Selden Palmer Spencer</td><td>1862 ~ 1925</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>2015</td><td lang="ko" class="roster__origin">외국 미국</td></tr>
+          <tr><th scope="row" lang="ko">소경화</th><td lang="ko" class="roster__hanja">蘇景和</td><td>1918 ~ 2020</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1996</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">스티븐 앰브로즈 벡</th><td lang="ko" class="roster__hanja">Stephen Ambrose Beck</td><td>1866 ~ 1941</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>2015</td><td lang="ko" class="roster__origin">외국 미국</td></tr>
+          <tr><th scope="row" lang="ko">신창희</th><td lang="ko" class="roster__hanja">申昌熙</td><td>1877 ~ 1926</td><td class="roster__move"><span class="i18n" lang="en" data-en>Provisional Government</span><span class="i18n" lang="ko" data-ko>임시정부</span></td><td>2008</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">어거스틴 스위니</th><td lang="ko" class="roster__hanja">Augustin Sweeny</td><td>1909 ~ 1980</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1999</td><td lang="ko" class="roster__origin">외국 영국</td></tr>
+          <tr><th scope="row" lang="ko">윌리엄 린튼</th><td lang="ko" class="roster__hanja">William A. Linton</td><td>1891 ~ 1960</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>2010</td><td lang="ko" class="roster__origin">외국 미국</td></tr>
+          <tr><th scope="row" lang="ko">이다물</th><td lang="ko" class="roster__hanja">李多勿</td><td>1892 ~ 1923</td><td class="roster__move"><span class="i18n" lang="en" data-en>Russian Maritime Theatre</span><span class="i18n" lang="ko" data-ko>노령방면</span></td><td>2002</td><td lang="ko" class="roster__origin">외국 러시아</td></tr>
+          <tr><th scope="row" lang="ko">이숙진</th><td lang="ko" class="roster__hanja">李淑珍</td><td>1900 ~ 1963</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>2017</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">이와실리</th><td lang="ko" class="roster__hanja">李와실리</td><td>1897 ~ 1923</td><td class="roster__move"><span class="i18n" lang="en" data-en>Russian Maritime Theatre</span><span class="i18n" lang="ko" data-ko>노령방면</span></td><td>2002</td><td lang="ko" class="roster__origin">외국 러시아</td></tr>
+          <tr><th scope="row" lang="ko">조지 윌리엄 노리스</th><td lang="ko" class="roster__hanja">George William Norris</td><td>1861 ~ 1944</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>2015</td><td lang="ko" class="roster__origin">외국 미국</td></tr>
+          <tr><th scope="row" lang="ko">지영걸</th><td lang="ko" class="roster__hanja">池永傑</td><td>미상 ~ 1921</td><td class="roster__move"><span class="i18n" lang="en" data-en>Manchuria Theatre</span><span class="i18n" lang="ko" data-ko>만주방면</span></td><td>2011</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">최운산</th><td lang="ko" class="roster__hanja">崔雲山</td><td>1885 ~ 1945</td><td class="roster__move"><span class="i18n" lang="en" data-en>Manchuria Theatre</span><span class="i18n" lang="ko" data-ko>만주방면</span></td><td>1990</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">토마스 다니엘 라이언</th><td lang="ko" class="roster__hanja">Thomas Daniel Ryan</td><td>1907 ~ 1971</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1999</td><td lang="ko" class="roster__origin">외국 아일랜드</td></tr>
+          <tr><th scope="row" lang="ko">한창걸</th><td lang="ko" class="roster__hanja">韓昌傑</td><td>1892 ~ 1938</td><td class="roster__move"><span class="i18n" lang="en" data-en>Russian Maritime Theatre</span><span class="i18n" lang="ko" data-ko>노령방면</span></td><td>2007</td><td lang="ko" class="roster__origin">외국 러시아</td></tr>
+          <tr><th scope="row" lang="ko">해리 찰스 화이팅</th><td lang="ko" class="roster__hanja">Harry Charles Whiting</td><td>1865 ~ 1945</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>2015</td><td lang="ko" class="roster__origin">외국 미국</td></tr>
+          <tr><th scope="row" lang="ko">헨리 닷지 아펜젤러</th><td lang="ko" class="roster__hanja">Henry Dodge Appenzeller</td><td>1889 ~ 1953</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>2026</td><td lang="ko" class="roster__origin">외국 미국</td></tr>
+          <tr><th scope="row" lang="ko">후세 다쓰지</th><td lang="ko" class="roster__hanja">布施辰治</td><td>1879 ~ 1953</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>2004</td><td lang="ko" class="roster__origin">외국 일본</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="roster__empty" hidden><span class="i18n" lang="en" data-en>No name on this page matches that filter.</span><span class="i18n" lang="ko" data-ko>해당하는 이름을 찾지 못하였습니다.</span></p>
+  </div>
+</section>
 </main>
 
 <footer class="footer">
   <div class="shell">
     <div class="footer__top">
-      <h2 class="h-section"><strong>Get in Touch</strong></h2>
+      <h2 class="h-section"><span class="i18n" lang="en" data-en><strong>Get in Touch</strong></span><span class="i18n" lang="ko" data-ko>연락처</span></h2>
       <div class="footer__contact">
-        <a href="mailto:jbhyunwoobang@gmail.com"><a href="mailto:jbhyunwoobang@gmail.com?">Email</a> <span>jbhyunwoobang@gmail.com</span></a>
-        <a href="https://www.instagram.com/heritage_of_koreans/" target="_blank" rel="noopener"><a href="https://www.instagram.com/heritage_of_koreans/">INSTAGRAM</a> <span>@heritage_of_koreans</span></a>
+        <a href="mailto:jbhyunwoobang@gmail.com"><span class="i18n" lang="en" data-en><a href="mailto:jbhyunwoobang@gmail.com?">Email</a></span><span class="i18n" lang="ko" data-ko>이메일</span> <span>jbhyunwoobang@gmail.com</span></a>
+        <a href="https://www.instagram.com/heritage_of_koreans/" target="_blank" rel="noopener"><span class="i18n" lang="en" data-en><a href="https://www.instagram.com/heritage_of_koreans/">INSTAGRAM</a></span><span class="i18n" lang="ko" data-ko>인스타그램</span> <span>@heritage_of_koreans</span></a>
       </div>
     </div>
   </div>
   <div class="footer__mark" aria-hidden="true">
-    <span class="mark-lg">Korean</span>
-    <span class="mark-sm">Independent ACtivist</span>
+    <span class="mark-lg"><span class="i18n" lang="en" data-en>Korean</span><span class="i18n" lang="ko" data-ko>한국의</span></span>
+    <span class="mark-sm"><span class="i18n" lang="en" data-en>Independent ACtivist</span><span class="i18n" lang="ko" data-ko>독립운동가</span></span>
   </div>
   <div class="shell">
     <div class="footer__legal">
       <p>&copy; KoreanFreedomFighters</p>
-      <p>Commemorating every activist of the Korean independence movement.</p>
+      <p><span class="i18n" lang="en" data-en>Commemorating every activist of the Korean independence movement.</span><span class="i18n" lang="ko" data-ko>한국 독립운동에 참여한 모든 독립운동가를 기억하였습니다.</span></p>
     </div>
   </div>
 </footer>

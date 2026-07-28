@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,42 +15,48 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body data-menu="closed">
-<a class="skip" href="#main">Skip to content</a>
+<a class="skip" href="#main"><span class="i18n" lang="en" data-en>Skip to content</span><span class="i18n" lang="ko" data-ko>본문으로 건너뛰기</span></a>
 
 <header class="masthead">
   <div class="shell masthead__inner">
     <a class="wordmark" href="index.html">KoreanFreedomFighters</a>
     <nav class="nav" id="sitenav" aria-label="Main">
       <ul class="nav__list">
-        <li><a class="nav__link" href="index.html">Home</a></li>
+        <li><a class="nav__link" href="index.html"><span class="i18n" lang="en" data-en>Home</span><span class="i18n" lang="ko" data-ko>홈</span></a></li>
         <li class="nav__item" data-open="false">
-        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-korean">KoreanActivists<span class="nav__caret" aria-hidden="true"></span></button>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-korean"><span class="i18n" lang="en" data-en>KoreanActivists</span><span class="i18n" lang="ko" data-ko>한국인 독립운동가</span><span class="nav__caret" aria-hidden="true"></span></button>
         <ul class="nav__menu" id="menu-korean">
-          <li><a href="korean-1st-class.html">1st Class</a></li>
-          <li><a href="korean-2nd-class.html">2nd Class</a></li>
-          <li><a href="korean-3rd-class.html">3rd Class</a></li>
-          <li><a href="korean-4th-class.html">4th Class</a></li>
-          <li><a href="korean-5th-class.html">5th Class</a></li>
-          <li><a href="korean-national-award.html">National Award</a></li>
+          <li><a href="korean-1st-class.html"><span class="i18n" lang="en" data-en>1st Class</span><span class="i18n" lang="ko" data-ko>대한민국장 (1등급)</span></a></li>
+          <li><a href="korean-2nd-class.html"><span class="i18n" lang="en" data-en>2nd Class</span><span class="i18n" lang="ko" data-ko>대통령장 (2등급)</span></a></li>
+          <li><a href="korean-3rd-class.html"><span class="i18n" lang="en" data-en>3rd Class</span><span class="i18n" lang="ko" data-ko>독립장 (3등급)</span></a></li>
+          <li><a href="korean-4th-class.html"><span class="i18n" lang="en" data-en>4th Class</span><span class="i18n" lang="ko" data-ko>애국장 (4등급)</span></a></li>
+          <li><a href="korean-5th-class.html"><span class="i18n" lang="en" data-en>5th Class</span><span class="i18n" lang="ko" data-ko>애족장 (5등급)</span></a></li>
+          <li><a href="korean-national-award.html"><span class="i18n" lang="en" data-en>National Award</span><span class="i18n" lang="ko" data-ko>National Award</span></a></li>
         </ul>
       </li>
         <li class="nav__item" data-open="false">
-        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-foreign">ForeignActivists<span class="nav__caret" aria-hidden="true"></span></button>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-foreign"><span class="i18n" lang="en" data-en>ForeignActivists</span><span class="i18n" lang="ko" data-ko>외국인 독립운동가</span><span class="nav__caret" aria-hidden="true"></span></button>
         <ul class="nav__menu" id="menu-foreign">
-          <li><a href="foreign-1st-class.html">1st Class</a></li>
-          <li><a href="foreign-2nd-class.html">2nd Class</a></li>
-          <li><a href="foreign-3rd-class.html">3rd Class</a></li>
-          <li><a href="foreign-4th-class.html">4th Class</a></li>
-          <li><a href="foreign-5th-class.html">5th Class</a></li>
-          <li><a href="foreign-national-award.html" aria-current="page">National Award</a></li>
+          <li><a href="foreign-1st-class.html"><span class="i18n" lang="en" data-en>1st Class</span><span class="i18n" lang="ko" data-ko>대한민국장 (1등급)</span></a></li>
+          <li><a href="foreign-2nd-class.html"><span class="i18n" lang="en" data-en>2nd Class</span><span class="i18n" lang="ko" data-ko>대통령장 (2등급)</span></a></li>
+          <li><a href="foreign-3rd-class.html"><span class="i18n" lang="en" data-en>3rd Class</span><span class="i18n" lang="ko" data-ko>독립장 (3등급)</span></a></li>
+          <li><a href="foreign-4th-class.html"><span class="i18n" lang="en" data-en>4th Class</span><span class="i18n" lang="ko" data-ko>애국장 (4등급)</span></a></li>
+          <li><a href="foreign-5th-class.html"><span class="i18n" lang="en" data-en>5th Class</span><span class="i18n" lang="ko" data-ko>애족장 (5등급)</span></a></li>
+          <li><a href="foreign-national-award.html" aria-current="page"><span class="i18n" lang="en" data-en>National Award</span><span class="i18n" lang="ko" data-ko>National Award</span></a></li>
         </ul>
       </li>
-        <li><a class="nav__link" href="about.html">About</a></li>
+        <li><a class="nav__link" href="about.html"><span class="i18n" lang="en" data-en>About</span><span class="i18n" lang="ko" data-ko>소개</span></a></li>
       </ul>
     </nav>
-    <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sitenav">
-      <span></span><span></span><span></span>
-    </button>
+    <div class="masthead__actions">
+      <button class="langtoggle" type="button" data-lang-toggle
+              aria-label="Switch to Korean" title="Switch to Korean">
+        <span class="langtoggle__on">EN</span><span class="langtoggle__sep">/</span><span class="langtoggle__off" lang="ko">한국어</span>
+      </button>
+      <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sitenav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
 </header>
 
@@ -61,16 +67,16 @@
   </div>
   <div class="hero__slab reveal">
     <div class="hero__rule" aria-hidden="true"><i></i><i></i><i></i></div>
-    <h1 class="h-hero">National</h1>
-    <p class="h-hero-sub" role="doc-subtitle">Foundation Honor</p>
+    <h1 class="h-hero"><span class="i18n" lang="en" data-en>National</span><span class="i18n" lang="ko" data-ko>건국포장</span></h1>
+    <p class="h-hero-sub" role="doc-subtitle"><span class="i18n only-en" lang="en" data-en>Foundation Honor</span></p>
   </div>
 </section>
 
 <section class="section reveal">
   <div class="shell split">
     <div class="split__body">
-      <h2 class="h-section">What is Merit for National Honor:</h2>
-      <div class="prose"><h4 class="h-label"><strong>Honor awarded to A person who has distinguished himself or herself by his or her dedication and efforts in establishing the foundation of the Republic of Korea and the nation.</strong></h4></div>
+      <h2 class="h-section"><span class="i18n" lang="en" data-en>What is Merit for National Honor:</span><span class="i18n" lang="ko" data-ko>국가 명예 공훈이란?</span></h2>
+      <div class="prose"><h4 class="h-label"><span class="i18n" lang="en" data-en><strong>Honor awarded to A person who has distinguished himself or herself by his or her dedication and efforts in establishing the foundation of the Republic of Korea and the nation.</strong></span><span class="i18n" lang="ko" data-ko>대한민국과 국가의 기틀을 세우는 데 헌신하고 노력하여 뚜렷한 공적을 세운 사람에게 수여하는 포장입니다.</span></h4></div>
     </div>
     <figure class="split__media">
       <img src="assets/2024-12-04-10.10.27-2.png" alt="" loading="lazy" decoding="async">
@@ -86,34 +92,34 @@
     <div class="profile__body">
       <h2 class="h-name profile__name">Minerva Louise Guthapfel(🇺🇸):</h2>
       <p class="profile__dates"><strong>[1873. 9. 23 ~ 1942. 11.09]</strong></p>
-      <div class="prose"><h3 class="h-label">Achievements</h3>
-        <p><strong>Early Life and Missionary Work</strong></p>
+      <div class="prose"><h3 class="h-label"><span class="i18n" lang="en" data-en>Achievements</span><span class="i18n" lang="ko" data-ko>공적</span></h3>
+        <p><span class="i18n" lang="en" data-en><strong>Early Life and Missionary Work</strong></span><span class="i18n" lang="ko" data-ko>생애 초기와 선교 활동</span></p>
         <ul>
-        <li>Born on September 23, 1873, in Philadelphia, Pennsylvania, U.S.A.</li>
-        <li>Joined the Methodist Church and became a missionary, sent to Korea in 1903.</li>
-        <li>Worked in Seoul and Gyeonggi Province as a missionary until 1912.</li>
-        <li>Published <em>Happiest Girl in Korea</em>, a collection of her articles, later translated into Korean as <em>Okbun, the Happy Girl of Korea</em></li>
+        <li><span class="i18n" lang="en" data-en>Born on September 23, 1873, in Philadelphia, Pennsylvania, U.S.A.</span><span class="i18n" lang="ko" data-ko>1873년 9월 23일 미국 펜실베이니아주 필라델피아에서 태어났습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Joined the Methodist Church and became a missionary, sent to Korea in 1903.</span><span class="i18n" lang="ko" data-ko>감리교회에 입교하여 선교사가 되었으며, 1903년 한국에 파견되었습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Worked in Seoul and Gyeonggi Province as a missionary until 1912.</span><span class="i18n" lang="ko" data-ko>1912년까지 서울과 경기도에서 선교사로 활동하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Published <em>Happiest Girl in Korea</em>, a collection of her articles, later translated into Korean as <em>Okbun, the Happy Girl of Korea</em></span><span class="i18n" lang="ko" data-ko>자신의 글을 모은 『Happiest Girl in Korea』를 출간하였으며, 이 책은 뒤에 한국어로 『Okbun, the Happy Girl of Korea』라는 제목으로 번역되었습니다</span></li>
         </ul>
         <ul>
-        <li><strong>Cultural Observations in Korea</strong></li>
+        <li><span class="i18n" lang="en" data-en><strong>Cultural Observations in Korea</strong></span><span class="i18n" lang="ko" data-ko>한국에서의 문화 관찰</span></li>
         <ul>
-        <li>Critiqued the patriarchal stereotypes and superstitions prevalent in Korean society at the time.</li>
-        <li>Highlighted the kindness and simplicity of the Korean people in her writings.</li>
-        <li>Shared the moving story of Okbun, a 14-year-old abused girl who received amputation surgery at a Methodist hospital and still expressed happiness.</li>
+        <li><span class="i18n" lang="en" data-en>Critiqued the patriarchal stereotypes and superstitions prevalent in Korean society at the time.</span><span class="i18n" lang="ko" data-ko>당시 한국 사회에 널리 퍼져 있던 가부장적 고정관념과 미신을 비판하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Highlighted the kindness and simplicity of the Korean people in her writings.</span><span class="i18n" lang="ko" data-ko>저술에서 한국인의 친절함과 소박함을 부각하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Shared the moving story of Okbun, a 14-year-old abused girl who received amputation surgery at a Methodist hospital and still expressed happiness.</span><span class="i18n" lang="ko" data-ko>학대를 받다가 감리교 병원에서 절단 수술을 받고도 행복하다고 말한 열네 살 소녀 옥분의 감동적인 이야기를 전하였습니다.</span></li>
         </ul>
-        <p><strong>Advocacy for Korean Independence</strong></p>
+        <p><span class="i18n" lang="en" data-en><strong>Advocacy for Korean Independence</strong></span><span class="i18n" lang="ko" data-ko>한국 독립 지지 활동</span></p>
         <ul>
-        <li>Returned to the United States in 1912 but continued to support Korea’s independence struggle.</li>
-        <li>In 1919, after learning about the March 1 Movement, she toured Midwest churches, informing them about the situation in Korea.</li>
-        <li>Joined the Korean Friendship Society in Chicago as secretary, advocating for Korean independence and raising funds for relief efforts.</li>
-        <li>Issued a circular in 1920 condemning Japanese atrocities in Korea and petitioned the U.S. Congress for Korean independence.</li>
-        <li>In 1921, co-signed a petition urging the inclusion of a Korean representative at the Washington Conference on Disarmament.</li>
+        <li><span class="i18n" lang="en" data-en>Returned to the United States in 1912 but continued to support Korea’s independence struggle.</span><span class="i18n" lang="ko" data-ko>1912년 미국으로 돌아갔으나 한국의 독립운동에 대한 지원을 계속하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>In 1919, after learning about the March 1 Movement, she toured Midwest churches, informing them about the situation in Korea.</span><span class="i18n" lang="ko" data-ko>1919년 3·1운동 소식을 접한 뒤 중서부 지역의 교회들을 순회하며 한국의 상황을 알렸습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Joined the Korean Friendship Society in Chicago as secretary, advocating for Korean independence and raising funds for relief efforts.</span><span class="i18n" lang="ko" data-ko>시카고 한국친우회에 서기로 참여하여 한국의 독립을 호소하고 구호 자금을 모았습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Issued a circular in 1920 condemning Japanese atrocities in Korea and petitioned the U.S. Congress for Korean independence.</span><span class="i18n" lang="ko" data-ko>1920년 일제가 한국에서 저지른 만행을 규탄하는 회람문을 발행하고, 미국 의회에 한국의 독립을 청원하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>In 1921, co-signed a petition urging the inclusion of a Korean representative at the Washington Conference on Disarmament.</span><span class="i18n" lang="ko" data-ko>1921년 워싱턴 군축회의에 한국 대표를 포함시킬 것을 요구하는 청원에 함께 서명하였습니다.</span></li>
         </ul>
-        <p><strong>Legacy and Recognition</strong></p>
+        <p><span class="i18n" lang="en" data-en><strong>Legacy and Recognition</strong></span><span class="i18n" lang="ko" data-ko>유산과 서훈</span></p>
         <ul>
-        <li>Continued to serve as a Methodist missionary until her death on November 9, 1942, in Evanston, Illinois.</li>
-        <li>Interred in a Chicago cemetery.</li>
-        <li>Honored by the South Korean government with a national pavement in 2015 for her contributions to the Korean independence movement.</li>
+        <li><span class="i18n" lang="en" data-en>Continued to serve as a Methodist missionary until her death on November 9, 1942, in Evanston, Illinois.</span><span class="i18n" lang="ko" data-ko>1942년 11월 9일 일리노이주 에번스턴에서 별세할 때까지 감리교 선교사로 봉직하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Interred in a Chicago cemetery.</span><span class="i18n" lang="ko" data-ko>시카고의 한 묘지에 안장되었습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Honored by the South Korean government with a national pavement in 2015 for her contributions to the Korean independence movement.</span><span class="i18n" lang="ko" data-ko>2015년 대한민국 정부는 한국 독립운동에 기여한 공로로 그에게 국민포장을 수여하였습니다.</span></li>
         </ul>
         </ul></div>
     </div>
@@ -124,21 +130,21 @@
 <footer class="footer">
   <div class="shell">
     <div class="footer__top">
-      <h2 class="h-section"><strong>Get in Touch</strong></h2>
+      <h2 class="h-section"><span class="i18n" lang="en" data-en><strong>Get in Touch</strong></span><span class="i18n" lang="ko" data-ko>연락처</span></h2>
       <div class="footer__contact">
-        <a href="mailto:jbhyunwoobang@gmail.com"><a href="mailto:jbhyunwoobang@gmail.com?">Email</a> <span>jbhyunwoobang@gmail.com</span></a>
-        <a href="https://www.instagram.com/heritage_of_koreans/" target="_blank" rel="noopener"><a href="https://www.instagram.com/heritage_of_koreans/">INSTAGRAM</a> <span>@heritage_of_koreans</span></a>
+        <a href="mailto:jbhyunwoobang@gmail.com"><span class="i18n" lang="en" data-en><a href="mailto:jbhyunwoobang@gmail.com?">Email</a></span><span class="i18n" lang="ko" data-ko>이메일</span> <span>jbhyunwoobang@gmail.com</span></a>
+        <a href="https://www.instagram.com/heritage_of_koreans/" target="_blank" rel="noopener"><span class="i18n" lang="en" data-en><a href="https://www.instagram.com/heritage_of_koreans/">INSTAGRAM</a></span><span class="i18n" lang="ko" data-ko>인스타그램</span> <span>@heritage_of_koreans</span></a>
       </div>
     </div>
   </div>
   <div class="footer__mark" aria-hidden="true">
-    <span class="mark-lg">Korean</span>
-    <span class="mark-sm">Independent ACtivist</span>
+    <span class="mark-lg"><span class="i18n" lang="en" data-en>Korean</span><span class="i18n" lang="ko" data-ko>한국의</span></span>
+    <span class="mark-sm"><span class="i18n" lang="en" data-en>Independent ACtivist</span><span class="i18n" lang="ko" data-ko>독립운동가</span></span>
   </div>
   <div class="shell">
     <div class="footer__legal">
       <p>&copy; KoreanFreedomFighters</p>
-      <p>Commemorating every activist of the Korean independence movement.</p>
+      <p><span class="i18n" lang="en" data-en>Commemorating every activist of the Korean independence movement.</span><span class="i18n" lang="ko" data-ko>한국 독립운동에 참여한 모든 독립운동가를 기억하였습니다.</span></p>
     </div>
   </div>
 </footer>

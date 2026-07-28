@@ -1,3 +1,12 @@
 .DS_Store
 __pycache__/
 *.pyc
+# harvested source data is large; keep it, but ignore editor noise
+
+# roster harvesting stays local: the published repo is the site itself
+tools/gonghun.py
+tools/roster.py
+data/gonghun.json
+data/matches.json
+tools/merge_tr.py
+data/TRANSLATION_REVIEW.md

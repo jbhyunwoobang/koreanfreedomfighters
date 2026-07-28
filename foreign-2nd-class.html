@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,42 +15,48 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body data-menu="closed">
-<a class="skip" href="#main">Skip to content</a>
+<a class="skip" href="#main"><span class="i18n" lang="en" data-en>Skip to content</span><span class="i18n" lang="ko" data-ko>본문으로 건너뛰기</span></a>
 
 <header class="masthead">
   <div class="shell masthead__inner">
     <a class="wordmark" href="index.html">KoreanFreedomFighters</a>
     <nav class="nav" id="sitenav" aria-label="Main">
       <ul class="nav__list">
-        <li><a class="nav__link" href="index.html">Home</a></li>
+        <li><a class="nav__link" href="index.html"><span class="i18n" lang="en" data-en>Home</span><span class="i18n" lang="ko" data-ko>홈</span></a></li>
         <li class="nav__item" data-open="false">
-        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-korean">KoreanActivists<span class="nav__caret" aria-hidden="true"></span></button>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-korean"><span class="i18n" lang="en" data-en>KoreanActivists</span><span class="i18n" lang="ko" data-ko>한국인 독립운동가</span><span class="nav__caret" aria-hidden="true"></span></button>
         <ul class="nav__menu" id="menu-korean">
-          <li><a href="korean-1st-class.html">1st Class</a></li>
-          <li><a href="korean-2nd-class.html">2nd Class</a></li>
-          <li><a href="korean-3rd-class.html">3rd Class</a></li>
-          <li><a href="korean-4th-class.html">4th Class</a></li>
-          <li><a href="korean-5th-class.html">5th Class</a></li>
-          <li><a href="korean-national-award.html">National Award</a></li>
+          <li><a href="korean-1st-class.html"><span class="i18n" lang="en" data-en>1st Class</span><span class="i18n" lang="ko" data-ko>대한민국장 (1등급)</span></a></li>
+          <li><a href="korean-2nd-class.html"><span class="i18n" lang="en" data-en>2nd Class</span><span class="i18n" lang="ko" data-ko>대통령장 (2등급)</span></a></li>
+          <li><a href="korean-3rd-class.html"><span class="i18n" lang="en" data-en>3rd Class</span><span class="i18n" lang="ko" data-ko>독립장 (3등급)</span></a></li>
+          <li><a href="korean-4th-class.html"><span class="i18n" lang="en" data-en>4th Class</span><span class="i18n" lang="ko" data-ko>애국장 (4등급)</span></a></li>
+          <li><a href="korean-5th-class.html"><span class="i18n" lang="en" data-en>5th Class</span><span class="i18n" lang="ko" data-ko>애족장 (5등급)</span></a></li>
+          <li><a href="korean-national-award.html"><span class="i18n" lang="en" data-en>National Award</span><span class="i18n" lang="ko" data-ko>National Award</span></a></li>
         </ul>
       </li>
         <li class="nav__item" data-open="false">
-        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-foreign">ForeignActivists<span class="nav__caret" aria-hidden="true"></span></button>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-foreign"><span class="i18n" lang="en" data-en>ForeignActivists</span><span class="i18n" lang="ko" data-ko>외국인 독립운동가</span><span class="nav__caret" aria-hidden="true"></span></button>
         <ul class="nav__menu" id="menu-foreign">
-          <li><a href="foreign-1st-class.html">1st Class</a></li>
-          <li><a href="foreign-2nd-class.html" aria-current="page">2nd Class</a></li>
-          <li><a href="foreign-3rd-class.html">3rd Class</a></li>
-          <li><a href="foreign-4th-class.html">4th Class</a></li>
-          <li><a href="foreign-5th-class.html">5th Class</a></li>
-          <li><a href="foreign-national-award.html">National Award</a></li>
+          <li><a href="foreign-1st-class.html"><span class="i18n" lang="en" data-en>1st Class</span><span class="i18n" lang="ko" data-ko>대한민국장 (1등급)</span></a></li>
+          <li><a href="foreign-2nd-class.html" aria-current="page"><span class="i18n" lang="en" data-en>2nd Class</span><span class="i18n" lang="ko" data-ko>대통령장 (2등급)</span></a></li>
+          <li><a href="foreign-3rd-class.html"><span class="i18n" lang="en" data-en>3rd Class</span><span class="i18n" lang="ko" data-ko>독립장 (3등급)</span></a></li>
+          <li><a href="foreign-4th-class.html"><span class="i18n" lang="en" data-en>4th Class</span><span class="i18n" lang="ko" data-ko>애국장 (4등급)</span></a></li>
+          <li><a href="foreign-5th-class.html"><span class="i18n" lang="en" data-en>5th Class</span><span class="i18n" lang="ko" data-ko>애족장 (5등급)</span></a></li>
+          <li><a href="foreign-national-award.html"><span class="i18n" lang="en" data-en>National Award</span><span class="i18n" lang="ko" data-ko>National Award</span></a></li>
         </ul>
       </li>
-        <li><a class="nav__link" href="about.html">About</a></li>
+        <li><a class="nav__link" href="about.html"><span class="i18n" lang="en" data-en>About</span><span class="i18n" lang="ko" data-ko>소개</span></a></li>
       </ul>
     </nav>
-    <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sitenav">
-      <span></span><span></span><span></span>
-    </button>
+    <div class="masthead__actions">
+      <button class="langtoggle" type="button" data-lang-toggle
+              aria-label="Switch to Korean" title="Switch to Korean">
+        <span class="langtoggle__on">EN</span><span class="langtoggle__sep">/</span><span class="langtoggle__off" lang="ko">한국어</span>
+      </button>
+      <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sitenav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
 </header>
 
@@ -61,18 +67,18 @@
   </div>
   <div class="hero__slab reveal">
     <div class="hero__rule" aria-hidden="true"><i></i><i></i><i></i></div>
-    <h1 class="h-hero">Order of Merit for National Foundation</h1>
-    <p class="h-hero-sub" role="doc-subtitle">Presidential Medal</p>
+    <h1 class="h-hero"><span class="i18n" lang="en" data-en>Order of Merit for National Foundation</span><span class="i18n" lang="ko" data-ko>건국훈장</span></h1>
+    <p class="h-hero-sub" role="doc-subtitle"><span class="i18n" lang="en" data-en>Presidential Medal</span><span class="i18n" lang="ko" data-ko>대통령장</span></p>
   </div>
 </section>
 
 <section class="section reveal">
   <div class="shell split">
     <div class="split__body">
-      <h2 class="h-section">What is Merit for National Foundation:</h2>
-      <div class="prose"><h4 class="h-label"><strong>A medal awarded to those who have made distinguished contributions to the establishment of the Republic of Korea or those who have made distinguished contributions to the foundation of the nation.</strong></h4>
-        <h3 class="h-label">2nd class:</h3>
-        <h4 class="h-label">More than 5 years of activity</h4></div>
+      <h2 class="h-section"><span class="i18n" lang="en" data-en>What is Merit for National Foundation:</span><span class="i18n" lang="ko" data-ko>건국훈장이란?</span></h2>
+      <div class="prose"><h4 class="h-label"><span class="i18n" lang="en" data-en><strong>A medal awarded to those who have made distinguished contributions to the establishment of the Republic of Korea or those who have made distinguished contributions to the foundation of the nation.</strong></span><span class="i18n" lang="ko" data-ko>대한민국의 수립에 뚜렷한 공로가 있는 사람, 또는 국가의 기초를 세우는 데 뚜렷한 공로가 있는 사람에게 수여하는 훈장입니다.</span></h4>
+        <h3 class="h-label"><span class="i18n" lang="en" data-en>2nd class:</span><span class="i18n" lang="ko" data-ko>2등급</span></h3>
+        <h4 class="h-label"><span class="i18n" lang="en" data-en>More than 5 years of activity</span><span class="i18n" lang="ko" data-ko>5년 이상 활동</span></h4></div>
     </div>
     <figure class="split__media">
       <img src="assets/2024-12-04-10.05.09-2.png" alt="" loading="lazy" decoding="async">
@@ -83,9 +89,9 @@
 <nav class="pageindex" aria-labelledby="idx-h">
   <div class="shell">
     <div class="pageindex__head">
-      <h2 class="h-label" id="idx-h">On this page</h2>
-      <span class="pageindex__count">5 entries</span>
-      <input class="pageindex__search" type="search" placeholder="Filter by name…" aria-label="Filter names on this page">
+      <h2 class="h-label" id="idx-h"><span class="i18n" lang="en" data-en>On this page</span><span class="i18n" lang="ko" data-ko>이 페이지의 인물</span></h2>
+      <span class="pageindex__count">5 <span class="i18n" lang="en" data-en>entries</span><span class="i18n" lang="ko" data-ko>명</span></span>
+      <input class="pageindex__search" type="search" placeholder="Filter by name…" aria-label="Filter names on this page" data-ph-en="Filter by name…" data-ph-ko="이름으로 찾기…">
     </div>
     <ul class="pageindex__list">
       <li><a href="#ernest-thomas-bethell">Ernest Thomas Bethell(🇬🇧)</a></li>
@@ -94,7 +100,7 @@
       <li><a href="#song-jiaoren">song Jiaoren(🇨🇳)</a></li>
       <li><a href="#woo-bin">Woo Bin🇨🇳)</a></li>
     </ul>
-    <p class="pageindex__empty" hidden>No name on this page matches that filter.</p>
+    <p class="pageindex__empty" hidden><span class="i18n" lang="en" data-en>No name on this page matches that filter.</span><span class="i18n" lang="ko" data-ko>해당하는 이름을 찾지 못하였습니다.</span></p>
   </div>
 </nav>
 
@@ -104,41 +110,42 @@
       <img class="profile__portrait" src="assets/OR_201408_18.jpg" alt="Portrait of Ernest Thomas Bethell(🇬🇧)" loading="lazy" decoding="async">
     </figure>
     <div class="profile__body">
-      <h2 class="h-name profile__name">Ernest Thomas Bethell(🇬🇧):</h2>
+      <h2 class="h-name profile__name"><span class="i18n" lang="en" data-en>Ernest Thomas Bethell(🇬🇧):</span><span class="i18n" lang="ko" data-ko>어네스트 토마스 베델</span></h2>
       <p class="profile__dates"><strong>[1872. 11. 3 ~ 1909. 5.1]</strong></p>
-      <div class="prose"><h3 class="h-label">Achievements</h3>
-        <p><strong>Founded The Daehan Maeil Sinbo</strong>:</p>
+      <p class="profile__official"><span lang="ko">건국훈장 대통령장</span> · 1950</p>
+      <div class="prose"><h3 class="h-label"><span class="i18n" lang="en" data-en>Achievements</span><span class="i18n" lang="ko" data-ko>공적</span></h3>
+        <p><span class="i18n" lang="en" data-en><strong>Founded The Daehan Maeil Sinbo</strong>:</span><span class="i18n" lang="ko" data-ko>대한매일신보 창간:</span></p>
         <ul>
-        <li>Established on July 18, 1904, with a sister edition in English called The Korea Daily News.</li>
-        <li>Served as a platform for reporting on Korea’s situation and supporting the anti-Japanese movement.</li>
+        <li><span class="i18n" lang="en" data-en>Established on July 18, 1904, with a sister edition in English called The Korea Daily News.</span><span class="i18n" lang="ko" data-ko>1904년 7월 18일 창간하였으며, 영문 자매지로 The Korea Daily News를 함께 발행하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Served as a platform for reporting on Korea’s situation and supporting the anti-Japanese movement.</span><span class="i18n" lang="ko" data-ko>한국의 실상을 알리고 항일운동을 뒷받침하는 언론의 장이 되었습니다.</span></li>
         </ul>
         <ul>
-        <li><strong>Collaborated with Korean Independence Activists</strong>:</li>
+        <li><span class="i18n" lang="en" data-en><strong>Collaborated with Korean Independence Activists</strong>:</span><span class="i18n" lang="ko" data-ko>한국 독립운동가들과의 협력:</span></li>
         <ul>
-        <li>Worked with Yang Ki-tak, Park Eun-sik, Shin Chae-ho, and Choi Ik.</li>
-        <li>Provided a voice for Korean independence fighters and intellectuals.</li>
+        <li><span class="i18n" lang="en" data-en>Worked with Yang Ki-tak, Park Eun-sik, Shin Chae-ho, and Choi Ik.</span><span class="i18n" lang="ko" data-ko>양기탁·박은식·신채호·최익과 함께 활동하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Provided a voice for Korean independence fighters and intellectuals.</span><span class="i18n" lang="ko" data-ko>한국의 독립운동가와 지식인들이 목소리를 낼 지면을 제공하였습니다.</span></li>
         </ul>
-        <p><strong>Published without Japanese Censorship</strong>:</p>
+        <p><span class="i18n" lang="en" data-en><strong>Published without Japanese Censorship</strong>:</span><span class="i18n" lang="ko" data-ko>일제의 검열을 받지 않은 발행:</span></p>
         <ul>
-        <li>Utilized extraterritorial rights as a British citizen to dodge Japanese censorship.</li>
-        <li>Published three versions of his newspapers: Korean and Chinese characters, English, and a pure Hangeul version.</li>
+        <li><span class="i18n" lang="en" data-en>Utilized extraterritorial rights as a British citizen to dodge Japanese censorship.</span><span class="i18n" lang="ko" data-ko>영국인으로서 누린 치외법권을 활용하여 일제의 검열을 피하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Published three versions of his newspapers: Korean and Chinese characters, English, and a pure Hangeul version.</span><span class="i18n" lang="ko" data-ko>신문을 국한문판, 영문판, 순한글판의 세 종류로 발행하였습니다.</span></li>
         </ul>
-        <p><strong>Supported Anti-Japanese Sentiments</strong>:</p>
+        <p><span class="i18n" lang="en" data-en><strong>Supported Anti-Japanese Sentiments</strong>:</span><span class="i18n" lang="ko" data-ko>항일 여론의 뒷받침:</span></p>
         <ul>
-        <li>Praised Jang Ji-yeon’s editorial “I Wail Bitterly Today” and translated it into English for wider dissemination.</li>
-        <li>Publicized Korea’s plight to Western audiences through his newspapers and The Japan Chronicle.</li>
+        <li><span class="i18n" lang="en" data-en>Praised Jang Ji-yeon’s editorial “I Wail Bitterly Today” and translated it into English for wider dissemination.</span><span class="i18n" lang="ko" data-ko>장지연의 논설 「시일야방성대곡」을 높이 평가하고 이를 영문으로 번역하여 널리 알렸습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Publicized Korea’s plight to Western audiences through his newspapers and The Japan Chronicle.</span><span class="i18n" lang="ko" data-ko>자신의 신문과 The Japan Chronicle을 통하여 한국의 처지를 서구에 알렸습니다.</span></li>
         </ul>
-        <p><strong>Maintained High Circulation</strong>:</p>
+        <p><span class="i18n" lang="en" data-en><strong>Maintained High Circulation</strong>:</span><span class="i18n" lang="ko" data-ko>높은 발행 부수 유지:</span></p>
         <ul>
-        <li>Achieved a circulation of 10,000 copies by September 1907, surpassing other newspapers of the time.</li>
+        <li><span class="i18n" lang="en" data-en>Achieved a circulation of 10,000 copies by September 1907, surpassing other newspapers of the time.</span><span class="i18n" lang="ko" data-ko>1907년 9월에는 발행 부수 10,000부에 이르러 당시의 다른 신문들을 앞섰습니다.</span></li>
         </ul>
-        <p><strong>Received the Presidential Medal of Merit for National Foundation (Grade 2) from the government.</strong></p>
+        <p><span class="i18n" lang="en" data-en><strong>Received the Presidential Medal of Merit for National Foundation (Grade 2) from the government.</strong></span><span class="i18n" lang="ko" data-ko>정부로부터 건국훈장 대통령장(2등급)을 받았습니다.</span></p>
         </ul>
-        <h3 class="h-label">Verdicts</h3>
+        <h3 class="h-label"><span class="i18n" lang="en" data-en>Verdicts</span><span class="i18n" lang="ko" data-ko>판결</span></h3>
         <ul>
-        <li>In 1907, Bethell was tried by the British consul-general in Seoul for breaching public order through ten articles <strong>published in his newspapers.</strong> He was sentenced to six months of probation.</li>
-        <li>In 1908, Japanese authorities continued to pressure for his expulsion from Korea, leading to a second trial involving Korea, Japan, and the U.K. Bethell was sentenced to three weeks in jail, six months of probation, and fined GBP 350. He served three weeks in a Shanghai jail before being released on July 11, 1908.</li>
-        <li>Japanese media falsely accused Bethell of embezzling public funds collected by Koreans, but Bethell took the case to the British Supreme Court in Shanghai and won in December 1908.</li>
+        <li><span class="i18n" lang="en" data-en>In 1907, Bethell was tried by the British consul-general in Seoul for breaching public order through ten articles <strong>published in his newspapers.</strong> He was sentenced to six months of probation.</span><span class="i18n" lang="ko" data-ko>1907년 베델은 자신의 신문에 실린 10편의 기사가 공안을 해쳤다는 이유로 서울 주재 영국 총영사에게 재판을 받아 6개월의 근신형을 선고받았습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>In 1908, Japanese authorities continued to pressure for his expulsion from Korea, leading to a second trial involving Korea, Japan, and the U.K. Bethell was sentenced to three weeks in jail, six months of probation, and fined GBP 350. He served three weeks in a Shanghai jail before being released on July 11, 1908.</span><span class="i18n" lang="ko" data-ko>1908년 일제가 그의 한국 추방을 계속 압박하면서 한국·일본·영국이 관여한 두 번째 재판이 열렸습니다. 베델은 금고 3주와 근신 6개월, 벌금 350파운드를 선고받았으며, 상하이 감옥에서 3주를 복역한 뒤 1908년 7월 11일 석방되었습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Japanese media falsely accused Bethell of embezzling public funds collected by Koreans, but Bethell took the case to the British Supreme Court in Shanghai and won in December 1908.</span><span class="i18n" lang="ko" data-ko>일본 언론이 베델을 한국인들이 모은 공금을 횡령하였다고 허위로 비난하였으나, 베델은 이 사건을 상하이 주재 영국 고등법원에 제기하여 1908년 12월 승소하였습니다.</span></li>
         </ul></div>
     </div>
   </div>
@@ -150,16 +157,17 @@
       <img class="profile__portrait" src="assets/2025-09-07-10.10.39.png" alt="Portrait of Tang Jiyao(🇨🇳)" loading="lazy" decoding="async">
     </figure>
     <div class="profile__body">
-      <h2 class="h-name profile__name">Tang Jiyao(🇨🇳):</h2>
+      <h2 class="h-name profile__name"><span class="i18n" lang="en" data-en>Tang Jiyao(🇨🇳):</span><span class="i18n" lang="ko" data-ko>당계요 唐繼堯</span></h2>
       <p class="profile__dates"><strong>[1883. 08. 14 ~ 1927. 05. 24]</strong></p>
-      <div class="prose"><h3 class="h-label">Achievements</h3>
-        <p>A Chinese general and founder of the Yunnan Military Academy (육군강무당, 1909), which trained many future Chinese leaders and also provided education to Korean independence fighters.</p>
+      <p class="profile__official"><span lang="ko">건국훈장 대통령장</span> · 1968</p>
+      <div class="prose"><h3 class="h-label"><span class="i18n" lang="en" data-en>Achievements</span><span class="i18n" lang="ko" data-ko>공적</span></h3>
+        <p><span class="i18n" lang="en" data-en>A Chinese general and founder of the Yunnan Military Academy (육군강무당, 1909), which trained many future Chinese leaders and also provided education to Korean independence fighters.</span><span class="i18n" lang="ko" data-ko>중국의 군인으로, 훗날 중국의 여러 지도자를 배출하고 한국 독립운동가들에게도 교육의 기회를 제공한 윈난 육군강무당(육군강무당, 1909)을 설립하였습니다.</span></p>
         <ul>
-        <li>After the establishment of the Korean Provisional Government (1919), he maintained close ties with Korean leaders and openly declared that “the Korean people are not a lost nation.”</li>
-        <li>Pledged to support Korea by helping train at least two divisions of Korean military officers for the independence cause.</li>
-        <li>1924–1925: Sponsored around 30 Korean students to receive military training, including entry into the academy’s infantry and aviation divisions.</li>
-        <li>Supported figures such as Yi Beom-seok, Yi Jun-sik, Kim Gwan-o, and others, enabling them to join the academy and later lead armed resistance movements.</li>
-        <li>Despite Japanese diplomatic pressure to block Korean students, he consistently upheld his commitment to aiding the Korean independence movement.</li>
+        <li><span class="i18n" lang="en" data-en>After the establishment of the Korean Provisional Government (1919), he maintained close ties with Korean leaders and openly declared that “the Korean people are not a lost nation.”</span><span class="i18n" lang="ko" data-ko>대한민국 임시정부 수립(1919) 이후 한국 지도자들과 긴밀한 관계를 유지하였으며, “한국 민족은 망국의 민족이 아니다”라고 공개적으로 천명하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Pledged to support Korea by helping train at least two divisions of Korean military officers for the independence cause.</span><span class="i18n" lang="ko" data-ko>한국의 독립을 위하여 최소 2개 사단 규모의 한국인 군사 간부 양성을 돕겠다고 약속하며 한국을 지원할 것을 다짐하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>1924–1925: Sponsored around 30 Korean students to receive military training, including entry into the academy’s infantry and aviation divisions.</span><span class="i18n" lang="ko" data-ko>1924~1925년: 약 30명의 한국인 학생이 군사 훈련을 받도록 후원하였으며, 강무당의 보병과와 항공과 입학도 이에 포함되었습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Supported figures such as Yi Beom-seok, Yi Jun-sik, Kim Gwan-o, and others, enabling them to join the academy and later lead armed resistance movements.</span><span class="i18n" lang="ko" data-ko>이범석, 이준식, 김관오 등을 지원하여 이들이 강무당에 입학하고 훗날 무장 항일운동을 이끌 수 있도록 하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Despite Japanese diplomatic pressure to block Korean students, he consistently upheld his commitment to aiding the Korean independence movement.</span><span class="i18n" lang="ko" data-ko>일본이 한국인 학생의 입학을 막으려 외교적 압력을 가하였으나, 한국 독립운동을 지원한다는 뜻을 일관되게 지켰습니다.</span></li>
         </ul></div>
     </div>
   </div>
@@ -173,20 +181,20 @@
     <div class="profile__body">
       <h2 class="h-name profile__name">Sun Ke(🇨🇳):</h2>
       <p class="profile__dates"><strong>[1891. 10. 21 ~ 1973. 09. 13]</strong></p>
-      <div class="prose"><h3 class="h-label">Achievements</h3>
-        <p>Political Position: Served as President of the Legislative Yuan in China’s Nationalist Government (Kuomintang).</p>
+      <div class="prose"><h3 class="h-label"><span class="i18n" lang="en" data-en>Achievements</span><span class="i18n" lang="ko" data-ko>공적</span></h3>
+        <p><span class="i18n" lang="en" data-en>Political Position: Served as President of the Legislative Yuan in China’s Nationalist Government (Kuomintang).</span><span class="i18n" lang="ko" data-ko>정치적 지위: 중국 국민정부(국민당)의 입법원장을 역임하였습니다.</span></p>
         <ul>
-        <li>Advocacy for Korean Independence:</li>
+        <li><span class="i18n" lang="en" data-en>Advocacy for Korean Independence:</span><span class="i18n" lang="ko" data-ko>한국 독립 지지 활동:</span></li>
         <ul>
-        <li>In March 1942, formally appealed to U.S. President Franklin D. Roosevelt and British Prime Minister Winston Churchill, urging the independence of Korea, India, Vietnam, and the Philippines.</li>
-        <li>Highlighted the deep historical ties between Korea and China, emphasizing Korea as a <em>“brother nation”</em> in the joint anti-Japanese struggle.</li>
-        <li>Publicly declared that China’s recognition of the Provisional Government of the Republic of Korea was both natural and necessary.</li>
+        <li><span class="i18n" lang="en" data-en>In March 1942, formally appealed to U.S. President Franklin D. Roosevelt and British Prime Minister Winston Churchill, urging the independence of Korea, India, Vietnam, and the Philippines.</span><span class="i18n" lang="ko" data-ko>1942년 3월, 미국 대통령 프랭클린 D. 루스벨트와 영국 총리 윈스턴 처칠에게 정식으로 호소하여 한국과 인도, 베트남, 필리핀의 독립을 촉구하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Highlighted the deep historical ties between Korea and China, emphasizing Korea as a <em>“brother nation”</em> in the joint anti-Japanese struggle.</span><span class="i18n" lang="ko" data-ko>한국과 중국의 깊은 역사적 인연을 강조하고, 공동의 항일 투쟁에서 한국을 “형제의 나라”라고 규정하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Publicly declared that China’s recognition of the Provisional Government of the Republic of Korea was both natural and necessary.</span><span class="i18n" lang="ko" data-ko>중국이 대한민국 임시정부를 승인하는 것은 당연하고도 필요한 일이라고 공개적으로 선언하였습니다.</span></li>
         </ul>
-        <p>Ongoing Support:</p>
+        <p><span class="i18n" lang="en" data-en>Ongoing Support:</span><span class="i18n" lang="ko" data-ko>지속적인 지원:</span></p>
         <ul>
-        <li>In April 1942, reiterated at a mass meeting that Korea must gain independence.</li>
-        <li>In October 1942, as President of the Sino-Korean Cultural Association, continued lobbying for Korea’s liberation and international recognition of the Korean Provisional Government.</li>
-        <li>In July 1944, hosted Korean leaders at an event, urging Allied powers to officially recognize the Korean Provisional Government to strengthen the war effort against Japan.</li>
+        <li><span class="i18n" lang="en" data-en>In April 1942, reiterated at a mass meeting that Korea must gain independence.</span><span class="i18n" lang="ko" data-ko>1942년 4월, 대중 집회에서 한국이 반드시 독립을 이루어야 한다고 거듭 주장하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>In October 1942, as President of the Sino-Korean Cultural Association, continued lobbying for Korea’s liberation and international recognition of the Korean Provisional Government.</span><span class="i18n" lang="ko" data-ko>1942년 10월, 한중문화협회 회장으로서 한국의 해방과 대한민국 임시정부의 국제적 승인을 위한 활동을 계속하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>In July 1944, hosted Korean leaders at an event, urging Allied powers to officially recognize the Korean Provisional Government to strengthen the war effort against Japan.</span><span class="i18n" lang="ko" data-ko>1944년 7월, 행사를 열어 한국 지도자들을 초청하고, 대일 전쟁 수행을 강화하기 위하여 연합국이 대한민국 임시정부를 공식 승인할 것을 촉구하였습니다.</span></li>
         </ul>
         </ul></div>
     </div>
@@ -199,19 +207,20 @@
       <img class="profile__portrait" src="assets/2025-09-07-11.47.16.png" alt="Portrait of song Jiaoren(🇨🇳)" loading="lazy" decoding="async">
     </figure>
     <div class="profile__body">
-      <h2 class="h-name profile__name">song Jiaoren(🇨🇳):</h2>
+      <h2 class="h-name profile__name"><span class="i18n" lang="en" data-en>song Jiaoren(🇨🇳):</span><span class="i18n" lang="ko" data-ko>송교인 宋敎仁</span></h2>
       <p class="profile__dates"><strong>[1882 ~ 1913. 03. 22]</strong></p>
-      <div class="prose"><h3 class="h-label">Achievements</h3>
-        <p>Chinese Revolutionary Leader: Journalist, revolutionary, and co-founder of the Tongmenghui (Chinese United League) with Sun Yat-sen, playing a key role in the Xinhai Revolution (1911) that overthrew the Qing dynasty.</p>
+      <p class="profile__official"><span lang="ko">건국훈장 대통령장</span> · 1968</p>
+      <div class="prose"><h3 class="h-label"><span class="i18n" lang="en" data-en>Achievements</span><span class="i18n" lang="ko" data-ko>공적</span></h3>
+        <p><span class="i18n" lang="en" data-en>Chinese Revolutionary Leader: Journalist, revolutionary, and co-founder of the Tongmenghui (Chinese United League) with Sun Yat-sen, playing a key role in the Xinhai Revolution (1911) that overthrew the Qing dynasty.</span><span class="i18n" lang="ko" data-ko>중국의 혁명 지도자: 언론인이자 혁명가로서 쑨원과 함께 중국동맹회(Tongmenghui)를 창립하였으며, 청 왕조를 무너뜨린 신해혁명(1911)에서 핵심적인 역할을 하였습니다.</span></p>
         <ul>
-        <li>Kuomintang Founding Member: Actively participated in the creation of the Kuomintang (Nationalist Party) after the founding of the Republic of China.</li>
-        <li>Support for Korean Independence:</li>
+        <li><span class="i18n" lang="en" data-en>Kuomintang Founding Member: Actively participated in the creation of the Kuomintang (Nationalist Party) after the founding of the Republic of China.</span><span class="i18n" lang="ko" data-ko>국민당 창립 인물: 중화민국 수립 이후 국민당(중국국민당) 창당에 적극 참여하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Support for Korean Independence:</span><span class="i18n" lang="ko" data-ko>한국 독립운동 지원:</span></li>
         <ul>
-        <li>Maintained close ties with Korean independence leaders like Shin Gyu-sik (신규식).</li>
-        <li>Participated in Xin Ya Tongjisa (新亞同濟社) in Shanghai (1912), an expanded version of Tongjisa (同濟社) created by Korean exiles such as Park Eunsik, Shin Chaeho, and Kim Kyu-sik.</li>
-        <li>This organization fostered solidarity between Chinese and Korean revolutionaries, promoting friendship, cooperation, and Korea’s independence movement.</li>
+        <li><span class="i18n" lang="en" data-en>Maintained close ties with Korean independence leaders like Shin Gyu-sik (신규식).</span><span class="i18n" lang="ko" data-ko>신규식(신규식) 등 한국 독립운동 지도자들과 긴밀한 관계를 유지하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Participated in Xin Ya Tongjisa (新亞同濟社) in Shanghai (1912), an expanded version of Tongjisa (同濟社) created by Korean exiles such as Park Eunsik, Shin Chaeho, and Kim Kyu-sik.</span><span class="i18n" lang="ko" data-ko>1912년 상하이에서 박은식, 신채호, 김규식 등 한국인 망명객들이 결성한 동제사(同濟社)를 확대한 신아동제사(新亞同濟社)에 참여하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>This organization fostered solidarity between Chinese and Korean revolutionaries, promoting friendship, cooperation, and Korea’s independence movement.</span><span class="i18n" lang="ko" data-ko>이 단체는 중국과 한국 혁명가들 사이의 연대를 도모하여 친선과 협력, 그리고 한국의 독립운동을 뒷받침하였습니다.</span></li>
         </ul>
-        <p>His support and networks helped create the foundation for the 1919 establishment of the Provisional Government of the Republic of Korea in Shanghai.</p>
+        <p><span class="i18n" lang="en" data-en>His support and networks helped create the foundation for the 1919 establishment of the Provisional Government of the Republic of Korea in Shanghai.</span><span class="i18n" lang="ko" data-ko>그의 지원과 인적 연결망은 1919년 상하이에서 대한민국 임시정부가 수립되는 기반이 되었습니다.</span></p>
         </ul></div>
     </div>
   </div>
@@ -223,43 +232,82 @@
       <img class="profile__portrait" src="assets/2025-10-05-6.34.28.png" alt="Portrait of Woo Bin🇨🇳)" loading="lazy" decoding="async">
     </figure>
     <div class="profile__body">
-      <h2 class="h-name profile__name">Woo Bin🇨🇳):</h2>
+      <h2 class="h-name profile__name"><span class="i18n" lang="en" data-en>Woo Bin🇨🇳):</span><span class="i18n" lang="ko" data-ko>우빈 于斌</span></h2>
       <p class="profile__dates"><strong>[1901. 04. 13 ~ 1978. 08. 16]</strong></p>
-      <div class="prose"><h3 class="h-label">Achievements</h3>
-        <p>Supported the Korean Provisional Government and the Korean Liberation Army (Kwangbokgun) during World War II while serving as a Chinese Catholic bishop and public figure in Chongqing, China.</p>
+      <p class="profile__official"><span lang="ko">건국훈장 대통령장</span> · 1969</p>
+      <div class="prose"><h3 class="h-label"><span class="i18n" lang="en" data-en>Achievements</span><span class="i18n" lang="ko" data-ko>공적</span></h3>
+        <p><span class="i18n" lang="en" data-en>Supported the Korean Provisional Government and the Korean Liberation Army (Kwangbokgun) during World War II while serving as a Chinese Catholic bishop and public figure in Chongqing, China.</span><span class="i18n" lang="ko" data-ko>제2차 세계대전 중 중국 충칭에서 중국 가톨릭 주교이자 사회 지도자로 활동하며 대한민국 임시정부와 한국광복군을 지원하였습니다.</span></p>
         <ul>
-        <li>Attended the founding ceremony of the Korean Liberation Army Headquarters (1940), where he gave a speech encouraging unity between Korea and China, declaring that “no power can defeat justice and truth.”</li>
-        <li>Ordered 3.5 million Chinese Catholics to support the Korean independence cause through donations, prayers, and advocacy, thus mobilizing religious solidarity for Korea’s liberation.</li>
-        <li>Hosted a banquet for the Korean Provisional Government and Liberation Army members, publicly affirming China’s spiritual and moral support for Korean independence.</li>
-        <li>Used his newspaper, Yishebo (益世報), to promote Korean independence and spread anti-Japanese sentiment throughout China.</li>
-        <li>Donated 20,000 yuan to the Korean Liberation Army (1942) and advocated for international recognition of the Korean Provisional Government.</li>
-        <li>Played a key role in convincing Chiang Kai-shek to push for Korean independence to be formally included in the Cairo Declaration (1943), which promised Korea’s eventual freedom.</li>
-        <li>Maintained friendship and close cooperation with Kim Gu, exchanging symbolic gifts of solidarity (e.g., banners reading “협양정기 – Promote Righteous Spirit” and “정의사자 – Messenger of Justice”).</li>
-        <li>Continued to support Korea after independence by visiting Seoul multiple times (1954, 1959, 1961, 1969, 1976) and maintaining ties with President Syngman Rhee.</li>
+        <li><span class="i18n" lang="en" data-en>Attended the founding ceremony of the Korean Liberation Army Headquarters (1940), where he gave a speech encouraging unity between Korea and China, declaring that “no power can defeat justice and truth.”</span><span class="i18n" lang="ko" data-ko>한국광복군 총사령부 성립 전례(1940)에 참석하여 한국과 중국의 단결을 격려하는 연설을 하고, “어떠한 힘도 정의와 진리를 이길 수 없다”고 천명하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Ordered 3.5 million Chinese Catholics to support the Korean independence cause through donations, prayers, and advocacy, thus mobilizing religious solidarity for Korea’s liberation.</span><span class="i18n" lang="ko" data-ko>중국 가톨릭 신자 350만 명에게 헌금과 기도, 지지 활동을 통하여 한국의 독립운동을 후원하도록 지시하여, 한국의 해방을 위한 종교적 연대를 이끌어냈습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Hosted a banquet for the Korean Provisional Government and Liberation Army members, publicly affirming China’s spiritual and moral support for Korean independence.</span><span class="i18n" lang="ko" data-ko>대한민국 임시정부와 광복군 인사들을 위한 연회를 열어 한국 독립에 대한 중국의 정신적·도덕적 지지를 공개적으로 표명하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Used his newspaper, Yishebo (益世報), to promote Korean independence and spread anti-Japanese sentiment throughout China.</span><span class="i18n" lang="ko" data-ko>자신이 발행한 신문 익세보(益世報)를 통하여 한국의 독립을 선전하고 중국 전역에 항일 여론을 확산시켰습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Donated 20,000 yuan to the Korean Liberation Army (1942) and advocated for international recognition of the Korean Provisional Government.</span><span class="i18n" lang="ko" data-ko>한국광복군에 2만 위안을 기부하였으며(1942), 대한민국 임시정부의 국제적 승인을 주장하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Played a key role in convincing Chiang Kai-shek to push for Korean independence to be formally included in the Cairo Declaration (1943), which promised Korea’s eventual freedom.</span><span class="i18n" lang="ko" data-ko>장제스를 설득하여 한국의 독립이 카이로 선언(1943)에 공식적으로 포함되도록 하는 데 핵심적인 역할을 하였으며, 이 선언은 한국이 머지않아 자유를 얻을 것을 약속하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Maintained friendship and close cooperation with Kim Gu, exchanging symbolic gifts of solidarity (e.g., banners reading “협양정기 – Promote Righteous Spirit” and “정의사자 – Messenger of Justice”).</span><span class="i18n" lang="ko" data-ko>김구와 우의를 나누며 긴밀히 협력하였고, 연대의 뜻을 담은 상징적인 선물을 주고받았습니다(예: “협양정기 – Promote Righteous Spirit”, “정의사자 – Messenger of Justice”라고 쓴 휘호).</span></li>
+        <li><span class="i18n" lang="en" data-en>Continued to support Korea after independence by visiting Seoul multiple times (1954, 1959, 1961, 1969, 1976) and maintaining ties with President Syngman Rhee.</span><span class="i18n" lang="ko" data-ko>광복 이후에도 여러 차례 서울을 방문하고(1954, 1959, 1961, 1969, 1976) 이승만 대통령과 교류를 이어가며 한국을 계속 지원하였습니다.</span></li>
         </ul></div>
     </div>
   </div>
 </article>
+
+<section class="section roster" id="roster" aria-labelledby="roster-h">
+  <div class="shell">
+    <div class="roster__head">
+      <h2 class="h-section" id="roster-h"><span class="i18n" lang="en" data-en>Full roster</span><span class="i18n" lang="ko" data-ko>전체 명단</span></h2>
+      <p class="roster__count"><strong>11</strong> <span class="i18n" lang="en" data-en>entries</span><span class="i18n" lang="ko" data-ko>명</span></p>
+    </div>
+    <p class="roster__note"><span class="i18n" lang="en" data-en>Every recipient of this grade. Fields are reproduced exactly as recorded.</span><span class="i18n" lang="ko" data-ko>이 훈격의 전체 포상자입니다. 각 항목은 기록된 내용을 그대로 옮겼습니다.</span></p>
+  <div class="roster__criteria">
+    <h3 class="h-label"><span class="i18n" lang="en" data-en>Criteria for this grade</span><span class="i18n" lang="ko" data-ko>이 훈격의 서훈 기준</span></h3>
+    <p><strong lang="ko">건국훈장 대통령장</strong> <span lang="ko">(2등급)</span></p>
+    <p><span class="i18n" lang="en" data-en>Those with conspicuous contribution to the founding of the nation.</span><span class="i18n" lang="ko" data-ko>건국에 현저한 공로가 있는 자</span></p>
+  </div>
+    <div class="roster__tools">
+      <input class="roster__search" type="search" placeholder="Filter by name…" aria-label="Filter names on this page" data-ph-en="Filter by name…" data-ph-ko="이름으로 찾기…">
+      <p class="roster__shown" aria-live="polite"></p>
+    </div>
+    <div class="roster__scroll">
+      <table class="roster__table">
+        <thead><tr><th><span class="i18n" lang="en" data-en>Name</span><span class="i18n" lang="ko" data-ko>성명</span></th><th><span class="i18n" lang="en" data-en>Hanja</span><span class="i18n" lang="ko" data-ko>한자명</span></th><th><span class="i18n" lang="en" data-en>Years</span><span class="i18n" lang="ko" data-ko>생몰년</span></th><th><span class="i18n" lang="en" data-en>Movement</span><span class="i18n" lang="ko" data-ko>운동계열</span></th><th><span class="i18n" lang="en" data-en>Awarded</span><span class="i18n" lang="ko" data-ko>포상년도</span></th><th><span class="i18n" lang="en" data-en>Place of origin</span><span class="i18n" lang="ko" data-ko>본적</span></th></tr></thead>
+        <tbody>
+          <tr><th scope="row" lang="ko"><a class="roster__jump" href="#tang-jiyao">당계요</a></th><td lang="ko" class="roster__hanja">唐繼堯</td><td>1883 ~ 1927</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">손과</th><td lang="ko" class="roster__hanja">孫科</td><td>1891 ~ 1973</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1970</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko"><a class="roster__jump" href="#song-jiaoren">송교인</a></th><td lang="ko" class="roster__hanja">宋敎仁</td><td>1882 ~ 1913</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko"><a class="roster__jump" href="#ernest-thomas-bethell">어네스트 토마스 베델</a></th><td lang="ko" class="roster__hanja">Ernest Thomas Bethell</td><td>1872 ~ 1909</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1950</td><td lang="ko" class="roster__origin">외국 영국</td></tr>
+          <tr><th scope="row" lang="ko">여천민</th><td lang="ko" class="roster__hanja">呂天民</td><td>1881 ~ 1940</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko"><a class="roster__jump" href="#woo-bin">우빈</a></th><td lang="ko" class="roster__hanja">于斌</td><td>1901 ~ 1978</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1969</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">임삼</th><td lang="ko" class="roster__hanja">林森</td><td>1862 ~ 1943</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">주가화</th><td lang="ko" class="roster__hanja">朱家驊</td><td>1893 ~ 1963</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1977</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">진성</th><td lang="ko" class="roster__hanja">陳誠</td><td>1898 ~ 1965</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1966</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">호한민</th><td lang="ko" class="roster__hanja">胡漢民</td><td>1886 ~ 1936</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">황흥</th><td lang="ko" class="roster__hanja">黃興</td><td>1874 ~ 1916</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="roster__empty" hidden><span class="i18n" lang="en" data-en>No name on this page matches that filter.</span><span class="i18n" lang="ko" data-ko>해당하는 이름을 찾지 못하였습니다.</span></p>
+  </div>
+</section>
 </main>
 
 <footer class="footer">
   <div class="shell">
     <div class="footer__top">
-      <h2 class="h-section"><strong>Get in Touch</strong></h2>
+      <h2 class="h-section"><span class="i18n" lang="en" data-en><strong>Get in Touch</strong></span><span class="i18n" lang="ko" data-ko>연락처</span></h2>
       <div class="footer__contact">
-        <a href="mailto:jbhyunwoobang@gmail.com"><a href="mailto:jbhyunwoobang@gmail.com?">Email</a> <span>jbhyunwoobang@gmail.com</span></a>
-        <a href="https://www.instagram.com/heritage_of_koreans/" target="_blank" rel="noopener"><a href="https://www.instagram.com/heritage_of_koreans/">INSTAGRAM</a> <span>@heritage_of_koreans</span></a>
+        <a href="mailto:jbhyunwoobang@gmail.com"><span class="i18n" lang="en" data-en><a href="mailto:jbhyunwoobang@gmail.com?">Email</a></span><span class="i18n" lang="ko" data-ko>이메일</span> <span>jbhyunwoobang@gmail.com</span></a>
+        <a href="https://www.instagram.com/heritage_of_koreans/" target="_blank" rel="noopener"><span class="i18n" lang="en" data-en><a href="https://www.instagram.com/heritage_of_koreans/">INSTAGRAM</a></span><span class="i18n" lang="ko" data-ko>인스타그램</span> <span>@heritage_of_koreans</span></a>
       </div>
     </div>
   </div>
   <div class="footer__mark" aria-hidden="true">
-    <span class="mark-lg">Korean</span>
-    <span class="mark-sm">Independent ACtivist</span>
+    <span class="mark-lg"><span class="i18n" lang="en" data-en>Korean</span><span class="i18n" lang="ko" data-ko>한국의</span></span>
+    <span class="mark-sm"><span class="i18n" lang="en" data-en>Independent ACtivist</span><span class="i18n" lang="ko" data-ko>독립운동가</span></span>
   </div>
   <div class="shell">
     <div class="footer__legal">
       <p>&copy; KoreanFreedomFighters</p>
-      <p>Commemorating every activist of the Korean independence movement.</p>
+      <p><span class="i18n" lang="en" data-en>Commemorating every activist of the Korean independence movement.</span><span class="i18n" lang="ko" data-ko>한국 독립운동에 참여한 모든 독립운동가를 기억하였습니다.</span></p>
     </div>
   </div>
 </footer>

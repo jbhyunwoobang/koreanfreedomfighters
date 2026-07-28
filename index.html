@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,42 +15,48 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body data-menu="closed">
-<a class="skip" href="#main">Skip to content</a>
+<a class="skip" href="#main"><span class="i18n" lang="en" data-en>Skip to content</span><span class="i18n" lang="ko" data-ko>본문으로 건너뛰기</span></a>
 
 <header class="masthead">
   <div class="shell masthead__inner">
     <a class="wordmark" href="index.html">KoreanFreedomFighters</a>
     <nav class="nav" id="sitenav" aria-label="Main">
       <ul class="nav__list">
-        <li><a class="nav__link" href="index.html" aria-current="page">Home</a></li>
+        <li><a class="nav__link" href="index.html" aria-current="page"><span class="i18n" lang="en" data-en>Home</span><span class="i18n" lang="ko" data-ko>홈</span></a></li>
         <li class="nav__item" data-open="false">
-        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-korean">KoreanActivists<span class="nav__caret" aria-hidden="true"></span></button>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-korean"><span class="i18n" lang="en" data-en>KoreanActivists</span><span class="i18n" lang="ko" data-ko>한국인 독립운동가</span><span class="nav__caret" aria-hidden="true"></span></button>
         <ul class="nav__menu" id="menu-korean">
-          <li><a href="korean-1st-class.html">1st Class</a></li>
-          <li><a href="korean-2nd-class.html">2nd Class</a></li>
-          <li><a href="korean-3rd-class.html">3rd Class</a></li>
-          <li><a href="korean-4th-class.html">4th Class</a></li>
-          <li><a href="korean-5th-class.html">5th Class</a></li>
-          <li><a href="korean-national-award.html">National Award</a></li>
+          <li><a href="korean-1st-class.html"><span class="i18n" lang="en" data-en>1st Class</span><span class="i18n" lang="ko" data-ko>대한민국장 (1등급)</span></a></li>
+          <li><a href="korean-2nd-class.html"><span class="i18n" lang="en" data-en>2nd Class</span><span class="i18n" lang="ko" data-ko>대통령장 (2등급)</span></a></li>
+          <li><a href="korean-3rd-class.html"><span class="i18n" lang="en" data-en>3rd Class</span><span class="i18n" lang="ko" data-ko>독립장 (3등급)</span></a></li>
+          <li><a href="korean-4th-class.html"><span class="i18n" lang="en" data-en>4th Class</span><span class="i18n" lang="ko" data-ko>애국장 (4등급)</span></a></li>
+          <li><a href="korean-5th-class.html"><span class="i18n" lang="en" data-en>5th Class</span><span class="i18n" lang="ko" data-ko>애족장 (5등급)</span></a></li>
+          <li><a href="korean-national-award.html"><span class="i18n" lang="en" data-en>National Award</span><span class="i18n" lang="ko" data-ko>National Award</span></a></li>
         </ul>
       </li>
         <li class="nav__item" data-open="false">
-        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-foreign">ForeignActivists<span class="nav__caret" aria-hidden="true"></span></button>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-foreign"><span class="i18n" lang="en" data-en>ForeignActivists</span><span class="i18n" lang="ko" data-ko>외국인 독립운동가</span><span class="nav__caret" aria-hidden="true"></span></button>
         <ul class="nav__menu" id="menu-foreign">
-          <li><a href="foreign-1st-class.html">1st Class</a></li>
-          <li><a href="foreign-2nd-class.html">2nd Class</a></li>
-          <li><a href="foreign-3rd-class.html">3rd Class</a></li>
-          <li><a href="foreign-4th-class.html">4th Class</a></li>
-          <li><a href="foreign-5th-class.html">5th Class</a></li>
-          <li><a href="foreign-national-award.html">National Award</a></li>
+          <li><a href="foreign-1st-class.html"><span class="i18n" lang="en" data-en>1st Class</span><span class="i18n" lang="ko" data-ko>대한민국장 (1등급)</span></a></li>
+          <li><a href="foreign-2nd-class.html"><span class="i18n" lang="en" data-en>2nd Class</span><span class="i18n" lang="ko" data-ko>대통령장 (2등급)</span></a></li>
+          <li><a href="foreign-3rd-class.html"><span class="i18n" lang="en" data-en>3rd Class</span><span class="i18n" lang="ko" data-ko>독립장 (3등급)</span></a></li>
+          <li><a href="foreign-4th-class.html"><span class="i18n" lang="en" data-en>4th Class</span><span class="i18n" lang="ko" data-ko>애국장 (4등급)</span></a></li>
+          <li><a href="foreign-5th-class.html"><span class="i18n" lang="en" data-en>5th Class</span><span class="i18n" lang="ko" data-ko>애족장 (5등급)</span></a></li>
+          <li><a href="foreign-national-award.html"><span class="i18n" lang="en" data-en>National Award</span><span class="i18n" lang="ko" data-ko>National Award</span></a></li>
         </ul>
       </li>
-        <li><a class="nav__link" href="about.html">About</a></li>
+        <li><a class="nav__link" href="about.html"><span class="i18n" lang="en" data-en>About</span><span class="i18n" lang="ko" data-ko>소개</span></a></li>
       </ul>
     </nav>
-    <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sitenav">
-      <span></span><span></span><span></span>
-    </button>
+    <div class="masthead__actions">
+      <button class="langtoggle" type="button" data-lang-toggle
+              aria-label="Switch to Korean" title="Switch to Korean">
+        <span class="langtoggle__on">EN</span><span class="langtoggle__sep">/</span><span class="langtoggle__off" lang="ko">한국어</span>
+      </button>
+      <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sitenav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
 </header>
 
@@ -61,8 +67,8 @@
   </div>
   <div class="hero__slab reveal">
     <div class="hero__rule" aria-hidden="true"><i></i><i></i><i></i></div>
-    <h1 class="h-hero">I commemorate</h1>
-    <p class="h-hero-sub" role="doc-subtitle">Korean indenepdence activists</p>
+    <h1 class="h-hero"><span class="i18n" lang="en" data-en>I commemorate</span><span class="i18n" lang="ko" data-ko>기억하였습니다</span></h1>
+    <p class="h-hero-sub" role="doc-subtitle"><span class="i18n" lang="en" data-en>Korean indenepdence activists</span><span class="i18n" lang="ko" data-ko>한국의 독립운동가를</span></p>
   </div>
 </section>
 
@@ -70,21 +76,21 @@
   <div class="shell split">
     <div class="split__body">
       
-      <div class="prose"><h4 class="h-label">In this website, you will learn about Korean Independence activists.</h4>
-        <p><strong>HERE, YOU CAN GET DIVERSE INFORMATION ABOUT: </strong></p>
+      <div class="prose"><h4 class="h-label"><span class="i18n" lang="en" data-en>In this website, you will learn about Korean Independence activists.</span><span class="i18n" lang="ko" data-ko>이 웹사이트에서 한국의 독립운동가에 대하여 알아보실 수 있습니다.</span></h4>
+        <p><span class="i18n" lang="en" data-en><strong>HERE, YOU CAN GET DIVERSE INFORMATION ABOUT: </strong></span><span class="i18n" lang="ko" data-ko>이곳에서는 다음과 같은 내용을 살펴보실 수 있습니다.</span></p>
         <ul>
-        <li>The Korean independence movement</li>
-        <li>The numerous heroes who participated in it, including Korean activists, foreign activists, and much more.</li>
+        <li><span class="i18n" lang="en" data-en>The Korean independence movement</span><span class="i18n" lang="ko" data-ko>한국의 독립운동</span></li>
+        <li><span class="i18n" lang="en" data-en>The numerous heroes who participated in it, including Korean activists, foreign activists, and much more.</span><span class="i18n" lang="ko" data-ko>그 운동에 참여한 수많은 영웅들, 곧 한국인 독립운동가와 외국인 독립운동가를 비롯한 여러 인물들</span></li>
         </ul>
-        <p>With respect, I commemorate their names, faces, achievements, and lives.</p>
-        <p><strong>FURTHER ON, I REMEMBER/SUMMARIZE:</strong></p>
+        <p><span class="i18n" lang="en" data-en>With respect, I commemorate their names, faces, achievements, and lives.</span><span class="i18n" lang="ko" data-ko>저는 그분들의 이름과 얼굴, 공적과 삶을 존경하는 마음으로 기억하였습니다.</span></p>
+        <p><span class="i18n" lang="en" data-en><strong>FURTHER ON, I REMEMBER/SUMMARIZE:</strong></span><span class="i18n" lang="ko" data-ko>나아가 다음의 내용을 기록하고 정리하였습니다.</span></p>
         <ul>
-        <li>The judgments activists received in relation to their independence movements,</li>
-        <li>What the court's position/country's position is on these rulings.</li>
+        <li><span class="i18n" lang="en" data-en>The judgments activists received in relation to their independence movements,</span><span class="i18n" lang="ko" data-ko>독립운동과 관련하여 독립운동가들이 받은 판결</span></li>
+        <li><span class="i18n" lang="en" data-en>What the court's position/country's position is on these rulings.</span><span class="i18n" lang="ko" data-ko>그 판결에 대한 법원의 입장과 국가의 입장</span></li>
         </ul>
-        <p><a class="btn" href="about.html">Learn about Korean Activism<span class="btn__arrow" aria-hidden="true">&rarr;</span></a></p>
+        <p><a class="btn" href="about.html"><span class="i18n" lang="en" data-en>Learn about Korean Activism</span><span class="i18n" lang="ko" data-ko>한국의 독립운동 알아보기</span><span class="btn__arrow" aria-hidden="true">&rarr;</span></a></p>
         <img src="assets/sub05_01.jpg" alt="" loading="lazy" decoding="async">
-        <h4 class="h-label"><strong>Through this, We can develop the viewpoints towards freedom fighting movements at that time, and the perspective towards it in the modern world.</strong></h4></div>
+        <h4 class="h-label"><span class="i18n" lang="en" data-en><strong>Through this, We can develop the viewpoints towards freedom fighting movements at that time, and the perspective towards it in the modern world.</strong></span><span class="i18n" lang="ko" data-ko>이를 통하여 당시의 독립운동을 바라보던 시각과, 오늘날 그것을 바라보는 관점을 함께 넓힐 수 있습니다.</span></h4></div>
     </div>
     <figure class="split__media">
       <img src="assets/Troni-Korean-independence.png" alt="" loading="lazy" decoding="async">
@@ -96,10 +102,10 @@
   <div class="shell split split--flip">
     <div class="split__body">
       
-      <div class="prose"><h4 class="h-label">Why is it important to inform the activists to the society? What are the purposes?</h4>
-        <p>There were freedom fighters who were well-known and often mentioned when it came to Korean independence movements. However, many more heroes had great achievements yet have not been spoken about in society.</p>
-        <p>Therefore, my job is to commemorate them and other renowned activists.</p>
-        <p>My choice covers every activist who participated in the Korean independence movement, regardless of gender, age, and nationality.</p></div>
+      <div class="prose"><h4 class="h-label"><span class="i18n" lang="en" data-en>Why is it important to inform the activists to the society? What are the purposes?</span><span class="i18n" lang="ko" data-ko>독립운동가를 사회에 알리는 일이 왜 중요합니까? 그 목적은?</span></h4>
+        <p><span class="i18n" lang="en" data-en>There were freedom fighters who were well-known and often mentioned when it came to Korean independence movements. However, many more heroes had great achievements yet have not been spoken about in society.</span><span class="i18n" lang="ko" data-ko>한국의 독립운동을 이야기할 때 널리 알려지고 자주 언급되는 독립운동가들이 있었습니다. 그러나 그보다 훨씬 많은 영웅들이 큰 공적을 남겼음에도 사회에서 제대로 이야기되지 못하였습니다.</span></p>
+        <p><span class="i18n" lang="en" data-en>Therefore, my job is to commemorate them and other renowned activists.</span><span class="i18n" lang="ko" data-ko>그리하여 저는 그분들과 이미 알려진 독립운동가들을 함께 기리는 일을 하고자 하였습니다.</span></p>
+        <p><span class="i18n" lang="en" data-en>My choice covers every activist who participated in the Korean independence movement, regardless of gender, age, and nationality.</span><span class="i18n" lang="ko" data-ko>저는 성별과 나이, 국적에 관계없이 한국의 독립운동에 참여한 모든 독립운동가를 다루고자 하였습니다.</span></p></div>
     </div>
     <figure class="split__media">
       <img src="assets/2024-07-11-5.58.55.png" alt="" loading="lazy" decoding="async">
@@ -111,21 +117,21 @@
 <footer class="footer">
   <div class="shell">
     <div class="footer__top">
-      <h2 class="h-section"><strong>Get in Touch</strong></h2>
+      <h2 class="h-section"><span class="i18n" lang="en" data-en><strong>Get in Touch</strong></span><span class="i18n" lang="ko" data-ko>연락처</span></h2>
       <div class="footer__contact">
-        <a href="mailto:jbhyunwoobang@gmail.com"><a href="mailto:jbhyunwoobang@gmail.com?">Email</a> <span>jbhyunwoobang@gmail.com</span></a>
-        <a href="https://www.instagram.com/heritage_of_koreans/" target="_blank" rel="noopener"><a href="https://www.instagram.com/heritage_of_koreans/">INSTAGRAM</a> <span>@heritage_of_koreans</span></a>
+        <a href="mailto:jbhyunwoobang@gmail.com"><span class="i18n" lang="en" data-en><a href="mailto:jbhyunwoobang@gmail.com?">Email</a></span><span class="i18n" lang="ko" data-ko>이메일</span> <span>jbhyunwoobang@gmail.com</span></a>
+        <a href="https://www.instagram.com/heritage_of_koreans/" target="_blank" rel="noopener"><span class="i18n" lang="en" data-en><a href="https://www.instagram.com/heritage_of_koreans/">INSTAGRAM</a></span><span class="i18n" lang="ko" data-ko>인스타그램</span> <span>@heritage_of_koreans</span></a>
       </div>
     </div>
   </div>
   <div class="footer__mark" aria-hidden="true">
-    <span class="mark-lg">Korean</span>
-    <span class="mark-sm">Independent ACtivist</span>
+    <span class="mark-lg"><span class="i18n" lang="en" data-en>Korean</span><span class="i18n" lang="ko" data-ko>한국의</span></span>
+    <span class="mark-sm"><span class="i18n" lang="en" data-en>Independent ACtivist</span><span class="i18n" lang="ko" data-ko>독립운동가</span></span>
   </div>
   <div class="shell">
     <div class="footer__legal">
       <p>&copy; KoreanFreedomFighters</p>
-      <p>Commemorating every activist of the Korean independence movement.</p>
+      <p><span class="i18n" lang="en" data-en>Commemorating every activist of the Korean independence movement.</span><span class="i18n" lang="ko" data-ko>한국 독립운동에 참여한 모든 독립운동가를 기억하였습니다.</span></p>
     </div>
   </div>
 </footer>

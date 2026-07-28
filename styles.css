@@ -776,6 +776,203 @@ body[data-menu="open"] .burger span:nth-child(3) { transform: translateY(-0.35re
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
 
+/* --------------------------------------------------------- language switch */
+
+/* One language is shown at a time. Blocks with [data-both] have no translation
+   yet and stay visible in either mode. Defaults assume English so the page is
+   correct before any script runs. */
+/* Hiding the inactive language is an invariant, so both rules are written at a
+   specificity no layout rule below can beat. A plain `[data-ko]` selector loses
+   to things like `h1 [data-ko] { display: inline }` and leaks Korean into the
+   English page. */
+:root:not([data-lang="ko"]) [data-ko] { display: none; }
+:root[data-lang="ko"] [data-en] { display: none; }
+
+/* the active language sits inline inside its heading or paragraph */
+:root[data-lang="ko"] [data-ko],
+:root:not([data-lang="ko"]) [data-en] { display: inline; }
+
+/* A line the Korean deliberately folds into the heading above it: hide the line
+   and the element holding it, so no empty gap is left behind. */
+:root[data-lang="ko"] .only-en,
+:root[data-lang="ko"] :is(p, h1, h2, h3, h4):has(> .only-en:only-child) { display: none; }
+
+:root[data-lang="ko"] :is(h1, h2, h3, h4, .h-label, .h-section, .h-name, .nav__link,
+  .nav__toggle, .nav__menu a, .btn, .wordmark) {
+  /* Korean has no case distinction; uppercasing only widens tracking oddly */
+  text-transform: none;
+  letter-spacing: 0;
+  word-break: keep-all;
+  line-height: 1.24;
+}
+
+:root[data-lang="ko"] body { word-break: keep-all; }
+
+.langtoggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.5rem 0.85rem;
+  border: 1px solid var(--ink-faint);
+  border-radius: 300px;
+  background: none;
+  color: var(--ink);
+  cursor: pointer;
+  font-family: var(--head);
+  font-weight: 800;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  transition: background 0.2s var(--ease), border-color 0.2s var(--ease);
+}
+
+.langtoggle:hover { background: var(--paper-deep); border-color: var(--ink); }
+.langtoggle__sep { opacity: 0.35; }
+.langtoggle__off { opacity: 0.45; }
+.langtoggle__on { opacity: 1; }
+:root[data-lang="ko"] .langtoggle__on { opacity: 0.45; }
+:root[data-lang="ko"] .langtoggle__off { opacity: 1; }
+
+.masthead__actions { display: flex; align-items: center; gap: 0.6rem; }
+
+/* ------------------------------------------------------------------- roster */
+
+.roster { border-top: 1px solid var(--ink-faint); }
+
+.roster__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.75rem 1.5rem;
+  justify-content: space-between;
+  margin-bottom: 0.9rem;
+}
+
+.roster__count { margin: 0; font-family: var(--head); font-weight: 800; font-size: 0.9rem; }
+.roster__count strong { font-size: 1.35rem; }
+
+.roster__note {
+  max-width: 70ch;
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+  margin-bottom: 1.5rem;
+}
+
+.roster__criteria {
+  border-left: 3px solid var(--ink);
+  padding: 0.15rem 0 0.15rem 1.15rem;
+  margin-bottom: 1.75rem;
+}
+
+.roster__criteria p { margin: 0.35rem 0 0; font-size: 0.95rem; }
+
+.roster__tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.roster__search {
+  font-family: var(--body);
+  font-size: 0.95rem;
+  color: var(--ink);
+  background: var(--paper-warm);
+  border: 1px solid var(--ink-faint);
+  border-radius: 300px;
+  padding: 0.6rem 1.15rem;
+  width: min(100%, 22rem);
+}
+
+.roster__shown { margin: 0; font-size: 0.85rem; color: var(--ink-soft); }
+
+.roster__scroll {
+  overflow-x: auto;
+  border: 1px solid var(--ink-faint);
+  background: var(--paper-warm);
+  max-height: 46rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.roster__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  min-width: 44rem;
+}
+
+.roster__table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--paper-deep);
+  text-align: left;
+  font-family: var(--head);
+  font-weight: 800;
+  font-size: 0.74rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.7rem 0.85rem;
+  border-bottom: 1px solid var(--ink-faint);
+  white-space: nowrap;
+}
+
+.roster__table tbody th,
+.roster__table td {
+  padding: 0.6rem 0.85rem;
+  border-bottom: 1px solid var(--ink-hairline);
+  text-align: left;
+  font-weight: 400;
+  vertical-align: top;
+}
+
+.roster__table tbody th { font-family: var(--head); font-weight: 800; white-space: nowrap; }
+.roster__table tbody tr:hover { background: var(--paper-deep); }
+.roster__table tbody tr[hidden] { display: none; }
+
+.roster__hanja { color: var(--ink-soft); white-space: nowrap; }
+.roster__origin, .roster__move { white-space: nowrap; }
+.roster__prior { color: var(--ink-soft); font-size: 0.82rem; }
+.roster__src a { text-decoration: none; font-size: 1rem; opacity: 0.55; }
+.roster__src a:hover { opacity: 1; }
+.roster__jump { text-decoration: none; border-bottom: 2px solid var(--ink); }
+
+.vh {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.profile__official { margin: -0.75rem 0 1.5rem; }
+
+.profile__official a {
+  font-family: var(--head);
+  font-weight: 800;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--ink-faint);
+  border-radius: 300px;
+  color: var(--ink-soft);
+  transition: color 0.2s var(--ease), border-color 0.2s var(--ease);
+}
+
+.profile__official a:hover { color: var(--ink); border-color: var(--ink); }
+
+@media (max-width: 700px) {
+  .roster__scroll { max-height: 34rem; }
+  .langtoggle { padding: 0.45rem 0.7rem; font-size: 0.68rem; }
+}
+
 /* -------------------------------------------------------------------- print */
 
 @media print {

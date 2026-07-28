@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,42 +15,48 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body data-menu="closed">
-<a class="skip" href="#main">Skip to content</a>
+<a class="skip" href="#main"><span class="i18n" lang="en" data-en>Skip to content</span><span class="i18n" lang="ko" data-ko>본문으로 건너뛰기</span></a>
 
 <header class="masthead">
   <div class="shell masthead__inner">
     <a class="wordmark" href="index.html">KoreanFreedomFighters</a>
     <nav class="nav" id="sitenav" aria-label="Main">
       <ul class="nav__list">
-        <li><a class="nav__link" href="index.html">Home</a></li>
+        <li><a class="nav__link" href="index.html"><span class="i18n" lang="en" data-en>Home</span><span class="i18n" lang="ko" data-ko>홈</span></a></li>
         <li class="nav__item" data-open="false">
-        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-korean">KoreanActivists<span class="nav__caret" aria-hidden="true"></span></button>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-korean"><span class="i18n" lang="en" data-en>KoreanActivists</span><span class="i18n" lang="ko" data-ko>한국인 독립운동가</span><span class="nav__caret" aria-hidden="true"></span></button>
         <ul class="nav__menu" id="menu-korean">
-          <li><a href="korean-1st-class.html">1st Class</a></li>
-          <li><a href="korean-2nd-class.html">2nd Class</a></li>
-          <li><a href="korean-3rd-class.html">3rd Class</a></li>
-          <li><a href="korean-4th-class.html">4th Class</a></li>
-          <li><a href="korean-5th-class.html">5th Class</a></li>
-          <li><a href="korean-national-award.html">National Award</a></li>
+          <li><a href="korean-1st-class.html"><span class="i18n" lang="en" data-en>1st Class</span><span class="i18n" lang="ko" data-ko>대한민국장 (1등급)</span></a></li>
+          <li><a href="korean-2nd-class.html"><span class="i18n" lang="en" data-en>2nd Class</span><span class="i18n" lang="ko" data-ko>대통령장 (2등급)</span></a></li>
+          <li><a href="korean-3rd-class.html"><span class="i18n" lang="en" data-en>3rd Class</span><span class="i18n" lang="ko" data-ko>독립장 (3등급)</span></a></li>
+          <li><a href="korean-4th-class.html"><span class="i18n" lang="en" data-en>4th Class</span><span class="i18n" lang="ko" data-ko>애국장 (4등급)</span></a></li>
+          <li><a href="korean-5th-class.html"><span class="i18n" lang="en" data-en>5th Class</span><span class="i18n" lang="ko" data-ko>애족장 (5등급)</span></a></li>
+          <li><a href="korean-national-award.html"><span class="i18n" lang="en" data-en>National Award</span><span class="i18n" lang="ko" data-ko>National Award</span></a></li>
         </ul>
       </li>
         <li class="nav__item" data-open="false">
-        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-foreign">ForeignActivists<span class="nav__caret" aria-hidden="true"></span></button>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-foreign"><span class="i18n" lang="en" data-en>ForeignActivists</span><span class="i18n" lang="ko" data-ko>외국인 독립운동가</span><span class="nav__caret" aria-hidden="true"></span></button>
         <ul class="nav__menu" id="menu-foreign">
-          <li><a href="foreign-1st-class.html">1st Class</a></li>
-          <li><a href="foreign-2nd-class.html">2nd Class</a></li>
-          <li><a href="foreign-3rd-class.html">3rd Class</a></li>
-          <li><a href="foreign-4th-class.html" aria-current="page">4th Class</a></li>
-          <li><a href="foreign-5th-class.html">5th Class</a></li>
-          <li><a href="foreign-national-award.html">National Award</a></li>
+          <li><a href="foreign-1st-class.html"><span class="i18n" lang="en" data-en>1st Class</span><span class="i18n" lang="ko" data-ko>대한민국장 (1등급)</span></a></li>
+          <li><a href="foreign-2nd-class.html"><span class="i18n" lang="en" data-en>2nd Class</span><span class="i18n" lang="ko" data-ko>대통령장 (2등급)</span></a></li>
+          <li><a href="foreign-3rd-class.html"><span class="i18n" lang="en" data-en>3rd Class</span><span class="i18n" lang="ko" data-ko>독립장 (3등급)</span></a></li>
+          <li><a href="foreign-4th-class.html" aria-current="page"><span class="i18n" lang="en" data-en>4th Class</span><span class="i18n" lang="ko" data-ko>애국장 (4등급)</span></a></li>
+          <li><a href="foreign-5th-class.html"><span class="i18n" lang="en" data-en>5th Class</span><span class="i18n" lang="ko" data-ko>애족장 (5등급)</span></a></li>
+          <li><a href="foreign-national-award.html"><span class="i18n" lang="en" data-en>National Award</span><span class="i18n" lang="ko" data-ko>National Award</span></a></li>
         </ul>
       </li>
-        <li><a class="nav__link" href="about.html">About</a></li>
+        <li><a class="nav__link" href="about.html"><span class="i18n" lang="en" data-en>About</span><span class="i18n" lang="ko" data-ko>소개</span></a></li>
       </ul>
     </nav>
-    <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sitenav">
-      <span></span><span></span><span></span>
-    </button>
+    <div class="masthead__actions">
+      <button class="langtoggle" type="button" data-lang-toggle
+              aria-label="Switch to Korean" title="Switch to Korean">
+        <span class="langtoggle__on">EN</span><span class="langtoggle__sep">/</span><span class="langtoggle__off" lang="ko">한국어</span>
+      </button>
+      <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sitenav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
 </header>
 
@@ -61,17 +67,17 @@
   </div>
   <div class="hero__slab reveal">
     <div class="hero__rule" aria-hidden="true"><i></i><i></i><i></i></div>
-    <h1 class="h-hero">Order of Merit for National Foundation</h1>
-    <p class="h-hero-sub" role="doc-subtitle">Patriotic medal</p>
+    <h1 class="h-hero"><span class="i18n" lang="en" data-en>Order of Merit for National Foundation</span><span class="i18n" lang="ko" data-ko>건국훈장</span></h1>
+    <p class="h-hero-sub" role="doc-subtitle"><span class="i18n" lang="en" data-en>Patriotic medal</span><span class="i18n" lang="ko" data-ko>애국장</span></p>
   </div>
 </section>
 
 <section class="section reveal">
   <div class="shell split">
     <div class="split__body">
-      <h2 class="h-section">What is Merit for National Foundation:</h2>
-      <div class="prose"><h4 class="h-label"><strong>A medal awarded to those who have made distinguished contributions to the establishment of the Republic of Korea or those who have made distinguished contributions to the foundation of the nation.</strong></h4>
-        <h3 class="h-label">4th class:</h3></div>
+      <h2 class="h-section"><span class="i18n" lang="en" data-en>What is Merit for National Foundation:</span><span class="i18n" lang="ko" data-ko>건국훈장이란?</span></h2>
+      <div class="prose"><h4 class="h-label"><span class="i18n" lang="en" data-en><strong>A medal awarded to those who have made distinguished contributions to the establishment of the Republic of Korea or those who have made distinguished contributions to the foundation of the nation.</strong></span><span class="i18n" lang="ko" data-ko>대한민국의 수립에 뚜렷한 공로가 있는 사람, 또는 국가의 기초를 세우는 데 뚜렷한 공로가 있는 사람에게 수여하는 훈장입니다.</span></h4>
+        <h3 class="h-label"><span class="i18n" lang="en" data-en>4th class:</span><span class="i18n" lang="ko" data-ko>4등급</span></h3></div>
     </div>
     <figure class="split__media">
       <img src="assets/2024-12-04-10.05.17-2.png" alt="" loading="lazy" decoding="async">
@@ -85,62 +91,100 @@
       <img class="profile__portrait" src="assets/10-.jpg" alt="Portrait of Selden Palmer Spencer(🇺🇸)" loading="lazy" decoding="async">
     </figure>
     <div class="profile__body">
-      <h2 class="h-name profile__name">Selden Palmer Spencer(🇺🇸):</h2>
+      <h2 class="h-name profile__name"><span class="i18n" lang="en" data-en>Selden Palmer Spencer(🇺🇸):</span><span class="i18n" lang="ko" data-ko>셀던 파머 스펜서</span></h2>
       <p class="profile__dates"><strong>[1862.9.16 ~ 1925. 5. 16일 ]</strong></p>
-      <div class="prose"><h3 class="h-label">Achievements</h3>
-        <p><strong>Early Political Career</strong></p>
+      <p class="profile__official"><span lang="ko">건국훈장 애족장</span> · 2015</p>
+      <div class="prose"><h3 class="h-label"><span class="i18n" lang="en" data-en>Achievements</span><span class="i18n" lang="ko" data-ko>공적</span></h3>
+        <p><span class="i18n" lang="en" data-en><strong>Early Political Career</strong></span><span class="i18n" lang="ko" data-ko>초기 정치 활동</span></p>
         <ul>
-        <li>Entered U.S. politics in 1898.</li>
-        <li>Developed connections with the Korean Empire’s diplomatic mission, including An Yŏn and Rhee Syng-min.</li>
-        <li>Given the Korean name Lee Seung-ri (李勝里) and served as the Korean ambassador to the United States from 1905 to 1906.</li>
+        <li><span class="i18n" lang="en" data-en>Entered U.S. politics in 1898.</span><span class="i18n" lang="ko" data-ko>1898년 미국 정계에 진출하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Developed connections with the Korean Empire’s diplomatic mission, including An Yŏn and Rhee Syng-min.</span><span class="i18n" lang="ko" data-ko>안연, 이승민 등 대한제국 외교 사절과 교분을 맺었습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Given the Korean name Lee Seung-ri (李勝里) and served as the Korean ambassador to the United States from 1905 to 1906.</span><span class="i18n" lang="ko" data-ko>이승리(李勝里)라는 한국 이름을 받았으며, 1905년부터 1906년까지 주미 한국 대사를 지냈습니다.</span></li>
         </ul>
         <ul>
-        <li><strong>Advocacy for Korean Independence</strong></li>
+        <li><span class="i18n" lang="en" data-en><strong>Advocacy for Korean Independence</strong></span><span class="i18n" lang="ko" data-ko>한국 독립 지지 활동</span></li>
         <ul>
-        <li><strong>Proposals to U.S. Congress (1919):</strong></li>
+        <li><span class="i18n" lang="en" data-en><strong>Proposals to U.S. Congress (1919):</strong></span><span class="i18n" lang="ko" data-ko>미국 의회에 대한 제안(1919):</span></li>
         <ul>
-        <li>As a Republican senator, twice introduced resolutions to the U.S. Congress in June and August 1919, urging support for Korean independence following the March 1st Movement.</li>
-        <li>Publicly criticized Japanese colonial rule and highlighted the need for Korean sovereignty.</li>
+        <li><span class="i18n" lang="en" data-en>As a Republican senator, twice introduced resolutions to the U.S. Congress in June and August 1919, urging support for Korean independence following the March 1st Movement.</span><span class="i18n" lang="ko" data-ko>공화당 상원의원으로서 3·1운동 이후 1919년 6월과 8월 두 차례 미국 의회에 결의안을 제출하여 한국 독립에 대한 지지를 촉구하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Publicly criticized Japanese colonial rule and highlighted the need for Korean sovereignty.</span><span class="i18n" lang="ko" data-ko>일제의 식민 통치를 공개적으로 비판하고 한국의 주권이 필요함을 강조하였습니다.</span></li>
         </ul>
-        <p><strong>Public Support for Korea (1920):</strong></p>
+        <p><span class="i18n" lang="en" data-en><strong>Public Support for Korea (1920):</strong></span><span class="i18n" lang="ko" data-ko>한국에 대한 공개적 지지(1920):</span></p>
         <ul>
-        <li>Participated in a rally organized by the Korean Friendship Association in Philadelphia in May 1920, delivering a speech condemning Japan’s colonial policies and advocating for Korean independence.</li>
+        <li><span class="i18n" lang="en" data-en>Participated in a rally organized by the Korean Friendship Association in Philadelphia in May 1920, delivering a speech condemning Japan’s colonial policies and advocating for Korean independence.</span><span class="i18n" lang="ko" data-ko>1920년 5월 필라델피아에서 한국친우회가 주최한 집회에 참석하여 일본의 식민 정책을 규탄하고 한국의 독립을 지지하는 연설을 하였습니다.</span></li>
         </ul>
         </ul>
-        <p><strong>Promotion of Korean Issues at the Washington Conference (1921-1922)</strong></p>
+        <p><span class="i18n" lang="en" data-en><strong>Promotion of Korean Issues at the Washington Conference (1921-1922)</strong></span><span class="i18n" lang="ko" data-ko>워싱턴 회의에서의 한국 문제 제기(1921-1922)</span></p>
         <ul>
-        <li>In December 1921, created and distributed a booklet titled “Korea's Appeal to the Conference on Limitation of Armaments,” based on materials from the Korean Provisional Government delegation.</li>
-        <li>Successfully included the appeal for Korean independence in the U.S. Congressional Record in February 1922, raising awareness of Korea’s plight among U.S. lawmakers.</li>
+        <li><span class="i18n" lang="en" data-en>In December 1921, created and distributed a booklet titled “Korea's Appeal to the Conference on Limitation of Armaments,” based on materials from the Korean Provisional Government delegation.</span><span class="i18n" lang="ko" data-ko>1921년 12월, 대한민국 임시정부 대표단의 자료를 바탕으로 “Korea&#x27;s Appeal to the Conference on Limitation of Armaments”라는 소책자를 만들어 배포하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Successfully included the appeal for Korean independence in the U.S. Congressional Record in February 1922, raising awareness of Korea’s plight among U.S. lawmakers.</span><span class="i18n" lang="ko" data-ko>1922년 2월 한국 독립 청원을 미국 의회 의사록에 수록하는 데 성공하여, 미국 의원들에게 한국의 처지를 널리 알렸습니다.</span></li>
         </ul>
-        <p><strong>Death and Legacy</strong></p>
+        <p><span class="i18n" lang="en" data-en><strong>Death and Legacy</strong></span><span class="i18n" lang="ko" data-ko>서거와 유산</span></p>
         <ul>
-        <li>Passed away on May 16, 1925, in Washington, D.C.</li>
-        <li>Honored posthumously in 2015 by the South Korean government with the Order of the National Defense Medal for his support of Korean independence.</li>
+        <li><span class="i18n" lang="en" data-en>Passed away on May 16, 1925, in Washington, D.C.</span><span class="i18n" lang="ko" data-ko>1925년 5월 16일 워싱턴 D.C.에서 별세하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Honored posthumously in 2015 by the South Korean government with the Order of the National Defense Medal for his support of Korean independence.</span><span class="i18n" lang="ko" data-ko>2015년 대한민국 정부는 한국 독립을 지원한 공로로 그에게 국방훈장을 추서하였습니다.</span></li>
         </ul>
         </ul></div>
     </div>
   </div>
 </article>
+
+<section class="section roster" id="roster" aria-labelledby="roster-h">
+  <div class="shell">
+    <div class="roster__head">
+      <h2 class="h-section" id="roster-h"><span class="i18n" lang="en" data-en>Full roster</span><span class="i18n" lang="ko" data-ko>전체 명단</span></h2>
+      <p class="roster__count"><strong>10</strong> <span class="i18n" lang="en" data-en>entries</span><span class="i18n" lang="ko" data-ko>명</span></p>
+    </div>
+    <p class="roster__note"><span class="i18n" lang="en" data-en>Every recipient of this grade. Fields are reproduced exactly as recorded.</span><span class="i18n" lang="ko" data-ko>이 훈격의 전체 포상자입니다. 각 항목은 기록된 내용을 그대로 옮겼습니다.</span></p>
+  <div class="roster__criteria">
+    <h3 class="h-label"><span class="i18n" lang="en" data-en>Criteria for this grade</span><span class="i18n" lang="ko" data-ko>이 훈격의 서훈 기준</span></h3>
+    <p><strong lang="ko">건국훈장 애국장</strong> <span lang="ko">(4등급)</span></p>
+    <p><span class="i18n" lang="en" data-en>Those who devoted and exerted themselves for the nation&#x27;s independence.</span><span class="i18n" lang="ko" data-ko>국가의 독립을 위하여 헌신·진력한 자</span></p>
+  </div>
+    <div class="roster__tools">
+      <input class="roster__search" type="search" placeholder="Filter by name…" aria-label="Filter names on this page" data-ph-en="Filter by name…" data-ph-ko="이름으로 찾기…">
+      <p class="roster__shown" aria-live="polite"></p>
+    </div>
+    <div class="roster__scroll">
+      <table class="roster__table">
+        <thead><tr><th><span class="i18n" lang="en" data-en>Name</span><span class="i18n" lang="ko" data-ko>성명</span></th><th><span class="i18n" lang="en" data-en>Hanja</span><span class="i18n" lang="ko" data-ko>한자명</span></th><th><span class="i18n" lang="en" data-en>Years</span><span class="i18n" lang="ko" data-ko>생몰년</span></th><th><span class="i18n" lang="en" data-en>Movement</span><span class="i18n" lang="ko" data-ko>운동계열</span></th><th><span class="i18n" lang="en" data-en>Awarded</span><span class="i18n" lang="ko" data-ko>포상년도</span></th><th><span class="i18n" lang="en" data-en>Place of origin</span><span class="i18n" lang="ko" data-ko>본적</span></th></tr></thead>
+        <tbody>
+          <tr><th scope="row" lang="ko">가네코 후미코</th><td lang="ko" class="roster__hanja">金子文子</td><td>1903 ~ 1926</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>2018</td><td lang="ko" class="roster__origin">외국 일본</td></tr>
+          <tr><th scope="row" lang="ko">강표도르</th><td lang="ko" class="roster__hanja">—</td><td>미상 ~ 1921</td><td class="roster__move"><span class="i18n" lang="en" data-en>Russian Maritime Theatre</span><span class="i18n" lang="ko" data-ko>노령방면</span></td><td>2020</td><td lang="ko" class="roster__origin">외국 러시아</td></tr>
+          <tr><th scope="row" lang="ko">김문순</th><td lang="ko" class="roster__hanja">金文順</td><td>1867 ~ 1920</td><td class="roster__move"><span class="i18n" lang="en" data-en>Manchuria Theatre</span><span class="i18n" lang="ko" data-ko>만주방면</span></td><td>2007</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">김알렉산드라</th><td lang="ko" class="roster__hanja">—</td><td>1885 ~ 1918</td><td class="roster__move"><span class="i18n" lang="en" data-en>Russian Maritime Theatre</span><span class="i18n" lang="ko" data-ko>노령방면</span></td><td>2009</td><td lang="ko" class="roster__origin">외국 러시아</td></tr>
+          <tr><th scope="row" lang="ko">루이 마랭</th><td lang="ko" class="roster__hanja">Louis Marin</td><td>1871 ~ 1960</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>2015</td><td lang="ko" class="roster__origin">외국 프랑스</td></tr>
+          <tr><th scope="row" lang="ko">쥐스탱 고다르</th><td lang="ko" class="roster__hanja">Justin Godart</td><td>1871 ~ 1956</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>2026</td><td lang="ko" class="roster__origin">외국 프랑스</td></tr>
+          <tr><th scope="row" lang="ko">패트릭 도슨</th><td lang="ko" class="roster__hanja">Patrick Dawson</td><td>1905 ~ 1989</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1999</td><td lang="ko" class="roster__origin">외국 아일랜드</td></tr>
+          <tr><th scope="row" lang="ko">페르디낭 에두아르 뷔송</th><td lang="ko" class="roster__hanja">Ferdinand Édouard Buisson</td><td>1841 ~ 1932</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>2026</td><td lang="ko" class="roster__origin">외국 프랑스</td></tr>
+          <tr><th scope="row" lang="ko">플로이드 윌리엄 톰킨스</th><td lang="ko" class="roster__hanja">Floyd Williams Tomkins</td><td>1850 ~ 1932</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>2015</td><td lang="ko" class="roster__origin">외국 미국</td></tr>
+          <tr><th scope="row" lang="ko">한사빈</th><td lang="ko" class="roster__hanja">韓士斌</td><td>1906 ~ 미상</td><td class="roster__move"><span class="i18n" lang="en" data-en>Domestic Anti-Japanese Resistance</span><span class="i18n" lang="ko" data-ko>국내항일</span></td><td>2022</td><td lang="ko" class="roster__origin">외국 러시아</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="roster__empty" hidden><span class="i18n" lang="en" data-en>No name on this page matches that filter.</span><span class="i18n" lang="ko" data-ko>해당하는 이름을 찾지 못하였습니다.</span></p>
+  </div>
+</section>
 </main>
 
 <footer class="footer">
   <div class="shell">
     <div class="footer__top">
-      <h2 class="h-section"><strong>Get in Touch</strong></h2>
+      <h2 class="h-section"><span class="i18n" lang="en" data-en><strong>Get in Touch</strong></span><span class="i18n" lang="ko" data-ko>연락처</span></h2>
       <div class="footer__contact">
-        <a href="mailto:jbhyunwoobang@gmail.com"><a href="mailto:jbhyunwoobang@gmail.com?">Email</a> <span>jbhyunwoobang@gmail.com</span></a>
-        <a href="https://www.instagram.com/heritage_of_koreans/" target="_blank" rel="noopener"><a href="https://www.instagram.com/heritage_of_koreans/">INSTAGRAM</a> <span>@heritage_of_koreans</span></a>
+        <a href="mailto:jbhyunwoobang@gmail.com"><span class="i18n" lang="en" data-en><a href="mailto:jbhyunwoobang@gmail.com?">Email</a></span><span class="i18n" lang="ko" data-ko>이메일</span> <span>jbhyunwoobang@gmail.com</span></a>
+        <a href="https://www.instagram.com/heritage_of_koreans/" target="_blank" rel="noopener"><span class="i18n" lang="en" data-en><a href="https://www.instagram.com/heritage_of_koreans/">INSTAGRAM</a></span><span class="i18n" lang="ko" data-ko>인스타그램</span> <span>@heritage_of_koreans</span></a>
       </div>
     </div>
   </div>
   <div class="footer__mark" aria-hidden="true">
-    <span class="mark-lg">Korean</span>
-    <span class="mark-sm">Independent ACtivist</span>
+    <span class="mark-lg"><span class="i18n" lang="en" data-en>Korean</span><span class="i18n" lang="ko" data-ko>한국의</span></span>
+    <span class="mark-sm"><span class="i18n" lang="en" data-en>Independent ACtivist</span><span class="i18n" lang="ko" data-ko>독립운동가</span></span>
   </div>
   <div class="shell">
     <div class="footer__legal">
       <p>&copy; KoreanFreedomFighters</p>
-      <p>Commemorating every activist of the Korean independence movement.</p>
+      <p><span class="i18n" lang="en" data-en>Commemorating every activist of the Korean independence movement.</span><span class="i18n" lang="ko" data-ko>한국 독립운동에 참여한 모든 독립운동가를 기억하였습니다.</span></p>
     </div>
   </div>
 </footer>

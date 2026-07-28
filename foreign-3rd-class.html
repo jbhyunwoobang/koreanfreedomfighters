@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,42 +15,48 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body data-menu="closed">
-<a class="skip" href="#main">Skip to content</a>
+<a class="skip" href="#main"><span class="i18n" lang="en" data-en>Skip to content</span><span class="i18n" lang="ko" data-ko>본문으로 건너뛰기</span></a>
 
 <header class="masthead">
   <div class="shell masthead__inner">
     <a class="wordmark" href="index.html">KoreanFreedomFighters</a>
     <nav class="nav" id="sitenav" aria-label="Main">
       <ul class="nav__list">
-        <li><a class="nav__link" href="index.html">Home</a></li>
+        <li><a class="nav__link" href="index.html"><span class="i18n" lang="en" data-en>Home</span><span class="i18n" lang="ko" data-ko>홈</span></a></li>
         <li class="nav__item" data-open="false">
-        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-korean">KoreanActivists<span class="nav__caret" aria-hidden="true"></span></button>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-korean"><span class="i18n" lang="en" data-en>KoreanActivists</span><span class="i18n" lang="ko" data-ko>한국인 독립운동가</span><span class="nav__caret" aria-hidden="true"></span></button>
         <ul class="nav__menu" id="menu-korean">
-          <li><a href="korean-1st-class.html">1st Class</a></li>
-          <li><a href="korean-2nd-class.html">2nd Class</a></li>
-          <li><a href="korean-3rd-class.html">3rd Class</a></li>
-          <li><a href="korean-4th-class.html">4th Class</a></li>
-          <li><a href="korean-5th-class.html">5th Class</a></li>
-          <li><a href="korean-national-award.html">National Award</a></li>
+          <li><a href="korean-1st-class.html"><span class="i18n" lang="en" data-en>1st Class</span><span class="i18n" lang="ko" data-ko>대한민국장 (1등급)</span></a></li>
+          <li><a href="korean-2nd-class.html"><span class="i18n" lang="en" data-en>2nd Class</span><span class="i18n" lang="ko" data-ko>대통령장 (2등급)</span></a></li>
+          <li><a href="korean-3rd-class.html"><span class="i18n" lang="en" data-en>3rd Class</span><span class="i18n" lang="ko" data-ko>독립장 (3등급)</span></a></li>
+          <li><a href="korean-4th-class.html"><span class="i18n" lang="en" data-en>4th Class</span><span class="i18n" lang="ko" data-ko>애국장 (4등급)</span></a></li>
+          <li><a href="korean-5th-class.html"><span class="i18n" lang="en" data-en>5th Class</span><span class="i18n" lang="ko" data-ko>애족장 (5등급)</span></a></li>
+          <li><a href="korean-national-award.html"><span class="i18n" lang="en" data-en>National Award</span><span class="i18n" lang="ko" data-ko>National Award</span></a></li>
         </ul>
       </li>
         <li class="nav__item" data-open="false">
-        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-foreign">ForeignActivists<span class="nav__caret" aria-hidden="true"></span></button>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-foreign"><span class="i18n" lang="en" data-en>ForeignActivists</span><span class="i18n" lang="ko" data-ko>외국인 독립운동가</span><span class="nav__caret" aria-hidden="true"></span></button>
         <ul class="nav__menu" id="menu-foreign">
-          <li><a href="foreign-1st-class.html">1st Class</a></li>
-          <li><a href="foreign-2nd-class.html">2nd Class</a></li>
-          <li><a href="foreign-3rd-class.html" aria-current="page">3rd Class</a></li>
-          <li><a href="foreign-4th-class.html">4th Class</a></li>
-          <li><a href="foreign-5th-class.html">5th Class</a></li>
-          <li><a href="foreign-national-award.html">National Award</a></li>
+          <li><a href="foreign-1st-class.html"><span class="i18n" lang="en" data-en>1st Class</span><span class="i18n" lang="ko" data-ko>대한민국장 (1등급)</span></a></li>
+          <li><a href="foreign-2nd-class.html"><span class="i18n" lang="en" data-en>2nd Class</span><span class="i18n" lang="ko" data-ko>대통령장 (2등급)</span></a></li>
+          <li><a href="foreign-3rd-class.html" aria-current="page"><span class="i18n" lang="en" data-en>3rd Class</span><span class="i18n" lang="ko" data-ko>독립장 (3등급)</span></a></li>
+          <li><a href="foreign-4th-class.html"><span class="i18n" lang="en" data-en>4th Class</span><span class="i18n" lang="ko" data-ko>애국장 (4등급)</span></a></li>
+          <li><a href="foreign-5th-class.html"><span class="i18n" lang="en" data-en>5th Class</span><span class="i18n" lang="ko" data-ko>애족장 (5등급)</span></a></li>
+          <li><a href="foreign-national-award.html"><span class="i18n" lang="en" data-en>National Award</span><span class="i18n" lang="ko" data-ko>National Award</span></a></li>
         </ul>
       </li>
-        <li><a class="nav__link" href="about.html">About</a></li>
+        <li><a class="nav__link" href="about.html"><span class="i18n" lang="en" data-en>About</span><span class="i18n" lang="ko" data-ko>소개</span></a></li>
       </ul>
     </nav>
-    <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sitenav">
-      <span></span><span></span><span></span>
-    </button>
+    <div class="masthead__actions">
+      <button class="langtoggle" type="button" data-lang-toggle
+              aria-label="Switch to Korean" title="Switch to Korean">
+        <span class="langtoggle__on">EN</span><span class="langtoggle__sep">/</span><span class="langtoggle__off" lang="ko">한국어</span>
+      </button>
+      <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sitenav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
 </header>
 
@@ -61,18 +67,18 @@
   </div>
   <div class="hero__slab reveal">
     <div class="hero__rule" aria-hidden="true"><i></i><i></i><i></i></div>
-    <h1 class="h-hero">Order of Merit for National Foundation</h1>
-    <p class="h-hero-sub" role="doc-subtitle">Independence Medal</p>
+    <h1 class="h-hero"><span class="i18n" lang="en" data-en>Order of Merit for National Foundation</span><span class="i18n" lang="ko" data-ko>건국훈장</span></h1>
+    <p class="h-hero-sub" role="doc-subtitle"><span class="i18n" lang="en" data-en>Independence Medal</span><span class="i18n" lang="ko" data-ko>독립장</span></p>
   </div>
 </section>
 
 <section class="section reveal">
   <div class="shell split">
     <div class="split__body">
-      <h2 class="h-section">What is Merit for National Foundation:</h2>
-      <div class="prose"><h4 class="h-label"><strong>A medal awarded to those who have made distinguished contributions to the establishment of the Republic of Korea or those who have made distinguished contributions to the foundation of the nation.</strong></h4>
-        <h3 class="h-label">3rd class:</h3>
-        <h4 class="h-label">More than 2 years of activity</h4></div>
+      <h2 class="h-section"><span class="i18n" lang="en" data-en>What is Merit for National Foundation:</span><span class="i18n" lang="ko" data-ko>건국훈장이란?</span></h2>
+      <div class="prose"><h4 class="h-label"><span class="i18n" lang="en" data-en><strong>A medal awarded to those who have made distinguished contributions to the establishment of the Republic of Korea or those who have made distinguished contributions to the foundation of the nation.</strong></span><span class="i18n" lang="ko" data-ko>대한민국의 수립에 뚜렷한 공로가 있는 사람, 또는 국가의 기초를 세우는 데 뚜렷한 공로가 있는 사람에게 수여하는 훈장입니다.</span></h4>
+        <h3 class="h-label"><span class="i18n" lang="en" data-en>3rd class:</span><span class="i18n" lang="ko" data-ko>3등급</span></h3>
+        <h4 class="h-label"><span class="i18n" lang="en" data-en>More than 2 years of activity</span><span class="i18n" lang="ko" data-ko>2년 이상 활동</span></h4></div>
     </div>
     <figure class="split__media">
       <img src="assets/2024-12-04-12.55.07-2.png" alt="" loading="lazy" decoding="async">
@@ -88,39 +94,39 @@
     <div class="profile__body">
       <h2 class="h-name profile__name">George Lewis Shaw(🇬🇧):</h2>
       <p class="profile__dates"><strong>[1880. 1. 25 ~ 1943. 11.13]</strong></p>
-      <div class="prose"><h3 class="h-label">Achievements</h3>
-        <p><strong>Provided Critical Support to the Korean Independence Movement:</strong></p>
+      <div class="prose"><h3 class="h-label"><span class="i18n" lang="en" data-en>Achievements</span><span class="i18n" lang="ko" data-ko>공적</span></h3>
+        <p><span class="i18n" lang="en" data-en><strong>Provided Critical Support to the Korean Independence Movement:</strong></span><span class="i18n" lang="ko" data-ko>한국 독립운동에 대한 결정적 지원:</span></p>
         <ul>
-        <li>Assisted the Korean Provisional Government by transporting weapons, delivering government funds, and facilitating communication between activists.</li>
-        <li>Played a vital role in the independence campaign by allowing the Korean Provisional Government's Andong Transportation Branch Office to operate within the same building as his company, Yilyungyanghaeng.</li>
-        <li>His company served as a connection point between the provisional government's offices in China and Korea, and acted as a military base to prepare for combat.</li>
+        <li><span class="i18n" lang="en" data-en>Assisted the Korean Provisional Government by transporting weapons, delivering government funds, and facilitating communication between activists.</span><span class="i18n" lang="ko" data-ko>무기 운반과 정부 자금 전달, 운동가들 사이의 연락을 도우며 대한민국 임시정부를 지원하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Played a vital role in the independence campaign by allowing the Korean Provisional Government's Andong Transportation Branch Office to operate within the same building as his company, Yilyungyanghaeng.</span><span class="i18n" lang="ko" data-ko>자신의 회사 이륭양행과 같은 건물에서 대한민국 임시정부 교통국 안동지부 사무소가 운영될 수 있도록 하여 독립운동에 중요한 역할을 하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>His company served as a connection point between the provisional government's offices in China and Korea, and acted as a military base to prepare for combat.</span><span class="i18n" lang="ko" data-ko>그의 회사는 중국과 국내에 있던 임시정부 기관을 잇는 연락 거점이었으며, 전투를 준비하는 군사 기지 역할도 하였습니다.</span></li>
         </ul>
-        <p><strong>Defied Japanese Authorities:</strong></p>
+        <p><span class="i18n" lang="en" data-en><strong>Defied Japanese Authorities:</strong></span><span class="i18n" lang="ko" data-ko>일제에 대한 항거:</span></p>
         <ul>
-        <li>Despite intense Japanese surveillance and arrest, continued to aid Korean independence fighters.</li>
-        <li>Exercised extraterritorial rights to resist Japanese colonial pressure, becoming a thorn in the side of Japanese officials.</li>
-        <li>Was incarcerated in Seodaemun Prison for four months but continued his support for the Korean independence movement even after his release.</li>
+        <li><span class="i18n" lang="en" data-en>Despite intense Japanese surveillance and arrest, continued to aid Korean independence fighters.</span><span class="i18n" lang="ko" data-ko>일제의 극심한 감시와 체포에도 한국 독립운동가들에 대한 지원을 계속하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Exercised extraterritorial rights to resist Japanese colonial pressure, becoming a thorn in the side of Japanese officials.</span><span class="i18n" lang="ko" data-ko>치외법권을 행사하여 일제의 식민 통치 압력에 맞섰으며, 일본 관헌에게 눈엣가시 같은 존재가 되었습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Was incarcerated in Seodaemun Prison for four months but continued his support for the Korean independence movement even after his release.</span><span class="i18n" lang="ko" data-ko>서대문형무소에 4개월간 수감되었으나, 출감한 뒤에도 한국 독립운동에 대한 지원을 이어갔습니다.</span></li>
         </ul>
-        <p><strong>Recognized by Korean Independence Leaders:</strong></p>
+        <p><span class="i18n" lang="en" data-en><strong>Recognized by Korean Independence Leaders:</strong></span><span class="i18n" lang="ko" data-ko>한국 독립운동 지도자들의 인정:</span></p>
         <ul>
-        <li>Received the Golden Medal for Merit from Ahn Chang-ho and Rhee Syngman in 1921 for his contributions to the independence movement.</li>
-        <li>Resumed operations at the Andong office after his arrest, allowing Korean activists to continue their work in secrecy.</li>
+        <li><span class="i18n" lang="en" data-en>Received the Golden Medal for Merit from Ahn Chang-ho and Rhee Syngman in 1921 for his contributions to the independence movement.</span><span class="i18n" lang="ko" data-ko>1921년 독립운동에 기여한 공로로 안창호와 이승만으로부터 공로 금메달을 받았습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Resumed operations at the Andong office after his arrest, allowing Korean activists to continue their work in secrecy.</span><span class="i18n" lang="ko" data-ko>체포된 뒤에도 안동 사무소의 운영을 재개하여 한국 독립운동가들이 비밀리에 활동을 계속할 수 있도록 하였습니다.</span></li>
         </ul>
-        <p><strong>Sustained His Support Despite Personal and Financial Hardships:</strong></p>
+        <p><span class="i18n" lang="en" data-en><strong>Sustained His Support Despite Personal and Financial Hardships:</strong></span><span class="i18n" lang="ko" data-ko>개인적·재정적 곤경에도 지속된 지원:</span></p>
         <ul>
-        <li>Despite financial difficulties and Japanese crackdowns, Shaw continued his support for Korean independence until he was forced to close his company.</li>
-        <li>His dedication to the cause endured until his death in 1943, after 31 years of support for the Korean independence movement.</li>
+        <li><span class="i18n" lang="en" data-en>Despite financial difficulties and Japanese crackdowns, Shaw continued his support for Korean independence until he was forced to close his company.</span><span class="i18n" lang="ko" data-ko>재정난과 일제의 탄압에도 쇼는 회사를 문 닫아야 할 때까지 한국 독립운동에 대한 지원을 계속하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>His dedication to the cause endured until his death in 1943, after 31 years of support for the Korean independence movement.</span><span class="i18n" lang="ko" data-ko>한국 독립운동을 31년간 지원한 끝에 1943년 세상을 떠날 때까지 그 헌신을 이어갔습니다.</span></li>
         </ul>
-        <p><strong>Posthumous Recognition:</strong></p>
+        <p><span class="i18n" lang="en" data-en><strong>Posthumous Recognition:</strong></span><span class="i18n" lang="ko" data-ko>추서:</span></p>
         <ul>
-        <li>On March 1, 1963, the Korean government posthumously awarded Shaw the Order of Merit for National Foundation.</li>
-        <li>His granddaughter, Marjorie Hutchings, accepted the award on his behalf in 2012, honoring his legacy and contributions to Korea’s independence.</li>
+        <li><span class="i18n" lang="en" data-en>On March 1, 1963, the Korean government posthumously awarded Shaw the Order of Merit for National Foundation.</span><span class="i18n" lang="ko" data-ko>1963년 3월 1일 대한민국 정부는 쇼에게 건국훈장을 추서하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>His granddaughter, Marjorie Hutchings, accepted the award on his behalf in 2012, honoring his legacy and contributions to Korea’s independence.</span><span class="i18n" lang="ko" data-ko>2012년 손녀 마조리 허칭스가 그를 대신하여 훈장을 받으며, 한국 독립에 남긴 그의 공적과 유산을 기렸습니다.</span></li>
         </ul>
-        <h3 class="h-label">Verdicts</h3>
+        <h3 class="h-label"><span class="i18n" lang="en" data-en>Verdicts</span><span class="i18n" lang="ko" data-ko>판결</span></h3>
         <ul>
-        <li>In 1907, Bethell was tried by the British consul-general in Seoul for breaching public order through ten articles <strong>published in his newspapers.</strong> He was sentenced to six months of probation.</li>
-        <li>In 1908, Japanese authorities continued to pressure for his expulsion from Korea, leading to a second trial involving Korea, Japan, and the U.K. Bethell was sentenced to three weeks in jail, six months of probation, and fined GBP 350. He served three weeks in a Shanghai jail before being released on July 11, 1908.</li>
-        <li>Japanese media falsely accused Bethell of embezzling public funds collected by Koreans, but Bethell took the case to the British Supreme Court in Shanghai and won in December 1908.</li>
+        <li><span class="i18n" lang="en" data-en>In 1907, Bethell was tried by the British consul-general in Seoul for breaching public order through ten articles <strong>published in his newspapers.</strong> He was sentenced to six months of probation.</span><span class="i18n" lang="ko" data-ko>1907년 베델은 자신의 신문에 실린 10편의 기사가 공안을 해쳤다는 이유로 서울 주재 영국 총영사에게 재판을 받아 6개월의 근신형을 선고받았습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>In 1908, Japanese authorities continued to pressure for his expulsion from Korea, leading to a second trial involving Korea, Japan, and the U.K. Bethell was sentenced to three weeks in jail, six months of probation, and fined GBP 350. He served three weeks in a Shanghai jail before being released on July 11, 1908.</span><span class="i18n" lang="ko" data-ko>1908년 일제가 그의 한국 추방을 계속 압박하면서 한국·일본·영국이 관여한 두 번째 재판이 열렸습니다. 베델은 금고 3주와 근신 6개월, 벌금 350파운드를 선고받았으며, 상하이 감옥에서 3주를 복역한 뒤 1908년 7월 11일 석방되었습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Japanese media falsely accused Bethell of embezzling public funds collected by Koreans, but Bethell took the case to the British Supreme Court in Shanghai and won in December 1908.</span><span class="i18n" lang="ko" data-ko>일본 언론이 베델을 한국인들이 모은 공금을 횡령하였다고 허위로 비난하였으나, 베델은 이 사건을 상하이 주재 영국 고등법원에 제기하여 1908년 12월 승소하였습니다.</span></li>
         </ul></div>
     </div>
   </div>
@@ -134,64 +140,128 @@
     <div class="profile__body">
       <h2 class="h-name profile__name">George Ashmore Fitch(🇺🇸):</h2>
       <p class="profile__dates"><strong>[1891. 2. 08 ~ 1960. 8.13]</strong></p>
-      <div class="prose"><h3 class="h-label">Achievements</h3>
-        <p><strong>Served as YMCA General Secretary in China:</strong></p>
+      <div class="prose"><h3 class="h-label"><span class="i18n" lang="en" data-en>Achievements</span><span class="i18n" lang="ko" data-ko>공적</span></h3>
+        <p><span class="i18n" lang="en" data-en><strong>Served as YMCA General Secretary in China:</strong></span><span class="i18n" lang="ko" data-ko>중국에서 YMCA 총무로 활동:</span></p>
         <ul>
-        <li>Arrived in Shanghai on December 25, 1909, and served as the general secretary of the YMCA across various regions in China until 1945.</li>
-        <li>Actively engaged with Chinese Nationalist Party members and was a founding member of the Shanghai Rotary Club.</li>
-        <li>Collaborated closely with prominent figures such as Sun Yat-sen, Chiang Kai-shek, and Zhang Qun.</li>
+        <li><span class="i18n" lang="en" data-en>Arrived in Shanghai on December 25, 1909, and served as the general secretary of the YMCA across various regions in China until 1945.</span><span class="i18n" lang="ko" data-ko>1909년 12월 25일 상하이에 도착하여 1945년까지 중국 각지에서 YMCA 총무로 봉직하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Actively engaged with Chinese Nationalist Party members and was a founding member of the Shanghai Rotary Club.</span><span class="i18n" lang="ko" data-ko>중국 국민당 인사들과 적극적으로 교류하였으며, 상하이 로타리클럽의 창립 회원이었습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Collaborated closely with prominent figures such as Sun Yat-sen, Chiang Kai-shek, and Zhang Qun.</span><span class="i18n" lang="ko" data-ko>쑨원, 장제스, 장췬 등 주요 인물들과 긴밀히 협력하였습니다.</span></li>
         </ul>
-        <p><strong>Supported the Korean Independence Movement:</strong></p>
+        <p><span class="i18n" lang="en" data-en><strong>Supported the Korean Independence Movement:</strong></span><span class="i18n" lang="ko" data-ko>한국 독립운동 지원:</span></p>
         <ul>
-        <li>Influenced by his father, George Field Fitch, who supported Korean independence activists.</li>
-        <li>Provided refuge to Kim Gu and his group after Yoon Bong-gil’s heroic act at Hongkou Park in 1932, protecting them from Japanese authorities for a month and aiding their escape from Shanghai.</li>
-        <li>Campaigned for the release of An Chang-ho, who was unlawfully arrested by Japanese police, by sending protest letters to French authorities and newspapers.</li>
+        <li><span class="i18n" lang="en" data-en>Influenced by his father, George Field Fitch, who supported Korean independence activists.</span><span class="i18n" lang="ko" data-ko>한국 독립운동가들을 지원한 아버지 조지 필드 피치의 영향을 받았습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Provided refuge to Kim Gu and his group after Yoon Bong-gil’s heroic act at Hongkou Park in 1932, protecting them from Japanese authorities for a month and aiding their escape from Shanghai.</span><span class="i18n" lang="ko" data-ko>1932년 훙커우 공원에서 윤봉길의 의거가 있은 뒤 김구와 그 일행을 숨겨 주어 한 달간 일본 경찰로부터 보호하고 상하이 탈출을 도왔습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Campaigned for the release of An Chang-ho, who was unlawfully arrested by Japanese police, by sending protest letters to French authorities and newspapers.</span><span class="i18n" lang="ko" data-ko>일본 경찰에게 불법으로 체포된 안창호의 석방을 위하여 프랑스 당국과 신문사에 항의 서신을 보내며 활동하였습니다.</span></li>
         </ul>
-        <p><strong>Established Nanjing Safety Zone During Nanjing Massacre:</strong></p>
+        <p><span class="i18n" lang="en" data-en><strong>Established Nanjing Safety Zone During Nanjing Massacre:</strong></span><span class="i18n" lang="ko" data-ko>난징 대학살 당시 난징 안전지대 설치:</span></p>
         <ul>
-        <li>Appointed as general secretary of the Nanjing YMCA in 1936.</li>
-        <li>Collaborated with John Rabe and other international figures to establish and operate a safety zone during the Nanjing Massacre in 1937, protecting civilians from Japanese atrocities.</li>
-        <li>Actively exposed the horrors of the Nanjing Massacre to the world, challenging Japanese imperialism.</li>
+        <li><span class="i18n" lang="en" data-en>Appointed as general secretary of the Nanjing YMCA in 1936.</span><span class="i18n" lang="ko" data-ko>1936년 난징 YMCA 총무로 임명되었습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Collaborated with John Rabe and other international figures to establish and operate a safety zone during the Nanjing Massacre in 1937, protecting civilians from Japanese atrocities.</span><span class="i18n" lang="ko" data-ko>1937년 난징 대학살 당시 존 라베 등 여러 외국인들과 협력하여 안전지대를 설치하고 운영하며 일본군의 잔학 행위로부터 민간인을 보호하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Actively exposed the horrors of the Nanjing Massacre to the world, challenging Japanese imperialism.</span><span class="i18n" lang="ko" data-ko>난징 대학살의 참상을 세계에 적극적으로 알리며 일본 제국주의에 맞섰습니다.</span></li>
         </ul>
-        <p><strong>Advocated for Korean Provisional Government in the U.S.:</strong></p>
+        <p><span class="i18n" lang="en" data-en><strong>Advocated for Korean Provisional Government in the U.S.:</strong></span><span class="i18n" lang="ko" data-ko>미국에서 대한민국 임시정부를 위한 활동:</span></p>
         <ul>
-        <li>His wife, Geraldine Fitch, became a patron of the American-Korean Association and delivered speeches on Korean independence in the U.S.</li>
-        <li>Reported to the U.S. State Department in 1944 on the structure and potential post-war roles of the Korean Provisional Government, advocating for the use of the Korean Liberation Army in the war against Japan.</li>
+        <li><span class="i18n" lang="en" data-en>His wife, Geraldine Fitch, became a patron of the American-Korean Association and delivered speeches on Korean independence in the U.S.</span><span class="i18n" lang="ko" data-ko>부인 제럴딘 피치는 한미협회의 후원자가 되어 미국에서 한국의 독립을 주제로 연설하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Reported to the U.S. State Department in 1944 on the structure and potential post-war roles of the Korean Provisional Government, advocating for the use of the Korean Liberation Army in the war against Japan.</span><span class="i18n" lang="ko" data-ko>1944년 미국 국무부에 대한민국 임시정부의 조직과 전후에 맡을 수 있는 역할을 보고하고, 대일 전쟁에 한국광복군을 활용할 것을 주장하였습니다.</span></li>
         </ul>
-        <p><strong>Contributed to Post-War Recovery Efforts:</strong></p>
+        <p><span class="i18n" lang="en" data-en><strong>Contributed to Post-War Recovery Efforts:</strong></span><span class="i18n" lang="ko" data-ko>전후 재건 사업에 기여:</span></p>
         <ul>
-        <li>Served as a representative for the United Nations Relief and Rehabilitation Administration (UNRRA) in China after retiring in 1945.</li>
-        <li>Appointed as general secretary of the Korean YMCA in 1947, organizing branches and leading relief efforts across Korea.</li>
-        <li>Continued his relationship with Korea after returning to the U.S. in 1949, focusing on relief and aid activities.</li>
+        <li><span class="i18n" lang="en" data-en>Served as a representative for the United Nations Relief and Rehabilitation Administration (UNRRA) in China after retiring in 1945.</span><span class="i18n" lang="ko" data-ko>1945년 은퇴한 뒤 중국에서 유엔구제부흥사업국(UNRRA) 대표로 활동하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Appointed as general secretary of the Korean YMCA in 1947, organizing branches and leading relief efforts across Korea.</span><span class="i18n" lang="ko" data-ko>1947년 한국 YMCA 총무로 임명되어 각지에 지부를 조직하고 구호 활동을 이끌었습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Continued his relationship with Korea after returning to the U.S. in 1949, focusing on relief and aid activities.</span><span class="i18n" lang="ko" data-ko>1949년 미국으로 돌아간 뒤에도 구호와 원조 활동을 중심으로 한국과의 인연을 이어갔습니다.</span></li>
         </ul>
-        <p><strong>Recognized by South Korean Government:</strong></p>
+        <p><span class="i18n" lang="en" data-en><strong>Recognized by South Korean Government:</strong></span><span class="i18n" lang="ko" data-ko>대한민국 정부의 서훈:</span></p>
         <ul>
-        <li>Awarded the Order of Cultural Merit by the South Korean government on January 8, 1952.</li>
-        <li>Received the Order of Merit for National Foundation (Independence) on March 1, 1968.</li>
+        <li><span class="i18n" lang="en" data-en>Awarded the Order of Cultural Merit by the South Korean government on January 8, 1952.</span><span class="i18n" lang="ko" data-ko>1952년 1월 8일 대한민국 정부로부터 문화훈장을 받았습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Received the Order of Merit for National Foundation (Independence) on March 1, 1968.</span><span class="i18n" lang="ko" data-ko>1968년 3월 1일 건국훈장 독립장을 받았습니다.</span></li>
         </ul></div>
     </div>
   </div>
 </article>
+
+<section class="section roster" id="roster" aria-labelledby="roster-h">
+  <div class="shell">
+    <div class="roster__head">
+      <h2 class="h-section" id="roster-h"><span class="i18n" lang="en" data-en>Full roster</span><span class="i18n" lang="ko" data-ko>전체 명단</span></h2>
+      <p class="roster__count"><strong>37</strong> <span class="i18n" lang="en" data-en>entries</span><span class="i18n" lang="ko" data-ko>명</span></p>
+    </div>
+    <p class="roster__note"><span class="i18n" lang="en" data-en>Every recipient of this grade. Fields are reproduced exactly as recorded.</span><span class="i18n" lang="ko" data-ko>이 훈격의 전체 포상자입니다. 각 항목은 기록된 내용을 그대로 옮겼습니다.</span></p>
+  <div class="roster__criteria">
+    <h3 class="h-label"><span class="i18n" lang="en" data-en>Criteria for this grade</span><span class="i18n" lang="ko" data-ko>이 훈격의 서훈 기준</span></h3>
+    <p><strong lang="ko">건국훈장 독립장</strong> <span lang="ko">(3등급)</span></p>
+    <p><span class="i18n" lang="en" data-en>Those with considerable contribution to the founding of the nation.</span><span class="i18n" lang="ko" data-ko>건국에 상당한 공로가 있는 자</span></p>
+  </div>
+    <div class="roster__tools">
+      <input class="roster__search" type="search" placeholder="Filter by name…" aria-label="Filter names on this page" data-ph-en="Filter by name…" data-ph-ko="이름으로 찾기…">
+      <p class="roster__shown" aria-live="polite"></p>
+    </div>
+    <div class="roster__scroll">
+      <table class="roster__table">
+        <thead><tr><th><span class="i18n" lang="en" data-en>Name</span><span class="i18n" lang="ko" data-ko>성명</span></th><th><span class="i18n" lang="en" data-en>Hanja</span><span class="i18n" lang="ko" data-ko>한자명</span></th><th><span class="i18n" lang="en" data-en>Years</span><span class="i18n" lang="ko" data-ko>생몰년</span></th><th><span class="i18n" lang="en" data-en>Movement</span><span class="i18n" lang="ko" data-ko>운동계열</span></th><th><span class="i18n" lang="en" data-en>Awarded</span><span class="i18n" lang="ko" data-ko>포상년도</span></th><th><span class="i18n" lang="en" data-en>Place of origin</span><span class="i18n" lang="ko" data-ko>본적</span></th></tr></thead>
+        <tbody>
+          <tr><th scope="row" lang="ko">곽태기</th><td lang="ko" class="roster__hanja">郭泰棋</td><td>1888 ~ 1952</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">대립</th><td lang="ko" class="roster__hanja">戴笠</td><td>1897 ~ 1946</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">로버트 그리어슨</th><td lang="ko" class="roster__hanja">Robert Grierson</td><td>1868 ~ 1965</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 캐나다</td></tr>
+          <tr><th scope="row" lang="ko">마수례</th><td lang="ko" class="roster__hanja">馬樹禮</td><td>1909 ~ 2006</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">막덕혜</th><td lang="ko" class="roster__hanja">莫德惠</td><td>1883 ~ 1968</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">모리스 윌리엄</th><td lang="ko" class="roster__hanja">Maurice William</td><td>1881 ~ 1973</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1950</td><td lang="ko" class="roster__origin">외국 러시아</td></tr>
+          <tr><th scope="row" lang="ko">박영</th><td lang="ko" class="roster__hanja">朴泳</td><td>1887 ~ 1927</td><td class="roster__move"><span class="i18n" lang="en" data-en>Manchuria Theatre</span><span class="i18n" lang="ko" data-ko>만주방면</span></td><td>2006</td><td lang="ko" class="roster__origin">외국 러시아</td></tr>
+          <tr><th scope="row" lang="ko">사도덕</th><td lang="ko" class="roster__hanja">司徒德</td><td>1907 ~ 1970</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1980</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">설악</th><td lang="ko" class="roster__hanja">薛岳</td><td>1896 ~ 1998</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1977</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">스탠리 해빌랜드 마틴</th><td lang="ko" class="roster__hanja">Stanley Haviland Martin</td><td>1870 ~ 1941</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 캐나다</td></tr>
+          <tr><th scope="row" lang="ko">아치볼드 해리슨 바커</th><td lang="ko" class="roster__hanja">Archibald Harrison Barker</td><td>미상 ~ 1927</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 캐나다</td></tr>
+          <tr><th scope="row" lang="ko">올리버 알 애비슨</th><td lang="ko" class="roster__hanja">Oliver R. Avison</td><td>1860 ~ 1956</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1952</td><td lang="ko" class="roster__origin">외국 캐나다</td></tr>
+          <tr><th scope="row" lang="ko">왕죽일</th><td lang="ko" class="roster__hanja">汪竹一</td><td>1905 ~ 미상</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1980</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">유영요</th><td lang="ko" class="roster__hanja">劉詠堯</td><td>1907 ~ 1998</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">일라이 밀러 모우리</th><td lang="ko" class="roster__hanja">Eli Miller Mowry</td><td>1880 ~ 1970</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1950</td><td lang="ko" class="roster__origin">외국 미국</td></tr>
+          <tr><th scope="row" lang="ko">장계</th><td lang="ko" class="roster__hanja">張繼</td><td>1882 ~ 1947</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">장군</th><td lang="ko" class="roster__hanja">張群</td><td>1889 ~ 1990</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">저보성</th><td lang="ko" class="roster__hanja">褚補成</td><td>1873 ~ 1948</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1996</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">제랄딘 피치</th><td lang="ko" class="roster__hanja">Geraldine T. Fitch</td><td>1892 ~ 1976</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>2025</td><td lang="ko" class="roster__origin">외국 미국</td></tr>
+          <tr><th scope="row" lang="ko">제이 제롬 윌리엄스</th><td lang="ko" class="roster__hanja">Jay Jerome Williams</td><td>1893 ~ 1961</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1950</td><td lang="ko" class="roster__origin">외국 미국</td></tr>
+          <tr><th scope="row" lang="ko">조지 루이스 쇼</th><td lang="ko" class="roster__hanja">George Lewis Shaw</td><td>1880 ~ 1943</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1963</td><td lang="ko" class="roster__origin">외국 영국</td></tr>
+          <tr><th scope="row" lang="ko">조지 새넌 맥큔</th><td lang="ko" class="roster__hanja">George Shannon McCune</td><td>1873 ~ 1941</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1963</td><td lang="ko" class="roster__origin">외국 미국</td></tr>
+          <tr><th scope="row" lang="ko">조지 애쉬모어 피치</th><td lang="ko" class="roster__hanja">George Ashmore Fitch</td><td>1883 ~ 1979</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 미국</td></tr>
+          <tr><th scope="row" lang="ko">존 웨슬리 스태거즈</th><td lang="ko" class="roster__hanja">John Wesley Staggers</td><td>1881 ~ 1963</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1950</td><td lang="ko" class="roster__origin">외국 미국</td></tr>
+          <tr><th scope="row" lang="ko">주경란</th><td lang="ko" class="roster__hanja">朱慶瀾</td><td>1874 ~ 1941</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">진입부</th><td lang="ko" class="roster__hanja">陳立夫</td><td>1900 ~ 2001</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">찰스 에드워드 러셀</th><td lang="ko" class="roster__hanja">Charles Edward Russell</td><td>1860 ~ 1941</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1950</td><td lang="ko" class="roster__origin">외국 미국</td></tr>
+          <tr><th scope="row" lang="ko">폴 프레드릭 더글라스</th><td lang="ko" class="roster__hanja">Paul Fredrick Douglass</td><td>1904 ~ 1988</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1950</td><td lang="ko" class="roster__origin">외국 미국</td></tr>
+          <tr><th scope="row" lang="ko">프랭크 윌리엄 스코필드</th><td lang="ko" class="roster__hanja">Frank William Schofield</td><td>1889 ~ 1970</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 캐나다</td></tr>
+          <tr><th scope="row" lang="ko">프레데릭 브라운 해리스</th><td lang="ko" class="roster__hanja">Frederick Brown Harris</td><td>1883 ~ 1970</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1950</td><td lang="ko" class="roster__origin">외국 영국</td></tr>
+          <tr><th scope="row" lang="ko">프레드 에이 돌프</th><td lang="ko" class="roster__hanja">Fred A. Dolph</td><td>1871 ~ 1926</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1950</td><td lang="ko" class="roster__origin">외국 미국</td></tr>
+          <tr><th scope="row" lang="ko">프레드릭 에이 맥켄지</th><td lang="ko" class="roster__hanja">Frederick A. Mackenzie</td><td>1869 ~ 1931</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>2014</td><td lang="ko" class="roster__origin">외국 영국</td></tr>
+          <tr><th scope="row" lang="ko">허버트 아돌프스 밀러</th><td lang="ko" class="roster__hanja">Herbert Adolphus Miller</td><td>1875 ~ 1951</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1950</td><td lang="ko" class="roster__origin">외국 미국</td></tr>
+          <tr><th scope="row" lang="ko">호레이스 뉴튼 알렌</th><td lang="ko" class="roster__hanja">Horace Newton Allen</td><td>1858 ~ 1932</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1950</td><td lang="ko" class="roster__origin">외국 미국</td></tr>
+          <tr><th scope="row" lang="ko">호머 베잘렐 헐버트</th><td lang="ko" class="roster__hanja">Homer Bezaleel Hulbert</td><td>1863 ~ 1949</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1950</td><td lang="ko" class="roster__origin">외국 미국</td></tr>
+          <tr><th scope="row" lang="ko">호종남</th><td lang="ko" class="roster__hanja">胡宗南</td><td>1896 ~ 1962</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1999</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">황각</th><td lang="ko" class="roster__hanja">黃覺</td><td>1883 ~ 1956</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="roster__empty" hidden><span class="i18n" lang="en" data-en>No name on this page matches that filter.</span><span class="i18n" lang="ko" data-ko>해당하는 이름을 찾지 못하였습니다.</span></p>
+  </div>
+</section>
 </main>
 
 <footer class="footer">
   <div class="shell">
     <div class="footer__top">
-      <h2 class="h-section"><strong>Get in Touch</strong></h2>
+      <h2 class="h-section"><span class="i18n" lang="en" data-en><strong>Get in Touch</strong></span><span class="i18n" lang="ko" data-ko>연락처</span></h2>
       <div class="footer__contact">
-        <a href="mailto:jbhyunwoobang@gmail.com"><a href="mailto:jbhyunwoobang@gmail.com?">Email</a> <span>jbhyunwoobang@gmail.com</span></a>
-        <a href="https://www.instagram.com/heritage_of_koreans/" target="_blank" rel="noopener"><a href="https://www.instagram.com/heritage_of_koreans/">INSTAGRAM</a> <span>@heritage_of_koreans</span></a>
+        <a href="mailto:jbhyunwoobang@gmail.com"><span class="i18n" lang="en" data-en><a href="mailto:jbhyunwoobang@gmail.com?">Email</a></span><span class="i18n" lang="ko" data-ko>이메일</span> <span>jbhyunwoobang@gmail.com</span></a>
+        <a href="https://www.instagram.com/heritage_of_koreans/" target="_blank" rel="noopener"><span class="i18n" lang="en" data-en><a href="https://www.instagram.com/heritage_of_koreans/">INSTAGRAM</a></span><span class="i18n" lang="ko" data-ko>인스타그램</span> <span>@heritage_of_koreans</span></a>
       </div>
     </div>
   </div>
   <div class="footer__mark" aria-hidden="true">
-    <span class="mark-lg">Korean</span>
-    <span class="mark-sm">Independent ACtivist</span>
+    <span class="mark-lg"><span class="i18n" lang="en" data-en>Korean</span><span class="i18n" lang="ko" data-ko>한국의</span></span>
+    <span class="mark-sm"><span class="i18n" lang="en" data-en>Independent ACtivist</span><span class="i18n" lang="ko" data-ko>독립운동가</span></span>
   </div>
   <div class="shell">
     <div class="footer__legal">
       <p>&copy; KoreanFreedomFighters</p>
-      <p>Commemorating every activist of the Korean independence movement.</p>
+      <p><span class="i18n" lang="en" data-en>Commemorating every activist of the Korean independence movement.</span><span class="i18n" lang="ko" data-ko>한국 독립운동에 참여한 모든 독립운동가를 기억하였습니다.</span></p>
     </div>
   </div>
 </footer>

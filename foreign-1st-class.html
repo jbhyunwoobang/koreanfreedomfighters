@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,42 +15,48 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body data-menu="closed">
-<a class="skip" href="#main">Skip to content</a>
+<a class="skip" href="#main"><span class="i18n" lang="en" data-en>Skip to content</span><span class="i18n" lang="ko" data-ko>본문으로 건너뛰기</span></a>
 
 <header class="masthead">
   <div class="shell masthead__inner">
     <a class="wordmark" href="index.html">KoreanFreedomFighters</a>
     <nav class="nav" id="sitenav" aria-label="Main">
       <ul class="nav__list">
-        <li><a class="nav__link" href="index.html">Home</a></li>
+        <li><a class="nav__link" href="index.html"><span class="i18n" lang="en" data-en>Home</span><span class="i18n" lang="ko" data-ko>홈</span></a></li>
         <li class="nav__item" data-open="false">
-        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-korean">KoreanActivists<span class="nav__caret" aria-hidden="true"></span></button>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-korean"><span class="i18n" lang="en" data-en>KoreanActivists</span><span class="i18n" lang="ko" data-ko>한국인 독립운동가</span><span class="nav__caret" aria-hidden="true"></span></button>
         <ul class="nav__menu" id="menu-korean">
-          <li><a href="korean-1st-class.html">1st Class</a></li>
-          <li><a href="korean-2nd-class.html">2nd Class</a></li>
-          <li><a href="korean-3rd-class.html">3rd Class</a></li>
-          <li><a href="korean-4th-class.html">4th Class</a></li>
-          <li><a href="korean-5th-class.html">5th Class</a></li>
-          <li><a href="korean-national-award.html">National Award</a></li>
+          <li><a href="korean-1st-class.html"><span class="i18n" lang="en" data-en>1st Class</span><span class="i18n" lang="ko" data-ko>대한민국장 (1등급)</span></a></li>
+          <li><a href="korean-2nd-class.html"><span class="i18n" lang="en" data-en>2nd Class</span><span class="i18n" lang="ko" data-ko>대통령장 (2등급)</span></a></li>
+          <li><a href="korean-3rd-class.html"><span class="i18n" lang="en" data-en>3rd Class</span><span class="i18n" lang="ko" data-ko>독립장 (3등급)</span></a></li>
+          <li><a href="korean-4th-class.html"><span class="i18n" lang="en" data-en>4th Class</span><span class="i18n" lang="ko" data-ko>애국장 (4등급)</span></a></li>
+          <li><a href="korean-5th-class.html"><span class="i18n" lang="en" data-en>5th Class</span><span class="i18n" lang="ko" data-ko>애족장 (5등급)</span></a></li>
+          <li><a href="korean-national-award.html"><span class="i18n" lang="en" data-en>National Award</span><span class="i18n" lang="ko" data-ko>National Award</span></a></li>
         </ul>
       </li>
         <li class="nav__item" data-open="false">
-        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-foreign">ForeignActivists<span class="nav__caret" aria-hidden="true"></span></button>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-foreign"><span class="i18n" lang="en" data-en>ForeignActivists</span><span class="i18n" lang="ko" data-ko>외국인 독립운동가</span><span class="nav__caret" aria-hidden="true"></span></button>
         <ul class="nav__menu" id="menu-foreign">
-          <li><a href="foreign-1st-class.html" aria-current="page">1st Class</a></li>
-          <li><a href="foreign-2nd-class.html">2nd Class</a></li>
-          <li><a href="foreign-3rd-class.html">3rd Class</a></li>
-          <li><a href="foreign-4th-class.html">4th Class</a></li>
-          <li><a href="foreign-5th-class.html">5th Class</a></li>
-          <li><a href="foreign-national-award.html">National Award</a></li>
+          <li><a href="foreign-1st-class.html" aria-current="page"><span class="i18n" lang="en" data-en>1st Class</span><span class="i18n" lang="ko" data-ko>대한민국장 (1등급)</span></a></li>
+          <li><a href="foreign-2nd-class.html"><span class="i18n" lang="en" data-en>2nd Class</span><span class="i18n" lang="ko" data-ko>대통령장 (2등급)</span></a></li>
+          <li><a href="foreign-3rd-class.html"><span class="i18n" lang="en" data-en>3rd Class</span><span class="i18n" lang="ko" data-ko>독립장 (3등급)</span></a></li>
+          <li><a href="foreign-4th-class.html"><span class="i18n" lang="en" data-en>4th Class</span><span class="i18n" lang="ko" data-ko>애국장 (4등급)</span></a></li>
+          <li><a href="foreign-5th-class.html"><span class="i18n" lang="en" data-en>5th Class</span><span class="i18n" lang="ko" data-ko>애족장 (5등급)</span></a></li>
+          <li><a href="foreign-national-award.html"><span class="i18n" lang="en" data-en>National Award</span><span class="i18n" lang="ko" data-ko>National Award</span></a></li>
         </ul>
       </li>
-        <li><a class="nav__link" href="about.html">About</a></li>
+        <li><a class="nav__link" href="about.html"><span class="i18n" lang="en" data-en>About</span><span class="i18n" lang="ko" data-ko>소개</span></a></li>
       </ul>
     </nav>
-    <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sitenav">
-      <span></span><span></span><span></span>
-    </button>
+    <div class="masthead__actions">
+      <button class="langtoggle" type="button" data-lang-toggle
+              aria-label="Switch to Korean" title="Switch to Korean">
+        <span class="langtoggle__on">EN</span><span class="langtoggle__sep">/</span><span class="langtoggle__off" lang="ko">한국어</span>
+      </button>
+      <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sitenav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
 </header>
 
@@ -61,18 +67,18 @@
   </div>
   <div class="hero__slab reveal">
     <div class="hero__rule" aria-hidden="true"><i></i><i></i><i></i></div>
-    <h1 class="h-hero">Order of Merit for National Foundation</h1>
-    <p class="h-hero-sub" role="doc-subtitle">Republic of Korea Medal</p>
+    <h1 class="h-hero"><span class="i18n" lang="en" data-en>Order of Merit for National Foundation</span><span class="i18n" lang="ko" data-ko>건국훈장</span></h1>
+    <p class="h-hero-sub" role="doc-subtitle"><span class="i18n" lang="en" data-en>Republic of Korea Medal</span><span class="i18n" lang="ko" data-ko>대한민국장</span></p>
   </div>
 </section>
 
 <section class="section reveal">
   <div class="shell split">
     <div class="split__body">
-      <h2 class="h-section">What is Merit for National Foundation:</h2>
-      <div class="prose"><h4 class="h-label"><strong>A medal awarded to those who have made distinguished contributions to the establishment of the Republic of Korea or those who have made distinguished contributions to the foundation of the nation.</strong></h4>
-        <h3 class="h-label">1st class:</h3>
-        <h4 class="h-label">More than 8 years of activity</h4></div>
+      <h2 class="h-section"><span class="i18n" lang="en" data-en>What is Merit for National Foundation:</span><span class="i18n" lang="ko" data-ko>건국훈장이란?</span></h2>
+      <div class="prose"><h4 class="h-label"><span class="i18n" lang="en" data-en><strong>A medal awarded to those who have made distinguished contributions to the establishment of the Republic of Korea or those who have made distinguished contributions to the foundation of the nation.</strong></span><span class="i18n" lang="ko" data-ko>대한민국의 수립에 뚜렷한 공로가 있는 사람, 또는 국가의 기초를 세우는 데 뚜렷한 공로가 있는 사람에게 수여하는 훈장입니다.</span></h4>
+        <h3 class="h-label"><span class="i18n" lang="en" data-en>1st class:</span><span class="i18n" lang="ko" data-ko>1등급</span></h3>
+        <h4 class="h-label"><span class="i18n" lang="en" data-en>More than 8 years of activity</span><span class="i18n" lang="ko" data-ko>8년 이상의 활동</span></h4></div>
     </div>
     <figure class="split__media">
       <img src="assets/2024-12-04-10.05.05-2.png" alt="" loading="lazy" decoding="async">
@@ -83,9 +89,9 @@
 <nav class="pageindex" aria-labelledby="idx-h">
   <div class="shell">
     <div class="pageindex__head">
-      <h2 class="h-label" id="idx-h">On this page</h2>
-      <span class="pageindex__count">5 entries</span>
-      <input class="pageindex__search" type="search" placeholder="Filter by name…" aria-label="Filter names on this page">
+      <h2 class="h-label" id="idx-h"><span class="i18n" lang="en" data-en>On this page</span><span class="i18n" lang="ko" data-ko>이 페이지의 인물</span></h2>
+      <span class="pageindex__count">5 <span class="i18n" lang="en" data-en>entries</span><span class="i18n" lang="ko" data-ko>명</span></span>
+      <input class="pageindex__search" type="search" placeholder="Filter by name…" aria-label="Filter names on this page" data-ph-en="Filter by name…" data-ph-ko="이름으로 찾기…">
     </div>
     <ul class="pageindex__list">
       <li><a href="#sun-yat-sen">Sun Yat-sen(🇨🇳)</a></li>
@@ -94,7 +100,7 @@
       <li><a href="#chen-guofu">Chen Guofu(🇹🇼)</a></li>
       <li><a href="#chen-qimei">Chen Qimei (🇨🇳)</a></li>
     </ul>
-    <p class="pageindex__empty" hidden>No name on this page matches that filter.</p>
+    <p class="pageindex__empty" hidden><span class="i18n" lang="en" data-en>No name on this page matches that filter.</span><span class="i18n" lang="ko" data-ko>해당하는 이름을 찾지 못하였습니다.</span></p>
   </div>
 </nav>
 
@@ -106,12 +112,12 @@
     <div class="profile__body">
       <h2 class="h-name profile__name">Sun Yat-sen(🇨🇳):</h2>
       <p class="profile__dates"><strong>[1866. 11. 12 ~ 1925. 03.12]</strong></p>
-      <div class="prose"><h3 class="h-label">Achievements</h3>
-        <p><strong>Ideological Ally of Korean Independence</strong>: Advocated for the support of weak nations and explicitly endorsed Korean independence and the legitimacy of the Korean Provisional Government.</p>
+      <div class="prose"><h3 class="h-label"><span class="i18n" lang="en" data-en>Achievements</span><span class="i18n" lang="ko" data-ko>공적</span></h3>
+        <p><span class="i18n" lang="en" data-en><strong>Ideological Ally of Korean Independence</strong>: Advocated for the support of weak nations and explicitly endorsed Korean independence and the legitimacy of the Korean Provisional Government.</span><span class="i18n" lang="ko" data-ko>한국 독립운동의 사상적 동반자: 약소민족에 대한 지원을 주창하고 한국의 독립과 대한민국 임시정부의 정통성을 명확히 지지하였습니다.</span></p>
         <ul>
-        <li><strong>Approved Diplomatic Recognition (1921)</strong>: As leader of the Chinese Constitutional Protection Government, approved mutual diplomatic recognition with the Korean Provisional Government, supported Korean student enrollment in Chinese military academies, and cooperated on international propaganda for Korean independence.</li>
-        <li><strong>Recognized Korea’s Provisional Government as Legitimate</strong>: In 1921, formally acknowledged the Provisional Government as the lawful democratic republican government of the Korean people.</li>
-        <li><strong>Stabilized Korea’s Early Government-in-Exile</strong>: His support played a key role in the international legitimacy and internal stability of the early Korean Provisional Government.</li>
+        <li><span class="i18n" lang="en" data-en><strong>Approved Diplomatic Recognition (1921)</strong>: As leader of the Chinese Constitutional Protection Government, approved mutual diplomatic recognition with the Korean Provisional Government, supported Korean student enrollment in Chinese military academies, and cooperated on international propaganda for Korean independence.</span><span class="i18n" lang="ko" data-ko>외교적 상호 승인(1921): 중국 호법정부의 수반으로서 대한민국 임시정부와의 외교적 상호 승인을 승인하고, 한인 학생의 중국 군관학교 입학을 지원하였으며, 한국 독립을 위한 국제 선전 활동에 협력하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en><strong>Recognized Korea’s Provisional Government as Legitimate</strong>: In 1921, formally acknowledged the Provisional Government as the lawful democratic republican government of the Korean people.</span><span class="i18n" lang="ko" data-ko>대한민국 임시정부의 정통성 인정: 1921년 임시정부를 한국 민족의 합법적인 민주공화제 정부로 공식 인정하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en><strong>Stabilized Korea’s Early Government-in-Exile</strong>: His support played a key role in the international legitimacy and internal stability of the early Korean Provisional Government.</span><span class="i18n" lang="ko" data-ko>초기 망명정부의 안정에 기여: 그의 지원은 초기 대한민국 임시정부의 국제적 정통성과 내부 안정에 중요한 역할을 하였습니다.</span></li>
         </ul></div>
     </div>
   </div>
@@ -125,11 +131,11 @@
     <div class="profile__body">
       <h2 class="h-name profile__name">Soong May-ling(🇨🇳):</h2>
       <p class="profile__dates"><strong>[1897. 03. 05 ~ 2003. 10.23]</strong></p>
-      <div class="prose"><h3 class="h-label">Achievements</h3>
-        <p>Financially Supported Korean Independence Movement: Donated 100,000 won in 1932 after hearing of Yi Bong-chang and Yun Bong-gil’s independence actions.</p>
+      <div class="prose"><h3 class="h-label"><span class="i18n" lang="en" data-en>Achievements</span><span class="i18n" lang="ko" data-ko>공적</span></h3>
+        <p><span class="i18n" lang="en" data-en>Financially Supported Korean Independence Movement: Donated 100,000 won in 1932 after hearing of Yi Bong-chang and Yun Bong-gil’s independence actions.</span><span class="i18n" lang="ko" data-ko>한국 독립운동에 대한 재정 지원: 1932년 이봉창과 윤봉길의 의거를 전해 듣고 10만 원을 기부하였습니다.</span></p>
         <ul>
-        <li>Backed Korean Liberation Army (1940–1942): Contributed a total of 200,000 won to support weapons procurement and provide relief for soldiers’ families.</li>
-        <li>Advocate for Korean Resistance: As First Lady of the Republic of China, actively supported Korea’s struggle against Japanese colonial rule through high-level advocacy and financial aid.</li>
+        <li><span class="i18n" lang="en" data-en>Backed Korean Liberation Army (1940–1942): Contributed a total of 200,000 won to support weapons procurement and provide relief for soldiers’ families.</span><span class="i18n" lang="ko" data-ko>한국광복군 지원(1940–1942): 무기 구입과 병사 가족의 구호를 위하여 모두 20만 원을 지원하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Advocate for Korean Resistance: As First Lady of the Republic of China, actively supported Korea’s struggle against Japanese colonial rule through high-level advocacy and financial aid.</span><span class="i18n" lang="ko" data-ko>한국 항일운동의 후원자: 중화민국 영부인으로서 고위층을 통한 지지 활동과 재정 지원으로 일제 식민 통치에 맞선 한국의 투쟁을 적극 후원하였습니다.</span></li>
         </ul></div>
     </div>
   </div>
@@ -141,32 +147,33 @@
       <img class="profile__portrait" src="assets/cENXAMRZvn.jpg" alt="Portrait of Chiang Kai-shek(🇨🇳)" loading="lazy" decoding="async">
     </figure>
     <div class="profile__body">
-      <h2 class="h-name profile__name">Chiang Kai-shek(🇨🇳):</h2>
+      <h2 class="h-name profile__name"><span class="i18n" lang="en" data-en>Chiang Kai-shek(🇨🇳):</span><span class="i18n" lang="ko" data-ko>장개석 蔣介石</span></h2>
       <p class="profile__dates"><strong>[1887. 10. 31 ~ 1975. 04.05]</strong></p>
-      <div class="prose"><h3 class="h-label">Achievements</h3>
-        <p>Strategic Ally of the Korean Independence Movement:</p>
+      <p class="profile__official"><span lang="ko">건국훈장 대한민국장</span> · 1953</p>
+      <div class="prose"><h3 class="h-label"><span class="i18n" lang="en" data-en>Achievements</span><span class="i18n" lang="ko" data-ko>공적</span></h3>
+        <p><span class="i18n" lang="en" data-en>Strategic Ally of the Korean Independence Movement:</span><span class="i18n" lang="ko" data-ko>한국 독립운동의 전략적 동반자:</span></p>
         <ul>
-        <li>As leader of the Chinese Nationalist Government (Kuomintang), Chiang promoted Korean-Chinese anti-Japanese solidarity during the Second Sino-Japanese War.</li>
+        <li><span class="i18n" lang="en" data-en>As leader of the Chinese Nationalist Government (Kuomintang), Chiang promoted Korean-Chinese anti-Japanese solidarity during the Second Sino-Japanese War.</span><span class="i18n" lang="ko" data-ko>중국 국민정부(국민당)의 지도자로서 장제스는 중일전쟁 기간에 한중 항일 연대를 추진하였습니다.</span></li>
         </ul>
         <ul>
-        <li>Support for the Korean Restoration Movement (1939–1940):</li>
+        <li><span class="i18n" lang="en" data-en>Support for the Korean Restoration Movement (1939–1940):</span><span class="i18n" lang="ko" data-ko>한국 광복운동 지원(1939–1940):</span></li>
         <ul>
-        <li>In January 1939, held meetings in Chongqing with Korean left- and right-wing leaders to establish principles for joint anti-Japanese efforts.</li>
-        <li>Promised support for Korea’s independence movement and its military efforts.</li>
-        <li>Approved the formation of the Korean Liberation Army (한국광복군) in autumn 1940, reinforcing it as an official Korean armed force within Chinese territory.</li>
+        <li><span class="i18n" lang="en" data-en>In January 1939, held meetings in Chongqing with Korean left- and right-wing leaders to establish principles for joint anti-Japanese efforts.</span><span class="i18n" lang="ko" data-ko>1939년 1월 충칭에서 한국의 좌·우익 지도자들과 회담을 열어 공동 항일 활동의 원칙을 정하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Promised support for Korea’s independence movement and its military efforts.</span><span class="i18n" lang="ko" data-ko>한국의 독립운동과 군사 활동에 대한 지원을 약속하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Approved the formation of the Korean Liberation Army (한국광복군) in autumn 1940, reinforcing it as an official Korean armed force within Chinese territory.</span><span class="i18n" lang="ko" data-ko>1940년 가을 한국광복군의 창설을 승인하여 중국 영토 내 한국의 공식 군대로 뒷받침하였습니다.</span></li>
         </ul>
-        <p>Recognition of the Provisional Government (1940):</p>
+        <p><span class="i18n" lang="en" data-en>Recognition of the Provisional Government (1940):</span><span class="i18n" lang="ko" data-ko>임시정부 승인(1940):</span></p>
         <ul>
-        <li>Following a unified Korean declaration in April 1940, Chiang officially recognized the establishment of the Korean Liberation Army General Headquarters on September 17, 1940, in Chongqing.</li>
+        <li><span class="i18n" lang="en" data-en>Following a unified Korean declaration in April 1940, Chiang officially recognized the establishment of the Korean Liberation Army General Headquarters on September 17, 1940, in Chongqing.</span><span class="i18n" lang="ko" data-ko>1940년 4월 한국 독립운동 진영의 통합 선언에 이어, 장제스는 1940년 9월 17일 충칭에서 한국광복군 총사령부의 성립을 공식 승인하였습니다.</span></li>
         </ul>
-        <p>World War II Collaboration (1941–1942):</p>
+        <p><span class="i18n" lang="en" data-en>World War II Collaboration (1941–1942):</span><span class="i18n" lang="ko" data-ko>제2차 세계대전 시기의 협력(1941–1942):</span></p>
         <ul>
-        <li>As Supreme Commander of the China Theater under the Allied military agreement, collaborated with the Korean Provisional Government during the Pacific War.</li>
-        <li>Reorganized Korean military units for greater effectiveness in joint operations against Japan.</li>
+        <li><span class="i18n" lang="en" data-en>As Supreme Commander of the China Theater under the Allied military agreement, collaborated with the Korean Provisional Government during the Pacific War.</span><span class="i18n" lang="ko" data-ko>연합국 군사 협정에 따른 중국 전구 최고사령관으로서 태평양전쟁 기간에 대한민국 임시정부와 협력하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Reorganized Korean military units for greater effectiveness in joint operations against Japan.</span><span class="i18n" lang="ko" data-ko>대일 공동 작전의 효율을 높이기 위하여 한국 군사 부대를 재편하였습니다.</span></li>
         </ul>
-        <p>Support for Internal Resistance in Korea (1942):</p>
+        <p><span class="i18n" lang="en" data-en>Support for Internal Resistance in Korea (1942):</span><span class="i18n" lang="ko" data-ko>국내 항일운동 지원(1942):</span></p>
         <ul>
-        <li>Upon learning of Japan’s conscription of Korean youth in 1942, ordered Wu Tiecheng (우티에청) to help the Provisional Government develop anti-Japanese operations within Korea.</li>
+        <li><span class="i18n" lang="en" data-en>Upon learning of Japan’s conscription of Korean youth in 1942, ordered Wu Tiecheng (우티에청) to help the Provisional Government develop anti-Japanese operations within Korea.</span><span class="i18n" lang="ko" data-ko>1942년 일제가 한국 청년을 징병한다는 사실을 알고, 우티에청에게 임시정부가 국내에서 항일 활동을 전개할 수 있도록 지원하라고 지시하였습니다.</span></li>
         </ul>
         </ul></div>
     </div>
@@ -181,21 +188,21 @@
     <div class="profile__body">
       <h2 class="h-name profile__name">Chen Guofu(🇹🇼):</h2>
       <p class="profile__dates"><strong>[1892. 10. 27 ~ 1951. 08. 25]</strong></p>
-      <div class="prose"><h3 class="h-label">Achievements</h3>
-        <p>Joined the New Asia Dongji Association (新亞同濟社) in Shanghai in 1912, a Korea–China friendship organization founded by Shin Gyu-sik.</p>
+      <div class="prose"><h3 class="h-label"><span class="i18n" lang="en" data-en>Achievements</span><span class="i18n" lang="ko" data-ko>공적</span></h3>
+        <p><span class="i18n" lang="en" data-en>Joined the New Asia Dongji Association (新亞同濟社) in Shanghai in 1912, a Korea–China friendship organization founded by Shin Gyu-sik.</span><span class="i18n" lang="ko" data-ko>1912년 상하이에서 신규식이 창립한 한중 친선 단체인 신아동제사(新亞同濟社)에 참여하였습니다.</span></p>
         <ul>
-        <li>Key figure in the Kuomintang (KMT) after 1919, supporting the Provisional Government of the Republic of Korea (대한민국임시정부) financially and helping protect independence leaders.</li>
-        <li>After the 1932 Yun Bong-gil bombing in Shanghai:</li>
+        <li><span class="i18n" lang="en" data-en>Key figure in the Kuomintang (KMT) after 1919, supporting the Provisional Government of the Republic of Korea (대한민국임시정부) financially and helping protect independence leaders.</span><span class="i18n" lang="ko" data-ko>1919년 이후 중국 국민당의 핵심 인물로서 대한민국임시정부를 재정적으로 지원하고 독립운동 지도자들을 보호하는 데 힘썼습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>After the 1932 Yun Bong-gil bombing in Shanghai:</span><span class="i18n" lang="ko" data-ko>1932년 상하이 윤봉길 의거 이후:</span></li>
         <ul>
-        <li>Arranged a meeting between Chiang Kai-shek and Kim Gu.</li>
-        <li>Helped secretly protect major Korean independence activists from Japanese pursuit.</li>
-        <li>Worked to establish a special Korean class at Nanjing Central Military Academy to train Korean independence army officers and facilitated Korean admissions.</li>
+        <li><span class="i18n" lang="en" data-en>Arranged a meeting between Chiang Kai-shek and Kim Gu.</span><span class="i18n" lang="ko" data-ko>장제스와 김구의 회담을 주선하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Helped secretly protect major Korean independence activists from Japanese pursuit.</span><span class="i18n" lang="ko" data-ko>일제의 추적으로부터 주요 한국 독립운동가들을 비밀리에 보호하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Worked to establish a special Korean class at Nanjing Central Military Academy to train Korean independence army officers and facilitated Korean admissions.</span><span class="i18n" lang="ko" data-ko>한국 독립군 장교를 양성하기 위하여 난징 중앙육군군관학교에 한인특별반 설치를 추진하고 한인 입학을 도왔습니다.</span></li>
         </ul>
-        <p>Provided sustained financial aid — after the Chiang–Kim meeting, the KMT gave Kim Gu 5,000 yuan monthly for independence activities.</p>
-        <p>Assisted in the founding of the Korean Liberation Army (한국광복군) in Chongqing in 1940.</p>
-        <p>Elected honorary director of the China–Korea Cultural Association (中韓文化協會) in 1942 alongside Rhee Syngman and others.</p>
-        <p>Continued funding and political support for the Korean Provisional Government until liberation in 1945.</p>
-        <p>Awarded the Order of Merit for National Foundation (대한민국장) in 1966.</p>
+        <p><span class="i18n" lang="en" data-en>Provided sustained financial aid — after the Chiang–Kim meeting, the KMT gave Kim Gu 5,000 yuan monthly for independence activities.</span><span class="i18n" lang="ko" data-ko>지속적으로 재정을 지원하였습니다. 장제스와 김구의 회담 이후 국민당은 독립운동 자금으로 매월 5,000위안을 김구에게 제공하였습니다.</span></p>
+        <p><span class="i18n" lang="en" data-en>Assisted in the founding of the Korean Liberation Army (한국광복군) in Chongqing in 1940.</span><span class="i18n" lang="ko" data-ko>1940년 충칭에서 한국광복군의 창설을 지원하였습니다.</span></p>
+        <p><span class="i18n" lang="en" data-en>Elected honorary director of the China–Korea Cultural Association (中韓文化協會) in 1942 alongside Rhee Syngman and others.</span><span class="i18n" lang="ko" data-ko>1942년 이승만 등과 함께 중한문화협회(中韓文化協會) 명예이사로 선출되었습니다.</span></p>
+        <p><span class="i18n" lang="en" data-en>Continued funding and political support for the Korean Provisional Government until liberation in 1945.</span><span class="i18n" lang="ko" data-ko>1945년 광복에 이르기까지 대한민국 임시정부에 대한 자금 지원과 정치적 후원을 계속하였습니다.</span></p>
+        <p><span class="i18n" lang="en" data-en>Awarded the Order of Merit for National Foundation (대한민국장) in 1966.</span><span class="i18n" lang="ko" data-ko>1966년 건국훈장 대한민국장을 받았습니다.</span></p>
         </ul></div>
     </div>
   </div>
@@ -207,43 +214,76 @@
       <img class="profile__portrait" src="assets/2025-08-10-5.59.52.png" alt="Portrait of Chen Qimei (🇨🇳)" loading="lazy" decoding="async">
     </figure>
     <div class="profile__body">
-      <h2 class="h-name profile__name">Chen Qimei (🇨🇳):</h2>
+      <h2 class="h-name profile__name"><span class="i18n" lang="en" data-en>Chen Qimei (🇨🇳):</span><span class="i18n" lang="ko" data-ko>진기미 陳其美</span></h2>
       <p class="profile__dates"><strong>[1876. 12. 15 ~ 1916. 05. 18]</strong></p>
-      <div class="prose"><h3 class="h-label">Achievements</h3>
-        <p>Member of the Chinese Revolutionary Alliance (中國革命同盟會) in 1912, actively involved in the New Asia Dongji Association (新亞同濟社) — the largest Korea–China cooperative organization in the early 1910s that supported Korean independence.</p>
+      <p class="profile__official"><span lang="ko">건국훈장 대한민국장</span> · 1968</p>
+      <div class="prose"><h3 class="h-label"><span class="i18n" lang="en" data-en>Achievements</span><span class="i18n" lang="ko" data-ko>공적</span></h3>
+        <p><span class="i18n" lang="en" data-en>Member of the Chinese Revolutionary Alliance (中國革命同盟會) in 1912, actively involved in the New Asia Dongji Association (新亞同濟社) — the largest Korea–China cooperative organization in the early 1910s that supported Korean independence.</span><span class="i18n" lang="ko" data-ko>1912년 중국혁명동맹회(中國革命同盟會) 회원으로서, 1910년대 초 한국의 독립을 지원한 최대의 한중 협력 단체인 신아동제사(新亞同濟社)에서 활발히 활동하였습니다.</span></p>
         <ul>
-        <li>Founder and leader of the New Asia Dongji Association, according to his nephew Chen Guofu, with the purpose of promoting Korean independence and cooperating with Korean revolutionaries in Shanghai.</li>
-        <li>Provided financial and material aid to oppressed nations, including Korea, Vietnam, and India.</li>
+        <li><span class="i18n" lang="en" data-en>Founder and leader of the New Asia Dongji Association, according to his nephew Chen Guofu, with the purpose of promoting Korean independence and cooperating with Korean revolutionaries in Shanghai.</span><span class="i18n" lang="ko" data-ko>조카 천궈푸의 기록에 따르면, 한국의 독립을 돕고 상하이의 한국 혁명가들과 협력할 목적으로 신아동제사를 창립하고 이끌었습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>Provided financial and material aid to oppressed nations, including Korea, Vietnam, and India.</span><span class="i18n" lang="ko" data-ko>한국·베트남·인도 등 피압박 민족에 자금과 물자를 지원하였습니다.</span></li>
         <ul>
-        <li>In late 1912, when Yuan Shikai gave him 40,000 yuan for an overseas commerce inspection, he spent most of it for comrades’ activities.</li>
-        <li>About 8,000 yuan was directed specifically to Korean, Vietnamese, and Indian revolutionaries, as well as tuition for Korean students studying in China.</li>
+        <li><span class="i18n" lang="en" data-en>In late 1912, when Yuan Shikai gave him 40,000 yuan for an overseas commerce inspection, he spent most of it for comrades’ activities.</span><span class="i18n" lang="ko" data-ko>1912년 말 위안스카이가 해외 상업 시찰 비용으로 4만 위안을 주었을 때, 그 대부분을 동지들의 활동 자금으로 사용하였습니다.</span></li>
+        <li><span class="i18n" lang="en" data-en>About 8,000 yuan was directed specifically to Korean, Vietnamese, and Indian revolutionaries, as well as tuition for Korean students studying in China.</span><span class="i18n" lang="ko" data-ko>그중 약 8,000위안은 한국·베트남·인도의 혁명가들과 중국에 유학한 한인 학생들의 학비에 쓰였습니다.</span></li>
         </ul>
-        <p>Maintained close ties with key Korean activists, serving as a central link between Chinese and Korean revolutionaries.</p>
-        <p>His support and networks helped lay the groundwork for the formal establishment and proclamation of the Provisional Government of the Republic of Korea in April 1919.</p>
+        <p><span class="i18n" lang="en" data-en>Maintained close ties with key Korean activists, serving as a central link between Chinese and Korean revolutionaries.</span><span class="i18n" lang="ko" data-ko>주요 한국 독립운동가들과 긴밀한 관계를 유지하여 중국과 한국의 혁명가들을 잇는 중심 고리 역할을 하였습니다.</span></p>
+        <p><span class="i18n" lang="en" data-en>His support and networks helped lay the groundwork for the formal establishment and proclamation of the Provisional Government of the Republic of Korea in April 1919.</span><span class="i18n" lang="ko" data-ko>그의 지원과 인적 연결망은 1919년 4월 대한민국 임시정부의 공식 수립과 선포의 토대를 마련하는 데 도움이 되었습니다.</span></p>
         </ul></div>
     </div>
   </div>
 </article>
+
+<section class="section roster" id="roster" aria-labelledby="roster-h">
+  <div class="shell">
+    <div class="roster__head">
+      <h2 class="h-section" id="roster-h"><span class="i18n" lang="en" data-en>Full roster</span><span class="i18n" lang="ko" data-ko>전체 명단</span></h2>
+      <p class="roster__count"><strong>5</strong> <span class="i18n" lang="en" data-en>entries</span><span class="i18n" lang="ko" data-ko>명</span></p>
+    </div>
+    <p class="roster__note"><span class="i18n" lang="en" data-en>Every recipient of this grade. Fields are reproduced exactly as recorded.</span><span class="i18n" lang="ko" data-ko>이 훈격의 전체 포상자입니다. 각 항목은 기록된 내용을 그대로 옮겼습니다.</span></p>
+  <div class="roster__criteria">
+    <h3 class="h-label"><span class="i18n" lang="en" data-en>Criteria for this grade</span><span class="i18n" lang="ko" data-ko>이 훈격의 서훈 기준</span></h3>
+    <p><strong lang="ko">건국훈장 대한민국장</strong> <span lang="ko">(1등급)</span></p>
+    <p><span class="i18n" lang="en" data-en>Those whose contribution to maintaining and advancing the nation&#x27;s independence is the most distinguished.</span><span class="i18n" lang="ko" data-ko>국가의 독립을 유지·발전하는 데 공로가 가장 뚜렷한 자</span></p>
+  </div>
+    <div class="roster__tools">
+      <input class="roster__search" type="search" placeholder="Filter by name…" aria-label="Filter names on this page" data-ph-en="Filter by name…" data-ph-ko="이름으로 찾기…">
+      <p class="roster__shown" aria-live="polite"></p>
+    </div>
+    <div class="roster__scroll">
+      <table class="roster__table">
+        <thead><tr><th><span class="i18n" lang="en" data-en>Name</span><span class="i18n" lang="ko" data-ko>성명</span></th><th><span class="i18n" lang="en" data-en>Hanja</span><span class="i18n" lang="ko" data-ko>한자명</span></th><th><span class="i18n" lang="en" data-en>Years</span><span class="i18n" lang="ko" data-ko>생몰년</span></th><th><span class="i18n" lang="en" data-en>Movement</span><span class="i18n" lang="ko" data-ko>운동계열</span></th><th><span class="i18n" lang="en" data-en>Awarded</span><span class="i18n" lang="ko" data-ko>포상년도</span></th><th><span class="i18n" lang="en" data-en>Place of origin</span><span class="i18n" lang="ko" data-ko>본적</span></th></tr></thead>
+        <tbody>
+          <tr><th scope="row" lang="ko">손문</th><td lang="ko" class="roster__hanja">孫文</td><td>1866 ~ 1925</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">송미령</th><td lang="ko" class="roster__hanja">宋美齡</td><td>1897 ~ 2003</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1966</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko"><a class="roster__jump" href="#chiang-kai-shek">장개석</a></th><td lang="ko" class="roster__hanja">蔣介石</td><td>1887 ~ 1975</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1953</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko">진과부</th><td lang="ko" class="roster__hanja">陳果夫</td><td>1892 ~ 1951</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1966</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+          <tr><th scope="row" lang="ko"><a class="roster__jump" href="#chen-qimei">진기미</a></th><td lang="ko" class="roster__hanja">陳其美</td><td>1876 ~ 1916</td><td class="roster__move"><span class="i18n" lang="en" data-en>Support for the Independence Movement</span><span class="i18n" lang="ko" data-ko>독립운동지원</span></td><td>1968</td><td lang="ko" class="roster__origin">외국 중국</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="roster__empty" hidden><span class="i18n" lang="en" data-en>No name on this page matches that filter.</span><span class="i18n" lang="ko" data-ko>해당하는 이름을 찾지 못하였습니다.</span></p>
+  </div>
+</section>
 </main>
 
 <footer class="footer">
   <div class="shell">
     <div class="footer__top">
-      <h2 class="h-section"><strong>Get in Touch</strong></h2>
+      <h2 class="h-section"><span class="i18n" lang="en" data-en><strong>Get in Touch</strong></span><span class="i18n" lang="ko" data-ko>연락처</span></h2>
       <div class="footer__contact">
-        <a href="mailto:jbhyunwoobang@gmail.com"><a href="mailto:jbhyunwoobang@gmail.com?">Email</a> <span>jbhyunwoobang@gmail.com</span></a>
-        <a href="https://www.instagram.com/heritage_of_koreans/" target="_blank" rel="noopener"><a href="https://www.instagram.com/heritage_of_koreans/">INSTAGRAM</a> <span>@heritage_of_koreans</span></a>
+        <a href="mailto:jbhyunwoobang@gmail.com"><span class="i18n" lang="en" data-en><a href="mailto:jbhyunwoobang@gmail.com?">Email</a></span><span class="i18n" lang="ko" data-ko>이메일</span> <span>jbhyunwoobang@gmail.com</span></a>
+        <a href="https://www.instagram.com/heritage_of_koreans/" target="_blank" rel="noopener"><span class="i18n" lang="en" data-en><a href="https://www.instagram.com/heritage_of_koreans/">INSTAGRAM</a></span><span class="i18n" lang="ko" data-ko>인스타그램</span> <span>@heritage_of_koreans</span></a>
       </div>
     </div>
   </div>
   <div class="footer__mark" aria-hidden="true">
-    <span class="mark-lg">Korean</span>
-    <span class="mark-sm">Independent ACtivist</span>
+    <span class="mark-lg"><span class="i18n" lang="en" data-en>Korean</span><span class="i18n" lang="ko" data-ko>한국의</span></span>
+    <span class="mark-sm"><span class="i18n" lang="en" data-en>Independent ACtivist</span><span class="i18n" lang="ko" data-ko>독립운동가</span></span>
   </div>
   <div class="shell">
     <div class="footer__legal">
       <p>&copy; KoreanFreedomFighters</p>
-      <p>Commemorating every activist of the Korean independence movement.</p>
+      <p><span class="i18n" lang="en" data-en>Commemorating every activist of the Korean independence movement.</span><span class="i18n" lang="ko" data-ko>한국 독립운동에 참여한 모든 독립운동가를 기억하였습니다.</span></p>
     </div>
   </div>
 </footer>
