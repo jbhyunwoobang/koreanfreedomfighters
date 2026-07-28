@@ -1,5 +1,7 @@
 # KoreanFreedomFighters — static rebuild
 
+**Live: <https://jbhyunwoobang.github.io/koreanfreedomfighters/>**
+
 A hand-built static copy of [koreanfreedomfighters.com](https://www.koreanfreedomfighters.com/)
 (originally on Squarespace). **All text is reproduced exactly as it appears on the
 original site** — the pipeline extracts it mechanically rather than retyping it, and a
